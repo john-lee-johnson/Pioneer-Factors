@@ -1,5 +1,5 @@
 #!/bin/bash
-#This script will make tag directories for homer
+#This script will make tag directories for homer used in Pioneer Factors
 
 #---------------------Setting Directories-------------------------------------------------
 maindir=/mnt/data1/John/Pioneer_Factors
