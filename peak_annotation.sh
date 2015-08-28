@@ -1,6 +1,6 @@
 #!/bin/bash
 #---------------------Setting Directories-------------------------------------------------
-maindir=/mnt/data1/John/Pioneer_Factors
+maindir=$1
 dir0=/mnt/data0/John/Pioneer_Factors/homer
 cd ${dir0}
 #---------------------HOMER PEAK ANNOTATION-----------------------------------------------

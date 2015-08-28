@@ -257,4 +257,4 @@ done
 R -f ${dir0}/Heatmap2.R		##Runs the second R script that gives heatmaps for histone modifications
 
 /bin/bash /mnt/data1/John/Pioneer-Factors/homer_make_tag.sh
-/bin/bash /mnt/data1/John/Pioneer_Factors/peak_annotation.sh
+/bin/bash /mnt/data1/John/Pioneer_Factors/peak_annotation.sh $maindir
