@@ -21,7 +21,7 @@ do
 		#annotatePeaks.pl ${i} mm9 -size 5000 -hist 50 -ghist -d ${c} > ${maincell}_$cell_${c2}_${c1}_heatmap.txt		##Gets heatmap for histone marks at $maincell unique peaks
 	done
 done > ${dir0}/peak_annotation.txt
-parallel --xapply --dryrun --colsep ' ' -a ${dir0}/peak_annotation.txt "annotatePeaks.pl {1} mm9 -size 5000 -hist 50 -d {2} > ${dir0}/peak_annotation/{3]/{3}_{4}_{5}_output.txt"
-parallel --xapply --colsep ' ' -a ${dir0}/peak_annotation.txt "annotatePeaks.pl {1} mm9 -size 5000 -hist 50 -d {2} > ${dir0}/peak_annotation/{3}/{3}_{4}_{5}_output.txt"
-parallel --xapply --dryrun --colsep ' ' -a ${dir0}/peak_annotation.txt "annotatePeaks.pl {1} mm9 -size 5000 -hist 50 -ghist -d {2} > ${dir0}/heatmap/{3]/{3}_{4}_{5}_heatmap.txt"
-parallel --xapply --colsep ' ' -a ${dir0}/peak_annotation.txt "annotatePeaks.pl {1} mm9 -size 5000 -hist 50 -ghist -d {2} > ${dir0}/heatmap/{3}/{3}_{4}_{5}_heatmap.txt"
+parallel --xapply --dryrun --colsep ' ' -a ${dir0}/peak_annotation.txt "annotatePeaks.pl {1} mm9 -size 5000 -hist 50 -d {2} > ${maindir}/Analysis/ChIP_seq/homer/{3}/peak_annotation/{3}_{4}_{5}_output.txt"
+parallel --xapply --colsep ' ' -a ${dir0}/peak_annotation.txt "annotatePeaks.pl {1} mm9 -size 5000 -hist 50 -d {2} > ${maindir}/Analysis/ChIP_seq/homer/{3}/peak_annotation/{3}_{4}_{5}_output.txt"
+parallel --xapply --dryrun --colsep ' ' -a ${dir0}/peak_annotation.txt "annotatePeaks.pl {1} mm9 -size 5000 -hist 50 -ghist -d {2} > ${maindir}/Analysis/ChIP_seq/homer/{3}/heatmap/{3}_{4}_{5}_heatmap.txt"
+parallel --xapply --colsep ' ' -a ${dir0}/peak_annotation.txt "annotatePeaks.pl {1} mm9 -size 5000 -hist 50 -ghist -d {2} > ${maindir}/Analysis/ChIP_seq/homer/{3}/heatmap/{3}_{4}_{5}_heatmap.txt"
