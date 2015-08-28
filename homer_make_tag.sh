@@ -9,13 +9,13 @@ cd ${dir0}
 #----------------------HOMER MAKE TAG DIRECTORY-------------------------------------------
 ##Creates tag directories file used for homer (ChIP-seq)
 rm -f ${dir0}/ChIP_seq/ChIP_key_file.txt		##Removes any old ChIP_key_file
-for i in `ls ${maindir}/Data/ChIP_seq/H3*.bam`;		##Lists all ChIP seq bam files
+for i in `ls ${maindir}/Data/ChIP_seq/{*_B.bam,*_CD4.bam,*_CD8.bam,*_NK.bam,*_HSC.bam,*_MPP.bam,*_CLP.bam}`;		##Lists all ChIP seq bam files
 do
 	filename=`echo "$i" | rev | cut -d'/' -f1 | rev | cut -d'.' -f1`
 	echo -e ${dir0}/ChIP_seq/${filename}'\t'${i}		##Creates keyfile for tag directories file for homer
 done >> ${dir0}/ChIP_seq/ChIP_key_file.txt
 ##Creates tag directories (ChIP-seq)
-#batchMakeTagDirectory.pl ${dir0}/ChIP_seq/ChIP_key_file.txt -cpu 35
+batchMakeTagDirectory.pl ${dir0}/ChIP_seq/ChIP_key_file.txt -cpu 35
 
 ##Creates tag directories file used for homer (ATAC-seq)
 rm -f ${dir0}/ATAC_seq/ATAC_key_file.txt		##Removes any old ChIP_key_file
@@ -26,7 +26,7 @@ do
 	echo -e ${dir0}/ATAC_seq/${filename}'\t'${i}	##Creates tag directories file for homer
 done >> ${dir0}/ATAC_seq/ATAC_key_file.txt
 ##Creates tag directories (ChIP-seq)
-#batchMakeTagDirectory.pl ${dir0}/ATAC_seq/ATAC_key_file.txt -cpu 35
+batchMakeTagDirectory.pl ${dir0}/ATAC_seq/ATAC_key_file.txt -cpu 35
 
 #----------------------MEDIAN TAG COUNT---------------------------------------------------
 ##Will generate a file that contains the median tag count and average tag count for all ChIP seq bam fiels
