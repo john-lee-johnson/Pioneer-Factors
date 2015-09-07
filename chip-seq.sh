@@ -1,8 +1,8 @@
 #!/bin/bash
 datadir=/mnt/data0/ncbi
 cd $datadir
-mkdir -p TCF1_ChIP_seq
-cd TCF1_ChIP_seq
+mkdir -p Tcf1_ChIP_seq
+cd Tcf1_ChIP_seq
 mkdir -p CD8_Tcf1
 mkdir -p CD8_IgG
 mkdir -p Thy_Tcf1
