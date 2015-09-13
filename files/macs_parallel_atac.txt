@@ -1,0 +1,5 @@
+/mnt/data1/John/pioneer/data/atac_seq/bam/B_ATAC.bam B_ATAC_macs 1e-7 57
+/mnt/data1/John/pioneer/data/atac_seq/bam/CD4_ATAC.bam CD4_ATAC_macs 1e-7 57
+/mnt/data1/John/pioneer/data/atac_seq/bam/NK_ATAC.bam NK_ATAC_macs 1e-7 57
+/mnt/data1/John/pioneer/data/atac_seq/bam/CD8_ATAC.bam CD8_ATAC_macs 1e-7 57
+/mnt/data1/John/pioneer/data/atac_seq/bam/Lsk_ATAC.bam Lsk_ATAC_macs 1e-7 57

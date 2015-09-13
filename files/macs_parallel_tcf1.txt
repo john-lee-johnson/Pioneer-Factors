@@ -1,0 +1,3 @@
+/mnt/data1/John/pioneer/data/chip_seq/tcf1/bam/tcf1_CD8.bam tcf1_CD8_macs 1e-7 50 /mnt/data1/John/pioneer/data/chip_seq/tcf1/bam/igg_CD8.bam
+/mnt/data1/John/pioneer/data/chip_seq/tcf1/bam/tcf1_Thy.bam tcf1_Thy_macs 1e-7 32 /mnt/data1/John/pioneer/data/chip_seq/tcf1/bam/input_Thy.bam
+/mnt/data1/John/pioneer/data/chip_seq/tcf1/bam/tcf1_DP.bam tcf1_DP_macs 1e-7 75 /mnt/data1/John/pioneer/data/chip_seq/tcf1/bam/input_Thy.bam
