@@ -72,11 +72,8 @@ while read line; do
   echo $srr $filename
   mkdir -p $cell
   cd $cell
-  fastq-dump $srr
-  mv SRR*.fastq ${filename}.fastq
-  pigz ${fastq}
-  star_chip
-  mv ${filename}.bam $dir/chip_seq/tcf1/bam
+  fastq-dump $srr && mv SRR*.fastq ${filename}.fastq && pigz ${fastq}
+  star_chip && mv ${filename}.bam $dir/chip_seq/tcf1/bam
 done < /mnt/data1/John/Pioneer-Factors/files/tcf1.txt
 
 #Combine fastq files, compress to .gz, and align
@@ -89,33 +86,24 @@ while read line; do
 if [[ "$seq" = ATAC ]]; then
   echo $seq $cell
   cd $dir/atac_seq/$cell
-  #cat SRR*.fastq > ${cell}_${seq}.fastq
-  #pigz ${fastq}
-  #star_chip
-  #rm SRR*.fastq
-  #mv ${cell}_${seq}.bam $dir/atac_seq/bam
+  #cat SRR*.fastq > ${cell}_${seq}.fastq && pigz ${fastq} && rm SRR*.fastq
+  star_chip && mv ${cell}_${seq}.bam $dir/atac_seq/bam
 fi
 cd $dir
 if [[ "$seq" = H3* ]]
 then
   echo $seq $cell
   cd $dir/chip_seq/$cell/$seq
-  #cat SRR*.fastq > ${cell}_${seq}.fastq
-  #pigz ${fastq}
-  #star_chip
-  #rm SRR*.fastq
-  #mv ${cell}_${seq}.bam $dir/atac_seq/bam
+  #cat SRR*.fastq > ${cell}_${seq}.fastq && pigz ${fastq} && rm SRR*.fastq
+  star_chip && mv ${cell}_${seq}.bam $dir/atac_seq/bam
 fi
 cd $dir
 if [[ "$seq" = RNA ]]
 then
   echo $seq $cell
   cd $dir/rna_seq/$cell
-  #cat SRR*.fastq > ${cell}_${seq}.fastq
-  #pigz ${fastq}
-  #star_rna
-  #rm SRR*.fastq
-  #mv ${cell}_${seq}.bam $dir/rna_seq/bam
+  #cat SRR*.fastq > ${cell}_${seq}.fastq && pigz ${fastq} && rm SRR*.fastq
+  star_rna && mv ${cell}_${seq}.bam $dir/rna_seq/bam
 fi
 cd $dir
 done < /mnt/data1/John/Pioneer-Factors/files/sample_files.txt
