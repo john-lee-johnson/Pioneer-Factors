@@ -60,35 +60,36 @@ then
   #fastq-dump $srr
 fi
 cd $dir
-done < files/srr_files.txt
+done < /mnt/data1/John/Pioneer-Factors/files/srr_files.txt
 
 #Read in a file and download the SRR file and convert to fastq for Tcf1
 while read line; do
   cd $dir/chip_seq/tcf1
   srr=$(echo $line | cut -d' ' -f1)
   filename=$(echo $line | cut -d' ' -f2)
+  fastq=${filename}.fastq
   cell=$(echo $line | cut -d' ' -f2 | cut -d'_' -f2)
+  echo $srr $filename
   mkdir -p $cell
   cd $cell
   fastq-dump $srr
   mv SRR*.fastq ${filename}.fastq
-  fastq=${filename}.fastq
   pigz ${fastq}
   star_chip
   mv ${filename}.bam $dir/chip_seq/tcf1/bam
-done < files/tcf1.txt
+done < /mnt/data1/John/Pioneer-Factors/files/tcf1.txt
 
 #Combine fastq files, compress to .gz, and align
 cd /mnt/data1/John/Pioneer-Factors
 while read line; do
-seq=$(echo $line | cut -d' ' -f1)
-cell=$(echo $line | cut -d' ' -f2)
+  seq=$(echo $line | cut -d' ' -f1)
+  cell=$(echo $line | cut -d' ' -f2)
+  fastq=${cell}_${seq}.fastq
+  filename=${cell}_${seq}
 if [[ "$seq" = ATAC ]]; then
   echo $seq $cell
   cd $dir/atac_seq/$cell
   #cat SRR*.fastq > ${cell}_${seq}.fastq
-  fastq=${cell}_${seq}.fastq
-  filename=${cell}_${seq}
   #pigz ${fastq}
   #star_chip
   #rm SRR*.fastq
@@ -100,8 +101,6 @@ then
   echo $seq $cell
   cd $dir/chip_seq/$cell/$seq
   #cat SRR*.fastq > ${cell}_${seq}.fastq
-  fastq=${cell}_${seq}.fastq
-  filename=${cell}_${seq}
   #pigz ${fastq}
   #star_chip
   #rm SRR*.fastq
@@ -113,12 +112,10 @@ then
   echo $seq $cell
   cd $dir/rna_seq/$cell
   #cat SRR*.fastq > ${cell}_${seq}.fastq
-  fastq=${cell}_${seq}.fastq
-  filename=${cell}_${seq}
   #pigz ${fastq}
-  star_rna
+  #star_rna
   #rm SRR*.fastq
-  mv ${cell}_${seq}.bam $dir/rna_seq/bam
+  #mv ${cell}_${seq}.bam $dir/rna_seq/bam
 fi
 cd $dir
-done < files/sample_files.txt
+done < /mnt/data1/John/Pioneer-Factors/files/sample_files.txt
