@@ -1,0 +1,4 @@
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/CD4_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441281.bam -n CD4_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441281_macs --bw 170 -f BAM -g mm -p 1e-7 -m 5,30 -w --single-profile >> .log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/CD4_ChIP_seq_H3K4me1_Amit_mm10_GSM1441297.bam -n CD4_ChIP_seq_H3K4me1_Amit_mm10_GSM1441297_macs --bw 175 -f BAM -g mm -p 1e-7 -m 5,30 -w --single-profile >> .log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/CD8_ChIP_seq_H3K4me1_Amit_mm10_GSM1441298.bam -n CD8_ChIP_seq_H3K4me1_Amit_mm10_GSM1441298_macs --bw 165 -f BAM -g mm -p 1e-7 -m 5,30 -w --single-profile >> .log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/CMP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441288.bam -n CMP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441288_macs --bw 204 -f BAM -g mm -p 1e-7 -m 5,30 -w --single-profile >> .log 2>&1

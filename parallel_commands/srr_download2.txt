@@ -1,0 +1,10 @@
+SRR1533847 /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/B
+SRR1533848 /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/B -F
+SRR1533849 /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/B
+SRR1533853 /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/CD4 -F
+SRR1533854 /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/CD4
+SRR1533855 /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/CD4 -F
+SRR1533856 /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/CD4
+SRR1533859 /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/NK
+SRR1533860 /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/NK
+SRR1533861 /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/CD8

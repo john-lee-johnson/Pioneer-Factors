@@ -1,0 +1,2 @@
+/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CD4/H3K4me1/SRR1521858.bam SRR1521858_macs
+/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CD4/H3K4me1/SRR1521859.bam SRR1521859_macs

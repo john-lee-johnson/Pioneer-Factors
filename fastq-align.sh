@@ -1,125 +1,201 @@
 #!/bin/bash
-##This script will read the SRR files from srr_files.txt, download and convert them to fastq, align them, and output to BAM files
+##This script will read the SRR files from srr_files.txt, download and convert them to fastq, align them, output to BAM files, and set up commands for MACS peak calling
+##This is the first script in the series to be run
 
+#Sets the working directories
+dir0=/mnt/data1/John/Pioneer_Factors
+filedir=/mnt/data1/John/Pioneer-Factors/sample_files
+datadir=/mnt/data1/VahediLab/PTF_Team/Data
+paralleldir=/mnt/data1/John/Pioneer-Factors/parallel_commands
 
-dir0=/mnt/data1/John/pioneer
-filedir=/mnt/data1/John/Pioneer-Factors/files
-
-#Makes the directories
-mkdir -p $dir0/data/atac_seq/bam
-mkdir -p $dir0/data/chip_seq/bam
-mkdir -p $dir0/data/rna_seq/bam
-mkdir -p $dir0/data/chip_seq/tcf1/bam
-
-
-##---------------------SETTING FUNCTIONS---------------------------------------------------
+##---------------------SETTING FUNCTIONS--------------------------------------------------
 #STAR generates genome index
 function star_generate {
 STAR --runMode genomeGenerate --runThreadN 40 --genomeDir /mnt/data0/John/genome_GRCm38p4_M6 --genomeFastaFiles /mnt/data0/John/GRCm38p4_mm10_pa_only.fa --sjdbGTFfile /mnt/data0/John/gencode.vM6.annotation.gtf
 }
 
-#STAR alignment for ChIP-seq and ATAC-seq
+#STAR alignment for ATAC-seq
+function star_atac {
+STAR --runMode alignReads --alignIntronMax 1 --genomeLoad LoadAndKeep --limitBAMsortRAM 10000000000 --seedSearchStartLmax 30 --outFilterMultimapNmax 2 --runThreadN 40 --genomeDir /mnt/data0/John/genome_GRCm38p4_M6 --readFilesIn ${srr}_trimmed.fq --outSAMtype BAM SortedByCoordinate 
+mv Aligned.sortedByCoord.out.bam STAR_${srr}.bam #Keeps the bam file that STAR generates
+mv Log.final.out ${srr}_Log.final.out #Keeps a copy of the aligner log
+STAR --runMode inputAlignmentsFromBAM --runThreadN 40 --genomeDir /mnt/data0/John/genome_GRCm38p4_M6 --inputBAMfile STAR_${srr}.bam --bamRemoveDuplicatesType UniqueIdentical
+mv Processed.out.bam dedupSTAR_${srr}.bam #Keeps a bam file with PCR duplicates removed via STAR
+}
+
+#STAR alignment for ChIP-seq
 function star_chip {
-STAR --runMode alignReads --alignIntronMax 1 --seedSearchStartLmax 30 --outFilterMultimapNmax 2 --runThreadN 40 --genomeDir /mnt/data0/John/genome_GRCm38p4_M6 --readFilesIn ${fastq}.gz --readFilesCommand zcat --outSAMtype BAM SortedByCoordinate
-mv Aligned.sortedByCoord.out.bam ${filename}.bam
+STAR --runMode alignReads --alignIntronMax 1 --genomeLoad LoadAndKeep --limitBAMsortRAM 10000000000 --seedSearchStartLmax 30 --outFilterMultimapNmax 2 --runThreadN 40 --genomeDir /mnt/data0/John/genome_GRCm38p4_M6 --readFilesIn ${srr}.fastq --outSAMtype BAM SortedByCoordinate 
+mv Aligned.sortedByCoord.out.bam STAR_${srr}.bam #Keeps the bam file that STAR generates
+mv Log.final.out ${srr}_Log.final.out #Keeps a copy of the aligner log
+STAR --runMode inputAlignmentsFromBAM --runThreadN 40 --genomeDir /mnt/data0/John/genome_GRCm38p4_M6 --inputBAMfile STAR_${srr}.bam --bamRemoveDuplicatesType UniqueIdentical
+mv Processed.out.bam dedup_${srr}.bam #Keeps a bam file with PCR duplicates removed via STAR
+}
+
+function mark_duplicates {
+if [[ $(head -1 ${srr}.fastq | cut -c 1-4) = "@SRR" ]]; then
+  #If file does not have header information regarding location of the read on the lane, will not look for optical duplicates
+  echo "java -Xmx2g -jar $PICARD MarkDuplicates INPUT="`pwd`"/STAR_${srr}.bam OUTPUT="`pwd`"/${srr}.bam READ_NAME_REGEX=null REMOVE_DUPLICATES=true METRICS_FILE="`pwd`"/${srr}_metrics.txt" >> $paralleldir/remove_duplicates.txt
+  echo "java -Xmx2g -jar $PICARD MarkDuplicates INPUT="`pwd`"/STAR_${srr}.bam OUTPUT="`pwd`"/dupsMarked_${srr}.bam READ_NAME_REGEX=null METRICS_FILE="`pwd`"/dupsMarked_${srr}_metrics.txt" >> $paralleldir/mark_duplicates.txt
+
+else
+  #If file has proper header information regarding location of the read on the lane, will look for optical duplicates
+  echo "java -Xmx2g -jar $PICARD MarkDuplicates INPUT="`pwd`"/STAR_${srr}.bam OUTPUT="`pwd`"/${srr}.bam REMOVE_DUPLICATES=true METRICS_FILE="`pwd`"/${srr}_metrics.txt" >> $paralleldir/remove_duplicates.txt
+  echo "java -Xmx2g -jar $PICARD MarkDuplicates INPUT="`pwd`"/STAR_${srr}.bam OUTPUT="`pwd`"/dupsMarked_${srr}.bam METRICS_FILE="`pwd`"/dupsMarked_${srr}_metrics.txt" >> $paralleldir/mark_duplicates.txt
+fi
 }
 
 #STAR alignment for RNA-seq 2-pass
 function star_rna {
-STAR --runMode alignReads --twopassMode Basic --runThreadN 40 --genomeDir /mnt/data0/John/genome_GRCm38p4_M6 --readFilesIn ${fastq}.gz --readFilesCommand zcat --outSAMtype BAM SortedByCoordinate
-mv Aligned.sortedByCoord.out.bam ${filename}.bam
+STAR --runMode alignReads --runThreadN 40 --genomeDir /mnt/data0/John/genome_GRCm38p4_M6 --readFilesIn ${srr}.fastq --outSAMtype BAM SortedByCoordinate --outFilterScoreMinOverLread 0 --outFilterMatchNminOverLread 0 --outFilterMatchNmin 30
+mv Aligned.sortedByCoord.out.bam ${srr}.bam #Keeps the bam file that STAR generates
+STAR --runMode inputAlignmentsFromBAM --runThreadN 40 --genomeDir /mnt/data0/John/genome_GRCm38p4_M6 --inputBAMfile ${srr}.bam --bamRemoveDuplicatesType UniqueIdentical
+mv Processed.out.bam dedupSTAR_${srr}.bam #Keeps a bam file with PCR duplicates removed via STAR
 }
 
-#STAR alignment for color space ChIP-seq
-function star_color {
-STAR --runMode alignReads --alignIntronMax 1 --outFilterMultimapNmax 2 --runThreadN 40 --outFilterScoreMinOverLread 0 --outFilterMatchNminOverLread 0 --outFilterMatchNmin 15 --genomeDir /mnt/data0/John/genome_GRCm38p4_M6 --readFilesIn ${fastq}.gz --readFilesCommand zcat --outSAMtype BAM SortedByCoordinate
-mv Aligned.sortedByCoord.out.bam ${filename}.bam
+#STAR remove genome from memory
+function star_remove {
+STAR --genomeLoad Remove --genomeDir /mnt/data0/John/genome_GRCm38p4_M6
 }
 
-#Read in a file and download the SRR file and convert to fastq
-while read line; do
-srr=$(echo $line | cut -d' ' -f1)
-seq=$(echo $line | cut -d' ' -f2 | cut -d'_' -f1)
-cell=$(echo $line | cut -d' ' -f2 | cut -d'_' -f2)
-if [[ "$seq" = ATAC ]]; then
-  echo $srr $seq $cell
-  cd $dir0/data/atac_seq ; mkdir -p $cell ; cd $cell
-  #fastq-dump $srr
+#Create correlation heatmaps between replicates
+function heatmap {
+for a in $(ls SRR*.bam | grep -v STAR); do
+  samtools index $a
+done
+if [[ $(ls SRR*.bam | grep -v STAR | wc -l) > 1 ]]; then
+unset input
+for b in $(ls SRR*.bam | grep -v STAR); do
+  input=$(echo $input" "`pwd`/$b)
+done
+  echo "bamCorrelate bins --bamfiles $input --corMethod spearman -o" `pwd`/"spearmanHeatmap.png" >> $paralleldir/heat_map.txt
+  echo "bamCorrelate bins --bamfiles $input --corMethod pearson -o" `pwd`"/pearsonHeatmap.png" >> $paralleldir/heat_map.txt
 fi
-if [[ "$seq" = H3* ]]
-then
-  echo $srr $seq $cell
-  cd $dir0/data/chip_seq ; mkdir -p $cell ; cd $cell ; mkdir -p $seq
-  cd $seq
-  #fastq-dump $srr
-fi
-if [[ "$seq" = RNA ]]
-then
-  echo $srr $seq $cell
-  cd $dir0/data/rna_seq ; mkdir -p $cell ; cd $cell
-  #fastq-dump $srr
-fi
-done < $filedir/srr_files.txt
+}
 
-#Read in a file and download the SRR file and convert to fastq for Tcf1
-MACSpvalue=1e-7
-while read line; do
-  srr=$(echo $line | cut -d' ' -f1)
-  sample=$(echo $line | cut -d' ' -f2 | cut -d'_' -f1)
-  filename=$(echo $line | cut -d' ' -f2)
-  fastq=${filename}.fastq
-  cell=$(echo $line | cut -d' ' -f2 | cut -d'_' -f2)
-  color=$(echo $line | cut -d' ' -f3)
-  treat=$(echo $line | cut -d' ' -f4)
-  cd $dir0/data/chip_seq/tcf1 ; mkdir -p $cell ; cd $cell ; mkdir -p $sample ; cd $sample
-  if [ $color = "Color" ]; then
-  #fastq-dump -B $srr && mv ${srr}.fastq ${filename}.fastq && pigz ${filename}.fastq
-  star_color && mv ${filename}.bam $dir0/data/chip_seq/tcf1/bam
-  readLength=$(awk 'BEGIN { FS = "|\t" } {if (NR == 7) {print $2}}' Log.final.out)
-    if [ $treat = "Treat" ]; then
-    echo "${dir0}/data/chip_seq/tcf1/bam/${filename}.bam ${filename}_macs ${MACSpvalue} $readLength $control"
-    else
-    control=${dir0}/data/chip_seq/tcf1/bam/${filename}.bam
-    fi
-  else
-  #fastq-dump $srr && mv ${srr}.fastq ${filename}.fastq && pigz ${filename}.fastq
-  star_chip && mv ${filename}.bam $dir0/data/chip_seq/tcf1/bam
-  readLength=$(awk 'BEGIN { FS = "|\t" } {if (NR == 7) {print $2}}' Log.final.out)
-    if [ $treat = "Treat" ]; then
-    echo "${dir0}/data/chip_seq/tcf1/bam/${filename}.bam ${filename}_macs ${MACSpvalue} $readLength $control"
-    else
-    control=${dir0}/data/chip_seq/tcf1/bam/${filename}.bam
-    fi
-  fi
-done < $filedir/tcf1.txt > $filedir/macs_parallel_tcf1.txt
+#Combine replicates
+function bam_combine {
+unset input
+unset reads
+for a in $(ls SRR*.bam | grep -v STAR); do
+  input=$(echo $input" INPUT="`pwd`/$a)
+  #reads=reads+$(samtools view -c $a)
+done
+echo "java -Xmx2g -jar $PICARD MergeSamFiles $input ""OUTPUT="`pwd`/${filename}.bam >> $paralleldir/merge_bam.txt
+#echo $seq $cell "Dedup" $(samtools view -c ${filename}.bam) "Total" $reads >> $infodir/pcr_duplicates.txt
+}
 
-#Combine fastq files, compress to .gz, and align
-cd /mnt/data1/John/Pioneer-Factors
+#Make sure genome is unloaded on first-run
+cd $dir0
+star_remove
+#rm -f $infodir/pcr_duplicates.txt
+rm -f $paralleldir/mark_duplicates.txt
+rm -f $paralleldir/remove_duplicates.txt
+rm -f $paralleldir/merge_bam.txt
+rm -f $paralleldir/heat_map.txt
+
+##---------------------DOWNLOAD SRR AMIT DATA---------------------------------------------
+#Download the SRR files for Amit Data
+if [ -f $paralleldir/srr_download.txt ]; then
+parallel --xapply --dryrun -j 30 --colsep ' ' -a $paralleldir/srr_download.txt  "fastq-dump {3} {1} -O {2}"
+#parallel --xapply -j 30 --colsep ' ' -a $paralleldir/srr_download.txt  "fastq-dump {3} {1} -O {2}"
+fi
+##---------------------REMOVE ADAPTERS SRR AMIT DATA--------------------------------------
+#Remove sequencing adapters from Amit Data
+if [ -f $paralleldir/trim_galore.txt ]; then
+parallel --xapply --dryrun -j 30 --colsep ' ' -a $paralleldir/trim_galore.txt "trim_galore -o {1} --nextera {2}" #Removes Nextera Transposase Adapters
+#parallel --xapply -j 30 --colsep ' ' -a $paralleldir/trim_galore.txt "trim_galore -o {1} --nextera {2}"
+fi
+
+##---------------------ALIGN AMIT DATA----------------------------------------------------
+#Align fastq to bam for Amit data
 while read line; do
-  seq=$(echo $line | cut -d' ' -f1)
+seq=$(echo $line | cut -d' ' -f1)
+if [[ "$seq" = ATAC* ]]; then
   cell=$(echo $line | cut -d' ' -f2)
-  fastq=${cell}_${seq}.fastq
-  filename=${cell}_${seq}
-if [[ "$seq" = ATAC ]]; then
-  cd $dir0/data/atac_seq/$cell
-  #cat SRR*.fastq > ${filename}.fastq && pigz ${fastq} && rm SRR*.fastq
-  star_chip && mv ${filename}.bam $dir0/data/atac_seq/bam
-  readLength=$(awk 'BEGIN { FS = "|\t" } {if (NR == 7) {print $2}}' Log.final.out)
-  echo "${dir0}/data/atac_seq/bam/${filename}.bam ${filename}_macs ${MACSpvalue} $readLength"
+  cd $dir0/Data/ATAC_seq/$cell
+  srr_line=${line##"$seq $cell "}
+  IFS=' ' read -r -a srr_array <<< $srr_line
+  for srr in "${srr_array[@]}"; do
+  echo $srr "ATAC"
+    #star_atac
+    mark_duplicates
+  done
 fi
-cd $dir0
-if [[ "$seq" = H3* ]]
+if [[ "$seq" = ChIP* ]]; then
+  mark=$(echo $line | cut -d' ' -f2)
+  cell=$(echo $line | cut -d' ' -f3)
+  cd $dir0/Data/ChIP_seq/$cell/$mark
+  srr_line=${line##"$seq $mark $cell "}
+  IFS=' ' read -r -a srr_array <<< $srr_line
+  for srr in "${srr_array[@]}"; do
+  echo $srr "CHIP"
+    #star_chip
+    mark_duplicates
+  done
+fi
+if [[ "$seq" = RNA* ]]
 then
-  cd $dir0/data/chip_seq/$cell/$seq
-  #cat SRR*.fastq > ${cell}_${seq}.fastq && pigz ${fastq} && rm SRR*.fastq
-  star_chip && mv ${cell}_${seq}.bam $dir0/data/chip_seq/bam
+  cell=$(echo $line | cut -d' ' -f2)
+  cd $dir0/Data/RNA_seq/$cell
+  srr_line=${line##"$seq $cell "}
+  IFS=' ' read -r -a srr_array <<< $srr_line
+  for srr in "${srr_array[@]}"; do
+  echo $srr
+    #star_rna
+  done
 fi
-cd $dir0
-if [[ "$seq" = RNA ]]
-then
-  cd $dir0/data/rna_seq/$cell
-  #cat SRR*.fastq > ${cell}_${seq}.fastq && pigz ${fastq} && rm SRR*.fastq
-  star_rna && mv ${cell}_${seq}.bam $dir0/data/rna_seq/bam
+done < $infodir/srr_files_amit.txt
+
+if [ -f $paralleldir/mark_duplicates.txt ]; then
+parallel --xapply --dryrun -j 40 -- < $paralleldir/mark_duplicates.txt
+parallel --xapply -j 40 -- < $paralleldir/mark_duplicates.txt
 fi
-cd $dir0
-done < $filedir/sample_files.txt > $filedir/macs_parallel_atac.txt
+if [ -f $paralleldir/remove_duplicates.txt ]; then
+parallel --xapply --dryrun -j 40 -- < $paralleldir/remove_duplicates.txt
+parallel --xapply -j 40 -- < $paralleldir/remove_duplicates.txt
+fi
+
+##---------------------COMBINE BAM FILES AMIT---------------------------------------------
+#Combine fastq files, compress to .gz, and align
+lines=$(wc -l $infodir/sample_files_amit.txt | cut -d' ' -f1)
+for ((i=1; i<$lines; i++)); do
+line=$(sed -n "${i}p" < $infodir/sample_files_amit.txt)
+gsm=$(echo $line | cut -d':' -f1 | xargs)
+seq=$(echo $line | cut -d':' -f2 | cut -d';' -f3 | xargs)
+cell=$(echo $line | cut -d':' -f2 | cut -d';' -f1 | xargs)
+if [[ "$seq" = ATAC* ]]; then
+  cd $dir0/Data/ATAC_seq/$cell
+  filename=${cell}_${seq}_Amit_mm10_${gsm}
+  cat SRR*_trimmed.fq > ${filename}.fastq
+  pigz -f -p 40 ${filename}.fastq
+  fastqc -t 40 $(ls SRR*.bam)
+  #heatmap
+  bam_combine
+fi
+if [[ "$seq" = ChIP* ]]; then
+  mark=$(echo $line | cut -d':' -f2 | cut -d';' -f1 | xargs | cut -d'_' -f1 | xargs)
+  cell=$(echo $line | cut -d':' -f2 | cut -d';' -f1 | xargs | cut -d'_' -f2 | xargs)
+  filename=${cell}_${seq}_${mark}_Amit_mm10_${gsm}
+  echo $filename
+  cd $dir0/Data/ChIP_seq/$cell/$mark
+  cat SRR*.fastq > ${filename}.fastq
+  pigz -f -p 40  ${filename}.fastq
+  fastqc -t 40 $(ls SRR*.bam)
+  #heatmap
+  bam_combine
+fi
+if [[ "$seq" = RNA* ]]; then
+  cd $dir0/Data/RNA_seq/$cell
+  filename=${cell}_${seq}_Amit_mm10_${gsm}
+  cat SRR*.fastq > ${filename}.fastq
+  pigz -f -p 40 ${filename}.fastq
+  fastqc -t 40 $(ls SRR*.bam)
+  #heatmap
+  bam_combine
+fi
+done
+parallel --xapply --dryrun -j 30 -- < $paralleldir/merge_bam.txt
+parallel --xapply -j 30 -- < $paralleldir/merge_bam.txt
+#parallel --xapply --dryrun -j 30 -- < $paralleldir/heat_map.txt
+#parallel --xapply -j 30 -- < $paralleldir/heat_map.txt

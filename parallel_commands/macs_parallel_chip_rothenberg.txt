@@ -1,0 +1,12 @@
+/mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/ThyDN3.1_H3K9K14Ac_Rothenberg_mm10_GSM774269.bam ThyDN3.1_H3K9K14Ac_Rothenberg_mm10_GSM774269_macs
+/mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/ThyDN3.2_H3K9K14Ac_Rothenberg_mm10_GSM774270.bam ThyDN3.2_H3K9K14Ac_Rothenberg_mm10_GSM774270_macs
+/mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/ThyDP.1_H3K9K14Ac_Rothenberg_mm10_GSM774271.bam ThyDP.1_H3K9K14Ac_Rothenberg_mm10_GSM774271_macs
+/mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/ThyDP.2_H3K9K14Ac_Rothenberg_mm10_GSM774272.bam ThyDP.2_H3K9K14Ac_Rothenberg_mm10_GSM774272_macs
+/mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/ThyDN3.1_H3K4me2_Rothenberg_mm10_GSM774278.bam ThyDN3.1_H3K4me2_Rothenberg_mm10_GSM774278_macs
+/mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/ThyDN3.2_H3K4me2_Rothenberg_mm10_GSM774279.bam ThyDN3.2_H3K4me2_Rothenberg_mm10_GSM774279_macs
+/mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/ThyDP.1_H3K4me2_Rothenberg_mm10_GSM774280.bam ThyDP.1_H3K4me2_Rothenberg_mm10_GSM774280_macs
+/mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/ThyDP.2_H3K4me2_Rothenberg_mm10_GSM774281.bam ThyDP.2_H3K4me2_Rothenberg_mm10_GSM774281_macs
+/mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/ThyDN3.1_H3K27me3_Rothenberg_mm10_GSM774287.bam ThyDN3.1_H3K27me3_Rothenberg_mm10_GSM774287_macs
+/mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/ThyDN3.2_H3K27me3_Rothenberg_mm10_GSM774288.bam ThyDN3.2_H3K27me3_Rothenberg_mm10_GSM774288_macs
+/mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/ThyDP.1_H3K27me3_Rothenberg_mm10_GSM774289.bam ThyDP.1_H3K27me3_Rothenberg_mm10_GSM774289_macs
+/mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/ThyDP.2_H3K27me3_Rothenberg_mm10_GSM774290.bam ThyDP.2_H3K27me3_Rothenberg_mm10_GSM774290_macs

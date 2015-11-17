@@ -1,0 +1,1 @@
+/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EryA/H3K4me2/SRR1521886.bam SRR1521886_macs

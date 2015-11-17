@@ -1,0 +1,2 @@
+/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/GMP/SRR1533850.bam SRR1533850_macs
+/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/GMP/SRR1533851.bam SRR1533851_macs

@@ -1,0 +1,32 @@
+cd /mnt/data1/bin
+sudo git clone https://github.com/broadinstitute/picard.git
+cd picard
+sudo apt-get install ant #only need to do this once
+
+#---install java 1.6------
+Download the Java JDK from http://www.oracle.com/technetwork/java/javasebusiness/downloads/java-archive-downloads-javase6-419409.html#jdk-6u31-oth-JPR .
+Click Accept License Agreement
+Click jdk-6u31-linux-x64.bin
+Login to Oracle.com with your Oracle account
+cd ~/Downloads
+chmod a+x jdk-6u31-linux-x64.bin
+./jdk-6u31-linux-x64.bin
+sudo mkdir /mnt/data1/bin/jvm1.6/
+sudo mv jdk1.6.0_31 /mnt/data1/bin/jvm1.6/
+sudo vim /etc/environment
+#add a variable called:
+JAVA6_HOME=/mnt/data1/bin/jvm1.6/jdk1.6.0_31
+JAVA_HOME=/mnt/data1/bin/jvm1.6/jdk1.6.0_31
+#save and exit
+source /etc/environment
+sudo apt-get install openjdk-6-jdk
+sudo apt-get install openjdk-6-jre-headless
+sudo apt-get install openjdk-6-jre-lib
+sudo update-alternatives --config java
+#choose openjdk-6
+cd /mnt/data1/bin/picard
+sudo git clone https://github.com/samtools/htsjdk.git
+cd htsjdk
+sudo ant htsjdk-jar
+cd /mnt/data1/bin/picard
+sudo ant -lib lib/ant package-commands

@@ -1,0 +1,2 @@
+Treat SRR846897 Thy_Tcf1 SRR846898 Thy_Input_Tcf1
+Treat SRR846897 Thy_PU.1 SRR330845 Thy_Input_PU.1

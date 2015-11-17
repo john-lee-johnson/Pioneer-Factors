@@ -1,0 +1,5 @@
+/mnt/data1/John/Pioneer_Factors/Analysis/ATAC_seq/B_bam_count.bedgraph /mnt/data1/John/Pioneer_Factors/Analysis/ATAC_seq/B_union_split_sorted.bed /mnt/data1/VahediLab/PTF_Team/Data/ATAC_seq/bam/B_ATAC_Amit_mm10_GSM1463172.bam
+/mnt/data1/John/Pioneer_Factors/Analysis/ATAC_seq/CD4_bam_count.bedgraph /mnt/data1/John/Pioneer_Factors/Analysis/ATAC_seq/CD4_union_split_sorted.bed /mnt/data1/VahediLab/PTF_Team/Data/ATAC_seq/bam/CD4_ATAC_Amit_mm10_GSM1463175.bam
+/mnt/data1/John/Pioneer_Factors/Analysis/ATAC_seq/CD8_bam_count.bedgraph /mnt/data1/John/Pioneer_Factors/Analysis/ATAC_seq/CD8_union_split_sorted.bed /mnt/data1/VahediLab/PTF_Team/Data/ATAC_seq/bam/CD8_ATAC_Amit_mm10_GSM1463178.bam
+/mnt/data1/John/Pioneer_Factors/Analysis/ATAC_seq/Lsk_bam_count.bedgraph /mnt/data1/John/Pioneer_Factors/Analysis/ATAC_seq/Lsk_union_split_sorted.bed /mnt/data1/VahediLab/PTF_Team/Data/ATAC_seq/bam/Lsk_ATAC_Amit_mm10_GSM1463179.bam
+/mnt/data1/John/Pioneer_Factors/Analysis/ATAC_seq/NK_bam_count.bedgraph /mnt/data1/John/Pioneer_Factors/Analysis/ATAC_seq/NK_union_split_sorted.bed /mnt/data1/VahediLab/PTF_Team/Data/ATAC_seq/bam/NK_ATAC_Amit_mm10_GSM1463177.bam

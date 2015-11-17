@@ -1,0 +1,1 @@
+/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Mono/SRR1533852.bam SRR1533852_macs

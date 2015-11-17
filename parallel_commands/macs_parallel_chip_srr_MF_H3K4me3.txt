@@ -1,0 +1,4 @@
+/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/MF/H3K4me3/SRR1521931.bam SRR1521931_macs
+/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/MF/H3K4me3/SRR1521932.bam SRR1521932_macs
+/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/MF/H3K4me3/SRR1521933.bam SRR1521933_macs
+/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/MF/H3K4me3/SRR1521934.bam SRR1521934_macs

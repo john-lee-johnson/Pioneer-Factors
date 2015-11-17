@@ -1,0 +1,5 @@
+/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CLP/H3K27Ac/SRR1521823.bam SRR1521823_macs
+/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CLP/H3K27Ac/SRR1521824.bam SRR1521824_macs
+/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CLP/H3K27Ac/SRR1521825.bam SRR1521825_macs
+/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CLP/H3K27Ac/SRR1521826.bam SRR1521826_macs
+/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CLP/H3K27Ac/SRR1521827.bam SRR1521827_macs

@@ -1,0 +1,1 @@
+/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/MPP/H3K4me3/SRR1521913.bam SRR1521913_macs

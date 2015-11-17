@@ -1,0 +1,1 @@
+/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/MEP/H3K27Ac/SRR1521800.bam SRR1521800_macs

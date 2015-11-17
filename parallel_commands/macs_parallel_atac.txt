@@ -1,0 +1,10 @@
+/mnt/data1/VahediLab/PTF_Team/Data/ATAC_seq/bam/MEP_ATAC_seq_Amit_mm10_GSM1463181.bam MEP_ATAC_seq_Amit_mm10_GSM1463181_macs 616
+/mnt/data1/VahediLab/PTF_Team/Data/ATAC_seq/bam/CMP_ATAC_seq_Amit_mm10_GSM1463180.bam CMP_ATAC_seq_Amit_mm10_GSM1463180_macs 69
+/mnt/data1/VahediLab/PTF_Team/Data/ATAC_seq/bam/Lsk_ATAC_seq_Amit_mm10_GSM1463179.bam Lsk_ATAC_seq_Amit_mm10_GSM1463179_macs 70
+/mnt/data1/VahediLab/PTF_Team/Data/ATAC_seq/bam/CD8_ATAC_seq_Amit_mm10_GSM1463178.bam CD8_ATAC_seq_Amit_mm10_GSM1463178_macs 60
+/mnt/data1/VahediLab/PTF_Team/Data/ATAC_seq/bam/NK_ATAC_seq_Amit_mm10_GSM1463177.bam NK_ATAC_seq_Amit_mm10_GSM1463177_macs 69
+/mnt/data1/VahediLab/PTF_Team/Data/ATAC_seq/bam/GN_ATAC_seq_Amit_mm10_GSM1463176.bam GN_ATAC_seq_Amit_mm10_GSM1463176_macs 60
+/mnt/data1/VahediLab/PTF_Team/Data/ATAC_seq/bam/CD4_ATAC_seq_Amit_mm10_GSM1463175.bam CD4_ATAC_seq_Amit_mm10_GSM1463175_macs 61
+/mnt/data1/VahediLab/PTF_Team/Data/ATAC_seq/bam/Mono_ATAC_seq_Amit_mm10_GSM1463174.bam Mono_ATAC_seq_Amit_mm10_GSM1463174_macs 70
+/mnt/data1/VahediLab/PTF_Team/Data/ATAC_seq/bam/GMP_ATAC_seq_Amit_mm10_GSM1463173.bam GMP_ATAC_seq_Amit_mm10_GSM1463173_macs 60
+/mnt/data1/VahediLab/PTF_Team/Data/ATAC_seq/bam/B_ATAC_seq_Amit_mm10_GSM1463172.bam B_ATAC_seq_Amit_mm10_GSM1463172_macs 67

@@ -1,0 +1,3 @@
+#!/usr/bin/awk -f
+#BEGIN {OFS="\t"; print "track type=bedGraph name=macsoutput_macs.p description='number of tags at MACS peaks for macsoutput (d=212,bw=300,lambda=,mfold=10,30)' color=0,0,0 maxHeightPixels=64:128:1 visibility=full" } $1 ~ /chr./ {print $1, $2, $3, $6}
+BEGIN {OFS="\t"} $1 ~ /chr./ {print $1, $2, $3, $6}

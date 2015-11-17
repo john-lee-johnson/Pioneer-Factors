@@ -1,6 +1,0 @@
-SRR1024055 igg_CD8 Base Ctrl
-SRR1024054 tcf1_CD8 Base Treat
-SRR846898 input_Thy Base Ctrl
-SRR846897 tcf1_Thy Base Treat
-SRR846898 input_Thy Base Ctrl
-SRR1685994 tcf1_DP Color Treat
