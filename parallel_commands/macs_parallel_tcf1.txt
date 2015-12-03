@@ -1,0 +1,2 @@
+/mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/Thy_ChIP-Seq_Input_Dose_mm10_GSM1133645.bam Thy_ChIP-Seq_Input_Dose_mm10_GSM1133645_macs 144
+/mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/Thy_ChIP-Seq_Tcf1_Dose_mm10_GSM1133644.bam Thy_ChIP-Seq_Tcf1_Dose_mm10_GSM1133644_macs 123

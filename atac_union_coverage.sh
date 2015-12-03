@@ -8,6 +8,8 @@
 #---------------------CREATE TEMP BED FILE------------------------------------------------
 ##This generates a temp bed file for unionbedg function later
 #This temp file contains the ATAQ-seq peaks called by MACS (CHR, Start, End, and Value)
+mkdir -p $dir0/Analysis/ATAC_seq/Union
+
 cd $datadir/ATAC_seq/macs
 for i in `ls {B*peaks.bedgraph,CD4*peaks.bedgraph,CD8*peaks.bedgraph,Lsk*peaks.bedgraph,NK*peaks.bedgraph}`;
 do

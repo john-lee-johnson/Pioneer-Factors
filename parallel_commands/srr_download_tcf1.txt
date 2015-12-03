@@ -1,0 +1,2 @@
+SRR846898 /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/Transcription_Factor/Thy/Input -F
+SRR846897 /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/Transcription_Factor/Thy/Tcf1 -F

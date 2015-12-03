@@ -27,7 +27,11 @@ function fastq-download {
 #  echo "Raw fastq file exists!"
 #fi
 if [[ "$seq" = ATAC* ]]; then
-      echo `pwd` `pwd`"/${srr}.fastq" >> $paralleldir/trim_galore.txt #Will remove sequencing adapters
+      echo `pwd` `pwd`"/${srr}.fastq nextera" >> $paralleldir/trim_galore.txt #Will remove sequencing adapters
+fi
+if [[ "$seq" = RNA* ]]; then
+      echo `pwd` `pwd`"/${srr}.fastq illumina" >> $paralleldir/trim_galore.txt #Will remove sequencing adapters
+      #echo "fastq_masker -q 20 -i `pwd`/${srr}_trimmed.fq -o `pwd`/${srr}_mask.fastq" >> $paralleldir/quality_masking_rothenberg.txt
 fi
 }
 
@@ -55,7 +59,7 @@ sed -i -e 's/OTHER/ATAC_seq/g' $infodir/sample_files_amit.txt
 ##---------------------DOWNLOAD SRR AMIT DATA---------------------------------------------
 #Read in samples and generate a file of SRR numbers for Amit Data
 lines=$(wc -l $infodir/sample_files_amit.txt | cut -d' ' -f1)
-for ((i=1; i<$lines; i++)); do
+for ((i=1; i<=$lines; i++)); do
 line=$(sed -n "${i}p" < $infodir/sample_files_amit.txt)
 gsm=$(echo $line | cut -d':' -f1 | xargs)
 seq=$(echo $line | cut -d':' -f2 | cut -d';' -f3 | xargs)
@@ -110,6 +114,7 @@ then
   srr_line=${line##"$seq $cell "}
   IFS=' ' read -r -a srr_array <<< $srr_line
   for srr in "${srr_array[@]}"; do
+    echo $srr "download"
     fastq-download
   done
 fi

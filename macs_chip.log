@@ -1,0 +1,720 @@
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/CLP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441332.bam -n CLP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441332_macs --bw 202 -f BAM -g mm -p 1e-7 -w --single-profile >> CLP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441332_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/NK_ChIP_seq_H3K4me3_Amit_mm10_GSM1441331.bam -n NK_ChIP_seq_H3K4me3_Amit_mm10_GSM1441331_macs --bw 224 -f BAM -g mm -p 1e-7 -w --single-profile >> NK_ChIP_seq_H3K4me3_Amit_mm10_GSM1441331_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/CD8_ChIP_seq_H3K4me3_Amit_mm10_GSM1441330.bam -n CD8_ChIP_seq_H3K4me3_Amit_mm10_GSM1441330_macs --bw 189 -f BAM -g mm -p 1e-7 -w --single-profile >> CD8_ChIP_seq_H3K4me3_Amit_mm10_GSM1441330_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/CD4_ChIP_seq_H3K4me3_Amit_mm10_GSM1441329.bam -n CD4_ChIP_seq_H3K4me3_Amit_mm10_GSM1441329_macs --bw 202 -f BAM -g mm -p 1e-7 -w --single-profile >> CD4_ChIP_seq_H3K4me3_Amit_mm10_GSM1441329_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/B_ChIP_seq_H3K4me3_Amit_mm10_GSM1441328.bam -n B_ChIP_seq_H3K4me3_Amit_mm10_GSM1441328_macs --bw 203 -f BAM -g mm -p 1e-7 -w --single-profile >> B_ChIP_seq_H3K4me3_Amit_mm10_GSM1441328_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/MF_ChIP_seq_H3K4me3_Amit_mm10_GSM1441327.bam -n MF_ChIP_seq_H3K4me3_Amit_mm10_GSM1441327_macs --bw 204 -f BAM -g mm -p 1e-7 -w --single-profile >> MF_ChIP_seq_H3K4me3_Amit_mm10_GSM1441327_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/Mono_ChIP_seq_H3K4me3_Amit_mm10_GSM1441326.bam -n Mono_ChIP_seq_H3K4me3_Amit_mm10_GSM1441326_macs --bw 195 -f BAM -g mm -p 1e-7 -w --single-profile >> Mono_ChIP_seq_H3K4me3_Amit_mm10_GSM1441326_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/GN_ChIP_seq_H3K4me3_Amit_mm10_GSM1441325.bam -n GN_ChIP_seq_H3K4me3_Amit_mm10_GSM1441325_macs --bw 217 -f BAM -g mm -p 1e-7 -w --single-profile >> GN_ChIP_seq_H3K4me3_Amit_mm10_GSM1441325_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/EryB_ChIP_seq_H3K4me3_Amit_mm10_GSM1441324.bam -n EryB_ChIP_seq_H3K4me3_Amit_mm10_GSM1441324_macs --bw 232 -f BAM -g mm -p 1e-7 -w --single-profile >> EryB_ChIP_seq_H3K4me3_Amit_mm10_GSM1441324_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/EryA_ChIP_seq_H3K4me3_Amit_mm10_GSM1441323.bam -n EryA_ChIP_seq_H3K4me3_Amit_mm10_GSM1441323_macs --bw 207 -f BAM -g mm -p 1e-7 -w --single-profile >> EryA_ChIP_seq_H3K4me3_Amit_mm10_GSM1441323_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/MEP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441322.bam -n MEP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441322_macs --bw 211 -f BAM -g mm -p 1e-7 -w --single-profile >> MEP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441322_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/GMP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441321.bam -n GMP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441321_macs --bw 200 -f BAM -g mm -p 1e-7 -w --single-profile >> GMP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441321_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/CMP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441320.bam -n CMP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441320_macs --bw 211 -f BAM -g mm -p 1e-7 -w --single-profile >> CMP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441320_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/MPP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441319.bam -n MPP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441319_macs --bw 232 -f BAM -g mm -p 1e-7 -w --single-profile >> MPP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441319_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/STHSC_ChIP_seq_H3K4me3_Amit_mm10_GSM1441318.bam -n STHSC_ChIP_seq_H3K4me3_Amit_mm10_GSM1441318_macs --bw 223 -f BAM -g mm -p 1e-7 -w --single-profile >> STHSC_ChIP_seq_H3K4me3_Amit_mm10_GSM1441318_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/LTHSC_ChIP_seq_H3K4me3_Amit_mm10_GSM1441317.bam -n LTHSC_ChIP_seq_H3K4me3_Amit_mm10_GSM1441317_macs --bw 176 -f BAM -g mm -p 1e-7 -w --single-profile >> LTHSC_ChIP_seq_H3K4me3_Amit_mm10_GSM1441317_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/CD8_ChIP_seq_H3K4me2_Amit_mm10_GSM1441316.bam -n CD8_ChIP_seq_H3K4me2_Amit_mm10_GSM1441316_macs --bw 64 -f BAM -g mm -p 1e-7 -w --single-profile >> CD8_ChIP_seq_H3K4me2_Amit_mm10_GSM1441316_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/CD4_ChIP_seq_H3K4me2_Amit_mm10_GSM1441315.bam -n CD4_ChIP_seq_H3K4me2_Amit_mm10_GSM1441315_macs --bw 65 -f BAM -g mm -p 1e-7 -w --single-profile >> CD4_ChIP_seq_H3K4me2_Amit_mm10_GSM1441315_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/CLP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441314.bam -n CLP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441314_macs --bw 174 -f BAM -g mm -p 1e-7 -w --single-profile >> CLP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441314_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/NK_ChIP_seq_H3K4me2_Amit_mm10_GSM1441313.bam -n NK_ChIP_seq_H3K4me2_Amit_mm10_GSM1441313_macs --bw 237 -f BAM -g mm -p 1e-7 -w --single-profile >> NK_ChIP_seq_H3K4me2_Amit_mm10_GSM1441313_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/B_ChIP_seq_H3K4me2_Amit_mm10_GSM1441312.bam -n B_ChIP_seq_H3K4me2_Amit_mm10_GSM1441312_macs --bw 193 -f BAM -g mm -p 1e-7 -w --single-profile >> B_ChIP_seq_H3K4me2_Amit_mm10_GSM1441312_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/MF_ChIP_seq_H3K4me2_Amit_mm10_GSM1441311.bam -n MF_ChIP_seq_H3K4me2_Amit_mm10_GSM1441311_macs --bw 206 -f BAM -g mm -p 1e-7 -w --single-profile >> MF_ChIP_seq_H3K4me2_Amit_mm10_GSM1441311_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/Mono_ChIP_seq_H3K4me2_Amit_mm10_GSM1441310.bam -n Mono_ChIP_seq_H3K4me2_Amit_mm10_GSM1441310_macs --bw 181 -f BAM -g mm -p 1e-7 -w --single-profile >> Mono_ChIP_seq_H3K4me2_Amit_mm10_GSM1441310_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/GN_ChIP_seq_H3K4me2_Amit_mm10_GSM1441309.bam -n GN_ChIP_seq_H3K4me2_Amit_mm10_GSM1441309_macs --bw 217 -f BAM -g mm -p 1e-7 -w --single-profile >> GN_ChIP_seq_H3K4me2_Amit_mm10_GSM1441309_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/EryB_ChIP_seq_H3K4me2_Amit_mm10_GSM1441308.bam -n EryB_ChIP_seq_H3K4me2_Amit_mm10_GSM1441308_macs --bw 216 -f BAM -g mm -p 1e-7 -w --single-profile >> EryB_ChIP_seq_H3K4me2_Amit_mm10_GSM1441308_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/EryA_ChIP_seq_H3K4me2_Amit_mm10_GSM1441307.bam -n EryA_ChIP_seq_H3K4me2_Amit_mm10_GSM1441307_macs --bw 213 -f BAM -g mm -p 1e-7 -w --single-profile >> EryA_ChIP_seq_H3K4me2_Amit_mm10_GSM1441307_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/MEP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441306.bam -n MEP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441306_macs --bw 225 -f BAM -g mm -p 1e-7 -w --single-profile >> MEP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441306_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/GMP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441305.bam -n GMP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441305_macs --bw 216 -f BAM -g mm -p 1e-7 -w --single-profile >> GMP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441305_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/CMP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441304.bam -n CMP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441304_macs --bw 218 -f BAM -g mm -p 1e-7 -w --single-profile >> CMP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441304_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/MPP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441303.bam -n MPP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441303_macs --bw 220 -f BAM -g mm -p 1e-7 -w --single-profile >> MPP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441303_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/STHSC_ChIP_seq_H3K4me2_Amit_mm10_GSM1441302.bam -n STHSC_ChIP_seq_H3K4me2_Amit_mm10_GSM1441302_macs --bw 214 -f BAM -g mm -p 1e-7 -w --single-profile >> STHSC_ChIP_seq_H3K4me2_Amit_mm10_GSM1441302_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/LTHSC_ChIP_seq_H3K4me2_Amit_mm10_GSM1441301.bam -n LTHSC_ChIP_seq_H3K4me2_Amit_mm10_GSM1441301_macs --bw 177 -f BAM -g mm -p 1e-7 -w --single-profile >> LTHSC_ChIP_seq_H3K4me2_Amit_mm10_GSM1441301_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/CLP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441300.bam -n CLP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441300_macs --bw 194 -f BAM -g mm -p 1e-7 -w --single-profile >> CLP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441300_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/NK_ChIP_seq_H3K4me1_Amit_mm10_GSM1441299.bam -n NK_ChIP_seq_H3K4me1_Amit_mm10_GSM1441299_macs --bw 205 -f BAM -g mm -p 1e-7 -w --single-profile >> NK_ChIP_seq_H3K4me1_Amit_mm10_GSM1441299_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/CD8_ChIP_seq_H3K4me1_Amit_mm10_GSM1441298.bam -n CD8_ChIP_seq_H3K4me1_Amit_mm10_GSM1441298_macs --bw 165 -f BAM -g mm -p 1e-7 -w --single-profile >> CD8_ChIP_seq_H3K4me1_Amit_mm10_GSM1441298_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/CD4_ChIP_seq_H3K4me1_Amit_mm10_GSM1441297.bam -n CD4_ChIP_seq_H3K4me1_Amit_mm10_GSM1441297_macs --bw 175 -f BAM -g mm -p 1e-7 -w --single-profile >> CD4_ChIP_seq_H3K4me1_Amit_mm10_GSM1441297_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/B_ChIP_seq_H3K4me1_Amit_mm10_GSM1441296.bam -n B_ChIP_seq_H3K4me1_Amit_mm10_GSM1441296_macs --bw 208 -f BAM -g mm -p 1e-7 -w --single-profile >> B_ChIP_seq_H3K4me1_Amit_mm10_GSM1441296_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/MF_ChIP_seq_H3K4me1_Amit_mm10_GSM1441295.bam -n MF_ChIP_seq_H3K4me1_Amit_mm10_GSM1441295_macs --bw 169 -f BAM -g mm -p 1e-7 -w --single-profile >> MF_ChIP_seq_H3K4me1_Amit_mm10_GSM1441295_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/Mono_ChIP_seq_H3K4me1_Amit_mm10_GSM1441294.bam -n Mono_ChIP_seq_H3K4me1_Amit_mm10_GSM1441294_macs --bw 169 -f BAM -g mm -p 1e-7 -w --single-profile >> Mono_ChIP_seq_H3K4me1_Amit_mm10_GSM1441294_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/GN_ChIP_seq_H3K4me1_Amit_mm10_GSM1441293.bam -n GN_ChIP_seq_H3K4me1_Amit_mm10_GSM1441293_macs --bw 163 -f BAM -g mm -p 1e-7 -w --single-profile >> GN_ChIP_seq_H3K4me1_Amit_mm10_GSM1441293_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/EryB_ChIP_seq_H3K4me1_Amit_mm10_GSM1441292.bam -n EryB_ChIP_seq_H3K4me1_Amit_mm10_GSM1441292_macs --bw 197 -f BAM -g mm -p 1e-7 -w --single-profile >> EryB_ChIP_seq_H3K4me1_Amit_mm10_GSM1441292_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/EryA_ChIP_seq_H3K4me1_Amit_mm10_GSM1441291.bam -n EryA_ChIP_seq_H3K4me1_Amit_mm10_GSM1441291_macs --bw 160 -f BAM -g mm -p 1e-7 -w --single-profile >> EryA_ChIP_seq_H3K4me1_Amit_mm10_GSM1441291_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/MEP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441290.bam -n MEP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441290_macs --bw 230 -f BAM -g mm -p 1e-7 -w --single-profile >> MEP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441290_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/GMP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441289.bam -n GMP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441289_macs --bw 224 -f BAM -g mm -p 1e-7 -w --single-profile >> GMP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441289_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/CMP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441288.bam -n CMP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441288_macs --bw 204 -f BAM -g mm -p 1e-7 -w --single-profile >> CMP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441288_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/MPP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441287.bam -n MPP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441287_macs --bw 218 -f BAM -g mm -p 1e-7 -w --single-profile >> MPP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441287_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/STHSC_ChIP_seq_H3K4me1_Amit_mm10_GSM1441286.bam -n STHSC_ChIP_seq_H3K4me1_Amit_mm10_GSM1441286_macs --bw 208 -f BAM -g mm -p 1e-7 -w --single-profile >> STHSC_ChIP_seq_H3K4me1_Amit_mm10_GSM1441286_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/LTHSC_ChIP_seq_H3K4me1_Amit_mm10_GSM1441285.bam -n LTHSC_ChIP_seq_H3K4me1_Amit_mm10_GSM1441285_macs --bw 148 -f BAM -g mm -p 1e-7 -w --single-profile >> LTHSC_ChIP_seq_H3K4me1_Amit_mm10_GSM1441285_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/CLP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441284.bam -n CLP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441284_macs --bw 196 -f BAM -g mm -p 1e-7 -w --single-profile >> CLP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441284_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/NK_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441283.bam -n NK_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441283_macs --bw 202 -f BAM -g mm -p 1e-7 -w --single-profile >> NK_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441283_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/CD8_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441282.bam -n CD8_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441282_macs --bw 150 -f BAM -g mm -p 1e-7 -w --single-profile >> CD8_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441282_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/CD4_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441281.bam -n CD4_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441281_macs --bw 170 -f BAM -g mm -p 1e-7 -w --single-profile >> CD4_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441281_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/B_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441280.bam -n B_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441280_macs --bw 161 -f BAM -g mm -p 1e-7 -w --single-profile >> B_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441280_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/MF_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441279.bam -n MF_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441279_macs --bw 185 -f BAM -g mm -p 1e-7 -w --single-profile >> MF_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441279_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/Mono_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441278.bam -n Mono_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441278_macs --bw 178 -f BAM -g mm -p 1e-7 -w --single-profile >> Mono_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441278_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/GN_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441277.bam -n GN_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441277_macs --bw 179 -f BAM -g mm -p 1e-7 -w --single-profile >> GN_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441277_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/EryB_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441276.bam -n EryB_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441276_macs --bw 226 -f BAM -g mm -p 1e-7 -w --single-profile >> EryB_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441276_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/EryA_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441275.bam -n EryA_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441275_macs --bw 184 -f BAM -g mm -p 1e-7 -w --single-profile >> EryA_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441275_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/MEP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441274.bam -n MEP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441274_macs --bw 65 -f BAM -g mm -p 1e-7 -w --single-profile >> MEP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441274_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/GMP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441273.bam -n GMP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441273_macs --bw 220 -f BAM -g mm -p 1e-7 -w --single-profile >> GMP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441273_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/CMP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441272.bam -n CMP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441272_macs --bw 190 -f BAM -g mm -p 1e-7 -w --single-profile >> CMP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441272_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/MPP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441271.bam -n MPP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441271_macs --bw 215 -f BAM -g mm -p 1e-7 -w --single-profile >> MPP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441271_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/STHSC_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441270.bam -n STHSC_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441270_macs --bw 223 -f BAM -g mm -p 1e-7 -w --single-profile >> STHSC_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441270_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/LTHSC_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441269.bam -n LTHSC_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441269_macs --bw 181 -f BAM -g mm -p 1e-7 -w --single-profile >> LTHSC_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441269_macs.log 2>&1
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=B_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441280_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=B_ChIP_seq_H3K4me1_Amit_mm10_GSM1441296_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=B_ChIP_seq_H3K4me2_Amit_mm10_GSM1441312_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=B_ChIP_seq_H3K4me3_Amit_mm10_GSM1441328_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=CD4_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441281_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=CD4_ChIP_seq_H3K4me1_Amit_mm10_GSM1441297_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=CD4_ChIP_seq_H3K4me2_Amit_mm10_GSM1441315_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=CD4_ChIP_seq_H3K4me3_Amit_mm10_GSM1441329_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=CD8_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441282_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=CD8_ChIP_seq_H3K4me1_Amit_mm10_GSM1441298_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=CD8_ChIP_seq_H3K4me2_Amit_mm10_GSM1441316_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=CD8_ChIP_seq_H3K4me3_Amit_mm10_GSM1441330_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=CLP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441284_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=CLP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441300_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=CLP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441314_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=CLP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441332_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=CMP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441272_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=CMP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441288_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=CMP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441304_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=CMP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441320_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=EryA_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441275_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=EryA_ChIP_seq_H3K4me1_Amit_mm10_GSM1441291_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=EryA_ChIP_seq_H3K4me2_Amit_mm10_GSM1441307_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=EryA_ChIP_seq_H3K4me3_Amit_mm10_GSM1441323_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=EryB_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441276_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=EryB_ChIP_seq_H3K4me1_Amit_mm10_GSM1441292_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=EryB_ChIP_seq_H3K4me2_Amit_mm10_GSM1441308_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=EryB_ChIP_seq_H3K4me3_Amit_mm10_GSM1441324_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=GMP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441273_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=GMP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441289_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=GMP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441305_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=GMP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441321_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=GN_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441277_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=GN_ChIP_seq_H3K4me1_Amit_mm10_GSM1441293_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=GN_ChIP_seq_H3K4me2_Amit_mm10_GSM1441309_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=GN_ChIP_seq_H3K4me3_Amit_mm10_GSM1441325_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=LTHSC_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441269_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=LTHSC_ChIP_seq_H3K4me1_Amit_mm10_GSM1441285_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=LTHSC_ChIP_seq_H3K4me2_Amit_mm10_GSM1441301_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=LTHSC_ChIP_seq_H3K4me3_Amit_mm10_GSM1441317_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=MEP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441274_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=MEP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441290_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=MEP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441306_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=MEP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441322_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=MF_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441279_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=MF_ChIP_seq_H3K4me1_Amit_mm10_GSM1441295_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=MF_ChIP_seq_H3K4me2_Amit_mm10_GSM1441311_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=MF_ChIP_seq_H3K4me3_Amit_mm10_GSM1441327_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=Mono_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441278_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=Mono_ChIP_seq_H3K4me1_Amit_mm10_GSM1441294_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=Mono_ChIP_seq_H3K4me2_Amit_mm10_GSM1441310_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=Mono_ChIP_seq_H3K4me3_Amit_mm10_GSM1441326_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=MPP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441271_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=MPP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441287_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=MPP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441303_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=MPP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441319_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=NK_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441283_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=NK_ChIP_seq_H3K4me1_Amit_mm10_GSM1441299_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=NK_ChIP_seq_H3K4me2_Amit_mm10_GSM1441313_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=NK_ChIP_seq_H3K4me3_Amit_mm10_GSM1441331_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=STHSC_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441270_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=STHSC_ChIP_seq_H3K4me1_Amit_mm10_GSM1441286_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=STHSC_ChIP_seq_H3K4me2_Amit_mm10_GSM1441302_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=STHSC_ChIP_seq_H3K4me3_Amit_mm10_GSM1441318_macs_model.r'
+
+null device 
+          1 
+CD4_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441281 170
+/mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/CD4_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441281.bam
+CD4_ChIP_seq_H3K4me1_Amit_mm10_GSM1441297 175
+/mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/CD4_ChIP_seq_H3K4me1_Amit_mm10_GSM1441297.bam
+CD8_ChIP_seq_H3K4me1_Amit_mm10_GSM1441298 165
+/mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/CD8_ChIP_seq_H3K4me1_Amit_mm10_GSM1441298.bam
+CMP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441288 204
+/mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/CMP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441288.bam
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/CD4_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441281.bam -n CD4_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441281_macs --bw 170 -f BAM -g mm -p 1e-7 -m 5,30 -w --single-profile >> .log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/CD4_ChIP_seq_H3K4me1_Amit_mm10_GSM1441297.bam -n CD4_ChIP_seq_H3K4me1_Amit_mm10_GSM1441297_macs --bw 175 -f BAM -g mm -p 1e-7 -m 5,30 -w --single-profile >> .log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/CD8_ChIP_seq_H3K4me1_Amit_mm10_GSM1441298.bam -n CD8_ChIP_seq_H3K4me1_Amit_mm10_GSM1441298_macs --bw 165 -f BAM -g mm -p 1e-7 -m 5,30 -w --single-profile >> .log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/CMP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441288.bam -n CMP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441288_macs --bw 204 -f BAM -g mm -p 1e-7 -m 5,30 -w --single-profile >> .log 2>&1
+wigToBigWig -clip CD4_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441281_macs_MACS_wiggle/treat/CD4_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441281_macs_treat_afterfiting_all.wig.gz /mnt/data1/VahediLab/PTF_Team/Data/mm10.chrom.sizes CD4_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441281_macs_afterfiting_all.bw
+wigToBigWig -clip CD4_ChIP_seq_H3K4me1_Amit_mm10_GSM1441297_macs_MACS_wiggle/treat/CD4_ChIP_seq_H3K4me1_Amit_mm10_GSM1441297_macs_treat_afterfiting_all.wig.gz /mnt/data1/VahediLab/PTF_Team/Data/mm10.chrom.sizes CD4_ChIP_seq_H3K4me1_Amit_mm10_GSM1441297_macs_afterfiting_all.bw
+wigToBigWig -clip CD8_ChIP_seq_H3K4me1_Amit_mm10_GSM1441298_macs_MACS_wiggle/treat/CD8_ChIP_seq_H3K4me1_Amit_mm10_GSM1441298_macs_treat_afterfiting_all.wig.gz /mnt/data1/VahediLab/PTF_Team/Data/mm10.chrom.sizes CD8_ChIP_seq_H3K4me1_Amit_mm10_GSM1441298_macs_afterfiting_all.bw
+wigToBigWig -clip CMP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441288_macs_MACS_wiggle/treat/CMP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441288_macs_treat_afterfiting_all.wig.gz /mnt/data1/VahediLab/PTF_Team/Data/mm10.chrom.sizes CMP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441288_macs_afterfiting_all.bw
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=B_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441280_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=B_ChIP_seq_H3K4me1_Amit_mm10_GSM1441296_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=B_ChIP_seq_H3K4me2_Amit_mm10_GSM1441312_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=B_ChIP_seq_H3K4me3_Amit_mm10_GSM1441328_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=CD4_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441281_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=CD4_ChIP_seq_H3K4me1_Amit_mm10_GSM1441297_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=CD4_ChIP_seq_H3K4me2_Amit_mm10_GSM1441315_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=CD4_ChIP_seq_H3K4me3_Amit_mm10_GSM1441329_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=CD8_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441282_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=CD8_ChIP_seq_H3K4me1_Amit_mm10_GSM1441298_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=CD8_ChIP_seq_H3K4me2_Amit_mm10_GSM1441316_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=CD8_ChIP_seq_H3K4me3_Amit_mm10_GSM1441330_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=CLP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441284_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=CLP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441300_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=CLP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441314_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=CLP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441332_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=CMP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441272_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=CMP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441288_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=CMP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441304_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=CMP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441320_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=EryA_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441275_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=EryA_ChIP_seq_H3K4me1_Amit_mm10_GSM1441291_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=EryA_ChIP_seq_H3K4me2_Amit_mm10_GSM1441307_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=EryA_ChIP_seq_H3K4me3_Amit_mm10_GSM1441323_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=EryB_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441276_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=EryB_ChIP_seq_H3K4me1_Amit_mm10_GSM1441292_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=EryB_ChIP_seq_H3K4me2_Amit_mm10_GSM1441308_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=EryB_ChIP_seq_H3K4me3_Amit_mm10_GSM1441324_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=GMP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441273_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=GMP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441289_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=GMP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441305_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=GMP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441321_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=GN_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441277_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=GN_ChIP_seq_H3K4me1_Amit_mm10_GSM1441293_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=GN_ChIP_seq_H3K4me2_Amit_mm10_GSM1441309_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=GN_ChIP_seq_H3K4me3_Amit_mm10_GSM1441325_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=LTHSC_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441269_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=LTHSC_ChIP_seq_H3K4me1_Amit_mm10_GSM1441285_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=LTHSC_ChIP_seq_H3K4me2_Amit_mm10_GSM1441301_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=LTHSC_ChIP_seq_H3K4me3_Amit_mm10_GSM1441317_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=MEP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441274_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=MEP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441290_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=MEP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441306_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=MEP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441322_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=MF_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441279_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=MF_ChIP_seq_H3K4me1_Amit_mm10_GSM1441295_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=MF_ChIP_seq_H3K4me2_Amit_mm10_GSM1441311_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=MF_ChIP_seq_H3K4me3_Amit_mm10_GSM1441327_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=Mono_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441278_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=Mono_ChIP_seq_H3K4me1_Amit_mm10_GSM1441294_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=Mono_ChIP_seq_H3K4me2_Amit_mm10_GSM1441310_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=Mono_ChIP_seq_H3K4me3_Amit_mm10_GSM1441326_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=MPP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441271_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=MPP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441287_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=MPP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441303_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=MPP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441319_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=NK_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441283_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=NK_ChIP_seq_H3K4me1_Amit_mm10_GSM1441299_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=NK_ChIP_seq_H3K4me2_Amit_mm10_GSM1441313_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=NK_ChIP_seq_H3K4me3_Amit_mm10_GSM1441331_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=STHSC_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441270_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=STHSC_ChIP_seq_H3K4me1_Amit_mm10_GSM1441286_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=STHSC_ChIP_seq_H3K4me2_Amit_mm10_GSM1441302_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=STHSC_ChIP_seq_H3K4me3_Amit_mm10_GSM1441318_macs_model.r'
+
+null device 
+          1 

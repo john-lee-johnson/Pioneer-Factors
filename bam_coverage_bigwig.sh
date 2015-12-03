@@ -5,7 +5,7 @@
 ##---------------------NORMALIZE BIG WIG FILES FROM BAM-----------------------------------
 #Produces normalized bigwig files from the aligned bam file
 lines=$(wc -l $infodir/sample_files_amit.txt | cut -d' ' -f1)
-for ((i=1; i<$lines; i++)); do
+for ((i=1; i<=$lines; i++)); do
 line=$(sed -n "${i}p" < $infodir/sample_files_amit.txt)
 gsm=$(echo $line | cut -d':' -f1 | xargs)
 seq=$(echo $line | cut -d':' -f2 | cut -d';' -f3 | xargs)

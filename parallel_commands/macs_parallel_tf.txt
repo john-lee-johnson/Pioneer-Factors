@@ -1,3 +1,1 @@
-/mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/Thy_Tcf1_Dose_mm10_GSM1133644.bam Thy_Tcf1_Dose_mm10_GSM1133644_macs /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/Thy_Input_Dose_mm10_GSM1133645.bam
-/mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/ThyDP_PU.1_Rothenberg_mm10_GSM774294.bam ThyDP_PU.1_Rothenberg_mm10_GSM774294_macs /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/ThyDP_Input_Rothenberg_mm10_GSM774302.bam
-/mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/ThyDP_GATA3_Rothenberg_mm10_GSM774297.bam ThyDP_GATA3_Rothenberg_mm10_GSM774297_macs /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/ThyDP_Input_Rothenberg_mm10_GSM774302.bam
+/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/Transcription_Factor/Thy/Tcf1/Thy_ChIP_seq_Tcf1_Dose_mm10_GSM1133644.bam Thy_ChIP_seq_Tcf1_Dose_mm10_GSM1133644_macs /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/Transcription_Factor/Thy/Input/Thy_ChIP_seq_Input_Dose_mm10_GSM1133645.bam 123

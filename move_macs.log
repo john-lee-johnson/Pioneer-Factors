@@ -1,0 +1,1955 @@
+SRR1536429
+SRR1536427
+SRR1536428
+SRR1536423
+SRR1536424
+SRR1536425
+SRR1536426
+SRR1536421
+SRR1536422
+SRR1536417
+SRR1536418
+SRR1536419
+SRR1536420
+SRR1536413
+SRR1536414
+SRR1536415
+SRR1536416
+SRR1536411
+SRR1536412
+SRR1536407
+SRR1536408
+SRR1536409
+SRR1536410
+SRR1536401
+SRR1536402
+SRR1536403
+SRR1536404
+SRR1536405
+SRR1536406
+SRR1536397
+SRR1536398
+SRR1536399
+SRR1536400
+SRR1536393
+SRR1536394
+SRR1536395
+SRR1536396
+SRR1536389
+SRR1536390
+SRR1536391
+SRR1536392
+SRR1536385
+SRR1536386
+SRR1536387
+SRR1536388
+SRR1536383
+SRR1536384
+SRR1536379
+SRR1536380
+SRR1536381
+SRR1536382
+SRR1536378
+`makeTagDirectory GN_ChIP_seq_H3K4me3_Amit_mm10_GSM1441325  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/GN/H3K4me3/GN_ChIP_seq_H3K4me3_Amit_mm10_GSM1441325.bam"`
+`makeTagDirectory MF_ChIP_seq_H3K4me2_Amit_mm10_GSM1441311  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/MF/H3K4me2/MF_ChIP_seq_H3K4me2_Amit_mm10_GSM1441311.bam"`
+`makeTagDirectory B_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441280  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/B/H3K27Ac/B_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441280.bam"`
+`makeTagDirectory EryA_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441275  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EryA/H3K27Ac/EryA_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441275.bam"`
+`makeTagDirectory NK_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441283  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/NK/H3K27Ac/NK_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441283.bam"`
+`makeTagDirectory CD8_ChIP_seq_H3K4me2_Amit_mm10_GSM1441316  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CD8/H3K4me2/CD8_ChIP_seq_H3K4me2_Amit_mm10_GSM1441316.bam"`
+`makeTagDirectory GN_ChIP_seq_H3K4me1_Amit_mm10_GSM1441293  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/GN/H3K4me1/GN_ChIP_seq_H3K4me1_Amit_mm10_GSM1441293.bam"`
+`makeTagDirectory NK_ChIP_seq_H3K4me3_Amit_mm10_GSM1441331  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/NK/H3K4me3/NK_ChIP_seq_H3K4me3_Amit_mm10_GSM1441331.bam"`
+`makeTagDirectory CLP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441332  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CLP/H3K4me3/CLP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441332.bam"`
+`makeTagDirectory STHSC_ChIP_seq_H3K4me1_Amit_mm10_GSM1441286  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/STHSC/H3K4me1/STHSC_ChIP_seq_H3K4me1_Amit_mm10_GSM1441286.bam"`
+`makeTagDirectory STHSC_ChIP_seq_H3K4me3_Amit_mm10_GSM1441318  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/STHSC/H3K4me3/STHSC_ChIP_seq_H3K4me3_Amit_mm10_GSM1441318.bam"`
+`makeTagDirectory LTHSC_ChIP_seq_H3K4me2_Amit_mm10_GSM1441301  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/LTHSC/H3K4me2/LTHSC_ChIP_seq_H3K4me2_Amit_mm10_GSM1441301.bam"`
+`makeTagDirectory EryB_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441276  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EryB/H3K27Ac/EryB_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441276.bam"`
+`makeTagDirectory CMP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441288  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CMP/H3K4me1/CMP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441288.bam"`
+`makeTagDirectory MPP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441287  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/MPP/H3K4me1/MPP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441287.bam"`
+`makeTagDirectory B_ChIP_seq_H3K4me3_Amit_mm10_GSM1441328  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/B/H3K4me3/B_ChIP_seq_H3K4me3_Amit_mm10_GSM1441328.bam"`
+`makeTagDirectory GMP_ATAC_seq_Amit_mm10_GSM1463173  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/GMP/GMP_ATAC_seq_Amit_mm10_GSM1463173.bam"`
+`makeTagDirectory NK_ATAC_seq_Amit_mm10_GSM1463177  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/NK/NK_ATAC_seq_Amit_mm10_GSM1463177.bam"`
+`makeTagDirectory NK_ChIP_seq_H3K4me1_Amit_mm10_GSM1441299  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/NK/H3K4me1/NK_ChIP_seq_H3K4me1_Amit_mm10_GSM1441299.bam"`
+`makeTagDirectory LTHSC_ChIP_seq_H3K4me1_Amit_mm10_GSM1441285  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/LTHSC/H3K4me1/LTHSC_ChIP_seq_H3K4me1_Amit_mm10_GSM1441285.bam"`
+`makeTagDirectory EryA_ChIP_seq_H3K4me2_Amit_mm10_GSM1441307  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EryA/H3K4me2/EryA_ChIP_seq_H3K4me2_Amit_mm10_GSM1441307.bam"`
+`makeTagDirectory EryB_ChIP_seq_H3K4me3_Amit_mm10_GSM1441324  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EryB/H3K4me3/EryB_ChIP_seq_H3K4me3_Amit_mm10_GSM1441324.bam"`
+`makeTagDirectory Mono_ChIP_seq_H3K4me3_Amit_mm10_GSM1441326  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/Mono/H3K4me3/Mono_ChIP_seq_H3K4me3_Amit_mm10_GSM1441326.bam"`
+`makeTagDirectory Mono_ATAC_seq_Amit_mm10_GSM1463174  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Mono/Mono_ATAC_seq_Amit_mm10_GSM1463174.bam"`
+`makeTagDirectory CD8_ATAC_seq_Amit_mm10_GSM1463178  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/CD8/CD8_ATAC_seq_Amit_mm10_GSM1463178.bam"`
+`makeTagDirectory CD4_ChIP_seq_H3K4me1_Amit_mm10_GSM1441297  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CD4/H3K4me1/CD4_ChIP_seq_H3K4me1_Amit_mm10_GSM1441297.bam"`
+`makeTagDirectory MEP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441306  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/MEP/H3K4me2/MEP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441306.bam"`
+`makeTagDirectory STHSC_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441270  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/STHSC/H3K27Ac/STHSC_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441270.bam"`
+`makeTagDirectory CD4_ChIP_seq_H3K4me3_Amit_mm10_GSM1441329  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CD4/H3K4me3/CD4_ChIP_seq_H3K4me3_Amit_mm10_GSM1441329.bam"`
+`makeTagDirectory Mono_ChIP_seq_H3K4me2_Amit_mm10_GSM1441310  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/Mono/H3K4me2/Mono_ChIP_seq_H3K4me2_Amit_mm10_GSM1441310.bam"`
+`makeTagDirectory CLP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441284  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CLP/H3K27Ac/CLP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441284.bam"`
+`makeTagDirectory Mono_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441278  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/Mono/H3K27Ac/Mono_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441278.bam"`
+`makeTagDirectory MPP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441319  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/MPP/H3K4me3/MPP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441319.bam"`
+`makeTagDirectory EryA_ChIP_seq_H3K4me3_Amit_mm10_GSM1441323  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EryA/H3K4me3/EryA_ChIP_seq_H3K4me3_Amit_mm10_GSM1441323.bam"`
+`makeTagDirectory MEP_ATAC_seq_Amit_mm10_GSM1463181  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/MEP/MEP_ATAC_seq_Amit_mm10_GSM1463181.bam"`
+`makeTagDirectory CMP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441320  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CMP/H3K4me3/CMP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441320.bam"`
+`makeTagDirectory EryB_ChIP_seq_H3K4me2_Amit_mm10_GSM1441308  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EryB/H3K4me2/EryB_ChIP_seq_H3K4me2_Amit_mm10_GSM1441308.bam"`
+`makeTagDirectory MF_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441279  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/MF/H3K27Ac/MF_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441279.bam"`
+`makeTagDirectory GMP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441273  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/GMP/H3K27Ac/GMP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441273.bam"`
+`makeTagDirectory B_ChIP_seq_H3K4me2_Amit_mm10_GSM1441312  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/B/H3K4me2/B_ChIP_seq_H3K4me2_Amit_mm10_GSM1441312.bam"`
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/NK/H3K27Ac/NK_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441283.bam
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/MF/H3K27Ac/MF_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441279.bam
+
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/GMP/H3K27Ac/GMP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441273.bam
+
+
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Mono/Mono_ATAC_seq_Amit_mm10_GSM1463174.bam
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CLP/H3K27Ac/CLP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441284.bam
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CMP/H3K4me1/CMP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441288.bam
+
+
+
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/NK/NK_ATAC_seq_Amit_mm10_GSM1463177.bam
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/STHSC/H3K4me1/STHSC_ChIP_seq_H3K4me1_Amit_mm10_GSM1441286.bam
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/B/H3K4me2/B_ChIP_seq_H3K4me2_Amit_mm10_GSM1441312.bam
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/MPP/H3K4me3/MPP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441319.bam
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/Mono/H3K27Ac/Mono_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441278.bam
+
+
+
+
+
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CMP/H3K4me3/CMP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441320.bam
+
+	Creating directory: MF_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441279 and removing existing *.tags.tsv
+	Creating directory: GMP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441273 and removing existing *.tags.tsv
+	Creating directory: CMP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441288 and removing existing *.tags.tsv
+	Creating directory: Mono_ATAC_seq_Amit_mm10_GSM1463174 and removing existing *.tags.tsv
+	Creating directory: CLP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441284 and removing existing *.tags.tsv
+	Creating directory: STHSC_ChIP_seq_H3K4me1_Amit_mm10_GSM1441286 and removing existing *.tags.tsv
+	Creating directory: NK_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441283 and removing existing *.tags.tsv
+	Creating directory: Mono_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441278 and removing existing *.tags.tsv
+	Creating directory: B_ChIP_seq_H3K4me2_Amit_mm10_GSM1441312 and removing existing *.tags.tsv
+	Creating directory: MPP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441319 and removing existing *.tags.tsv
+	Creating directory: NK_ATAC_seq_Amit_mm10_GSM1463177 and removing existing *.tags.tsv
+	Creating directory: CMP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441320 and removing existing *.tags.tsv
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/Mono/H3K4me3/Mono_ChIP_seq_H3K4me3_Amit_mm10_GSM1441326.bam
+
+	Creating directory: Mono_ChIP_seq_H3K4me3_Amit_mm10_GSM1441326 and removing existing *.tags.tsv
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/STHSC/H3K27Ac/STHSC_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441270.bam
+
+	Creating directory: STHSC_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441270 and removing existing *.tags.tsv
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/B/H3K4me3/B_ChIP_seq_H3K4me3_Amit_mm10_GSM1441328.bam
+
+	Creating directory: B_ChIP_seq_H3K4me3_Amit_mm10_GSM1441328 and removing existing *.tags.tsv
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CD4/H3K4me3/CD4_ChIP_seq_H3K4me3_Amit_mm10_GSM1441329.bam
+
+	Creating directory: CD4_ChIP_seq_H3K4me3_Amit_mm10_GSM1441329 and removing existing *.tags.tsv
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EryA/H3K27Ac/EryA_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441275.bam
+
+	Creating directory: EryA_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441275 and removing existing *.tags.tsv
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EryB/H3K27Ac/EryB_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441276.bam
+
+	Creating directory: EryB_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441276 and removing existing *.tags.tsv
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/MEP/MEP_ATAC_seq_Amit_mm10_GSM1463181.bam
+
+	Creating directory: MEP_ATAC_seq_Amit_mm10_GSM1463181 and removing existing *.tags.tsv
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/STHSC/H3K4me3/STHSC_ChIP_seq_H3K4me3_Amit_mm10_GSM1441318.bam
+
+	Creating directory: STHSC_ChIP_seq_H3K4me3_Amit_mm10_GSM1441318 and removing existing *.tags.tsv
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/NK/H3K4me1/NK_ChIP_seq_H3K4me1_Amit_mm10_GSM1441299.bam
+
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/GMP/GMP_ATAC_seq_Amit_mm10_GSM1463173.bam
+
+	Creating directory: NK_ChIP_seq_H3K4me1_Amit_mm10_GSM1441299 and removing existing *.tags.tsv
+	Creating directory: GMP_ATAC_seq_Amit_mm10_GSM1463173 and removing existing *.tags.tsv
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/CD8/CD8_ATAC_seq_Amit_mm10_GSM1463178.bam
+
+	Creating directory: CD8_ATAC_seq_Amit_mm10_GSM1463178 and removing existing *.tags.tsv
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/LTHSC/H3K4me2/LTHSC_ChIP_seq_H3K4me2_Amit_mm10_GSM1441301.bam
+
+	Creating directory: LTHSC_ChIP_seq_H3K4me2_Amit_mm10_GSM1441301 and removing existing *.tags.tsv
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/MEP/H3K4me2/MEP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441306.bam
+
+	Creating directory: MEP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441306 and removing existing *.tags.tsv
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EryA/H3K4me3/EryA_ChIP_seq_H3K4me3_Amit_mm10_GSM1441323.bam
+
+	Creating directory: EryA_ChIP_seq_H3K4me3_Amit_mm10_GSM1441323 and removing existing *.tags.tsv
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/GN/H3K4me1/GN_ChIP_seq_H3K4me1_Amit_mm10_GSM1441293.bam
+
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/MF/H3K4me2/MF_ChIP_seq_H3K4me2_Amit_mm10_GSM1441311.bam
+
+	Creating directory: GN_ChIP_seq_H3K4me1_Amit_mm10_GSM1441293 and removing existing *.tags.tsv
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CLP/H3K4me3/CLP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441332.bam
+
+	Creating directory: MF_ChIP_seq_H3K4me2_Amit_mm10_GSM1441311 and removing existing *.tags.tsv
+	Creating directory: CLP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441332 and removing existing *.tags.tsv
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/B/H3K27Ac/B_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441280.bam
+
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/MPP/H3K4me1/MPP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441287.bam
+
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CD8/H3K4me2/CD8_ChIP_seq_H3K4me2_Amit_mm10_GSM1441316.bam
+
+	Creating directory: B_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441280 and removing existing *.tags.tsv
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/GN/H3K4me3/GN_ChIP_seq_H3K4me3_Amit_mm10_GSM1441325.bam
+
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CD4/H3K4me1/CD4_ChIP_seq_H3K4me1_Amit_mm10_GSM1441297.bam
+
+	Creating directory: MPP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441287 and removing existing *.tags.tsv
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/LTHSC/H3K4me1/LTHSC_ChIP_seq_H3K4me1_Amit_mm10_GSM1441285.bam
+
+	Creating directory: GN_ChIP_seq_H3K4me3_Amit_mm10_GSM1441325 and removing existing *.tags.tsv
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/NK/H3K4me3/NK_ChIP_seq_H3K4me3_Amit_mm10_GSM1441331.bam
+
+	Creating directory: CD8_ChIP_seq_H3K4me2_Amit_mm10_GSM1441316 and removing existing *.tags.tsv
+	Creating directory: CD4_ChIP_seq_H3K4me1_Amit_mm10_GSM1441297 and removing existing *.tags.tsv
+	Creating directory: LTHSC_ChIP_seq_H3K4me1_Amit_mm10_GSM1441285 and removing existing *.tags.tsv
+	Creating directory: NK_ChIP_seq_H3K4me3_Amit_mm10_GSM1441331 and removing existing *.tags.tsv
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EryB/H3K4me2/EryB_ChIP_seq_H3K4me2_Amit_mm10_GSM1441308.bam
+
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EryA/H3K4me2/EryA_ChIP_seq_H3K4me2_Amit_mm10_GSM1441307.bam
+
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EryB/H3K4me3/EryB_ChIP_seq_H3K4me3_Amit_mm10_GSM1441324.bam
+
+	Creating directory: EryB_ChIP_seq_H3K4me2_Amit_mm10_GSM1441308 and removing existing *.tags.tsv
+	Creating directory: EryA_ChIP_seq_H3K4me2_Amit_mm10_GSM1441307 and removing existing *.tags.tsv
+	Creating directory: EryB_ChIP_seq_H3K4me3_Amit_mm10_GSM1441324 and removing existing *.tags.tsv
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/Mono/H3K4me2/Mono_ChIP_seq_H3K4me2_Amit_mm10_GSM1441310.bam
+
+	Creating directory: Mono_ChIP_seq_H3K4me2_Amit_mm10_GSM1441310 and removing existing *.tags.tsv
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EryB/H3K27Ac/EryB_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441276.bam as a bam file
+
+
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/B/H3K4me3/B_ChIP_seq_H3K4me3_Amit_mm10_GSM1441328.bam as a bam file
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EryA/H3K27Ac/EryA_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441275.bam as a bam file
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CD4/H3K4me3/CD4_ChIP_seq_H3K4me3_Amit_mm10_GSM1441329.bam as a bam file
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/NK/H3K4me1/NK_ChIP_seq_H3K4me1_Amit_mm10_GSM1441299.bam as a bam file
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Mono/Mono_ATAC_seq_Amit_mm10_GSM1463174.bam as a bam file
+
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/CD8/CD8_ATAC_seq_Amit_mm10_GSM1463178.bam as a bam file
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/MEP/H3K4me2/MEP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441306.bam as a bam file
+
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/NK/NK_ATAC_seq_Amit_mm10_GSM1463177.bam as a bam file
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/LTHSC/H3K4me2/LTHSC_ChIP_seq_H3K4me2_Amit_mm10_GSM1441301.bam as a bam file
+
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/MF/H3K4me2/MF_ChIP_seq_H3K4me2_Amit_mm10_GSM1441311.bam as a bam file
+
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/STHSC/H3K4me3/STHSC_ChIP_seq_H3K4me3_Amit_mm10_GSM1441318.bam as a bam file
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CMP/H3K4me3/CMP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441320.bam as a bam file
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/GN/H3K4me1/GN_ChIP_seq_H3K4me1_Amit_mm10_GSM1441293.bam as a bam file
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/GMP/GMP_ATAC_seq_Amit_mm10_GSM1463173.bam as a bam file
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/GMP/H3K27Ac/GMP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441273.bam as a bam file
+
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CLP/H3K4me3/CLP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441332.bam as a bam file
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EryA/H3K4me3/EryA_ChIP_seq_H3K4me3_Amit_mm10_GSM1441323.bam as a bam file
+
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/B/H3K27Ac/B_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441280.bam as a bam file
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/MEP/MEP_ATAC_seq_Amit_mm10_GSM1463181.bam as a bam file
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CD4/H3K4me1/CD4_ChIP_seq_H3K4me1_Amit_mm10_GSM1441297.bam as a bam file
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CD8/H3K4me2/CD8_ChIP_seq_H3K4me2_Amit_mm10_GSM1441316.bam as a bam file
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/MPP/H3K4me1/MPP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441287.bam as a bam file
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/STHSC/H3K4me1/STHSC_ChIP_seq_H3K4me1_Amit_mm10_GSM1441286.bam as a bam file
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/LTHSC/H3K4me1/LTHSC_ChIP_seq_H3K4me1_Amit_mm10_GSM1441285.bam as a bam file
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/NK/H3K27Ac/NK_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441283.bam as a bam file
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/NK/H3K4me3/NK_ChIP_seq_H3K4me3_Amit_mm10_GSM1441331.bam as a bam file
+
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/GN/H3K4me3/GN_ChIP_seq_H3K4me3_Amit_mm10_GSM1441325.bam as a bam file
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EryB/H3K4me3/EryB_ChIP_seq_H3K4me3_Amit_mm10_GSM1441324.bam as a bam file
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/MF/H3K27Ac/MF_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441279.bam as a bam file
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CLP/H3K27Ac/CLP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441284.bam as a bam file
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/Mono/H3K4me3/Mono_ChIP_seq_H3K4me3_Amit_mm10_GSM1441326.bam as a bam file
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/MPP/H3K4me3/MPP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441319.bam as a bam file
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/Mono/H3K27Ac/Mono_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441278.bam as a bam file
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CMP/H3K4me1/CMP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441288.bam as a bam file
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/Mono/H3K4me2/Mono_ChIP_seq_H3K4me2_Amit_mm10_GSM1441310.bam as a bam file
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EryB/H3K4me2/EryB_ChIP_seq_H3K4me2_Amit_mm10_GSM1441308.bam as a bam file
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EryA/H3K4me2/EryA_ChIP_seq_H3K4me2_Amit_mm10_GSM1441307.bam as a bam file
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/B/H3K4me2/B_ChIP_seq_H3K4me2_Amit_mm10_GSM1441312.bam as a bam file
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/STHSC/H3K27Ac/STHSC_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441270.bam as a bam file
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EryB/H3K4me3/EryB_ChIP_seq_H3K4me3_Amit_mm10_GSM1441324.bam
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EryA/H3K4me3/EryA_ChIP_seq_H3K4me3_Amit_mm10_GSM1441323.bam
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/NK/H3K4me3/NK_ChIP_seq_H3K4me3_Amit_mm10_GSM1441331.bam
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Mono/Mono_ATAC_seq_Amit_mm10_GSM1463174.bam
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/CD8/CD8_ATAC_seq_Amit_mm10_GSM1463178.bam
+
+	Optimizing tag files...
+
+	Optimizing tag files...
+
+	Optimizing tag files...
+	Estimated genome size = 2722391193
+	Estimated average read density = 0.000623 per bp
+	Total Tags = 1695015.0
+	Total Positions = 1695007
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EryB/H3K4me2/EryB_ChIP_seq_H3K4me2_Amit_mm10_GSM1441308.bam
+	Average tag length = 59.8
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.000
+	Estimated genome size = 2722352694
+	Estimated average read density = 0.000680 per bp
+	Total Tags = 1851074.0
+	Total Positions = 1851066
+	Estimated genome size = 2722327919
+	Estimated average read density = 0.000717 per bp
+	Total Tags = 1951383.0
+	Total Positions = 1938312
+	Fragment Length Estimate: 232
+	Peak Width Estimate: 271
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 1.9
+		Diff strand fold enrichment: 1.9
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+`makeTagDirectory MF_ChIP_seq_H3K4me3_Amit_mm10_GSM1441327  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/MF/H3K4me3/MF_ChIP_seq_H3K4me3_Amit_mm10_GSM1441327.bam"`
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/MF/H3K4me3/MF_ChIP_seq_H3K4me3_Amit_mm10_GSM1441327.bam
+
+	Creating directory: MF_ChIP_seq_H3K4me3_Amit_mm10_GSM1441327 and removing existing *.tags.tsv
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/MF/H3K4me3/MF_ChIP_seq_H3K4me3_Amit_mm10_GSM1441327.bam as a bam file
+	Average tag length = 59.8
+	Average tag length = 59.8
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.000
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.007
+	Fragment Length Estimate: 207
+	Peak Width Estimate: 219
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 1.9
+		Diff strand fold enrichment: 2.0
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+`makeTagDirectory GN_ATAC_seq_Amit_mm10_GSM1463176  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/GN/GN_ATAC_seq_Amit_mm10_GSM1463176.bam"`
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/GN/GN_ATAC_seq_Amit_mm10_GSM1463176.bam
+
+	Creating directory: GN_ATAC_seq_Amit_mm10_GSM1463176 and removing existing *.tags.tsv
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/GN/GN_ATAC_seq_Amit_mm10_GSM1463176.bam as a bam file
+	Fragment Length Estimate: 224
+	Peak Width Estimate: 324
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 2.2
+		Diff strand fold enrichment: 2.2
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+`makeTagDirectory CMP_ATAC_seq_Amit_mm10_GSM1463180  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/CMP/CMP_ATAC_seq_Amit_mm10_GSM1463180.bam"`
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/CMP/CMP_ATAC_seq_Amit_mm10_GSM1463180.bam
+
+	Creating directory: CMP_ATAC_seq_Amit_mm10_GSM1463180 and removing existing *.tags.tsv
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/CMP/CMP_ATAC_seq_Amit_mm10_GSM1463180.bam as a bam file
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/MPP/H3K4me3/MPP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441319.bam
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/LTHSC/H3K4me2/LTHSC_ChIP_seq_H3K4me2_Amit_mm10_GSM1441301.bam
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EryA/H3K4me2/EryA_ChIP_seq_H3K4me2_Amit_mm10_GSM1441307.bam
+
+	Optimizing tag files...
+
+	Optimizing tag files...
+
+	Optimizing tag files...
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/NK/H3K27Ac/NK_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441283.bam
+	Estimated genome size = 2722321238
+	Estimated average read density = 0.000578 per bp
+	Total Tags = 1572970.0
+	Total Positions = 1572964
+	Average tag length = 59.8
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.000
+	Fragment Length Estimate: 216
+	Peak Width Estimate: 249
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 1.7
+		Diff strand fold enrichment: 1.7
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+`makeTagDirectory B_ATAC_seq_Amit_mm10_GSM1463172  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/B/B_ATAC_seq_Amit_mm10_GSM1463172.bam"`
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/B/B_ATAC_seq_Amit_mm10_GSM1463172.bam
+
+	Creating directory: B_ATAC_seq_Amit_mm10_GSM1463172 and removing existing *.tags.tsv
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/B/B_ATAC_seq_Amit_mm10_GSM1463172.bam as a bam file
+
+	Optimizing tag files...
+	Estimated genome size = 2722444141
+	Estimated average read density = 0.001106 per bp
+	Total Tags = 3011678.0
+	Total Positions = 3011569
+	Estimated genome size = 2722466702
+	Estimated average read density = 0.001565 per bp
+	Total Tags = 4260696.0
+	Total Positions = 4260515
+
+	Optimizing tag files...
+	Average tag length = 55.0
+	Average tag length = 55.2
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.000
+	Estimated genome size = 2722396520
+	Estimated average read density = 0.000678 per bp
+	Total Tags = 1846924.0
+	Total Positions = 1846917
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.000
+	Fragment Length Estimate: 70
+	Peak Width Estimate: 100
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 5.3
+		Diff strand fold enrichment: 5.2
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+`makeTagDirectory CD8_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441282  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CD8/H3K27Ac/CD8_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441282.bam"`
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CD8/H3K27Ac/CD8_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441282.bam
+
+	Creating directory: CD8_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441282 and removing existing *.tags.tsv
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CD8/H3K27Ac/CD8_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441282.bam as a bam file
+	Estimated genome size = 2722413961
+	Estimated average read density = 0.000693 per bp
+	Total Tags = 1886588.0
+	Total Positions = 1886581
+	Average tag length = 59.8
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.000
+
+	Optimizing tag files...
+	Fragment Length Estimate: 60
+	Peak Width Estimate: 52
+		!!! No reliable estimate for peak size
+		Setting Peak width estimate to be equal to fragment length estimate
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 3.6
+		Diff strand fold enrichment: 3.4
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+`makeTagDirectory CMP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441272  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CMP/H3K27Ac/CMP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441272.bam"`
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CMP/H3K27Ac/CMP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441272.bam
+
+	Creating directory: CMP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441272 and removing existing *.tags.tsv
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CMP/H3K27Ac/CMP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441272.bam as a bam file
+	Average tag length = 59.8
+	Fragment Length Estimate: 232
+	Peak Width Estimate: 302
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 2.2
+		Diff strand fold enrichment: 2.3
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+`makeTagDirectory GMP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441321  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/GMP/H3K4me3/GMP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441321.bam"`
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/GMP/H3K4me3/GMP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441321.bam
+
+	Creating directory: GMP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441321 and removing existing *.tags.tsv
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/GMP/H3K4me3/GMP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441321.bam as a bam file
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.000
+
+	Optimizing tag files...
+	Fragment Length Estimate: 213
+	Peak Width Estimate: 231
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 1.7
+		Diff strand fold enrichment: 1.8
+		Same / Diff fold enrichment: 0.9
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+`makeTagDirectory CD4_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441281  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CD4/H3K27Ac/CD4_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441281.bam"`
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CD4/H3K27Ac/CD4_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441281.bam
+
+	Creating directory: CD4_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441281 and removing existing *.tags.tsv
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CD4/H3K27Ac/CD4_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441281.bam as a bam file
+	Estimated genome size = 2722373381
+	Estimated average read density = 0.000797 per bp
+	Total Tags = 2170057.0
+	Total Positions = 2160868
+	Estimated genome size = 2722440762
+	Estimated average read density = 0.001050 per bp
+	Total Tags = 2858907.0
+	Total Positions = 2851184
+	Average tag length = 59.8
+	Average tag length = 59.8
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.004
+	Fragment Length Estimate: 202
+	Peak Width Estimate: 308
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 1.6
+		Diff strand fold enrichment: 1.7
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+`makeTagDirectory MEP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441322  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/MEP/H3K4me3/MEP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441322.bam"`
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/MEP/H3K4me3/MEP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441322.bam
+
+	Creating directory: MEP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441322 and removing existing *.tags.tsv
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/MEP/H3K4me3/MEP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441322.bam as a bam file
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.003
+	Fragment Length Estimate: 177
+	Peak Width Estimate: 165
+		!!! No reliable estimate for peak size
+		Setting Peak width estimate to be equal to fragment length estimate
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 1.8
+		Diff strand fold enrichment: 1.9
+		Same / Diff fold enrichment: 0.9
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+`makeTagDirectory MF_ChIP_seq_H3K4me1_Amit_mm10_GSM1441295  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/MF/H3K4me1/MF_ChIP_seq_H3K4me1_Amit_mm10_GSM1441295.bam"`
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/MF/H3K4me1/MF_ChIP_seq_H3K4me1_Amit_mm10_GSM1441295.bam
+
+	Creating directory: MF_ChIP_seq_H3K4me1_Amit_mm10_GSM1441295 and removing existing *.tags.tsv
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/MF/H3K4me1/MF_ChIP_seq_H3K4me1_Amit_mm10_GSM1441295.bam as a bam file
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EryB/H3K27Ac/EryB_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441276.bam
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/LTHSC/H3K4me1/LTHSC_ChIP_seq_H3K4me1_Amit_mm10_GSM1441285.bam
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CD8/H3K4me2/CD8_ChIP_seq_H3K4me2_Amit_mm10_GSM1441316.bam
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/B/H3K27Ac/B_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441280.bam
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/GMP/H3K27Ac/GMP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441273.bam
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/MEP/H3K4me2/MEP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441306.bam
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EryA/H3K27Ac/EryA_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441275.bam
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/STHSC/H3K27Ac/STHSC_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441270.bam
+
+	Optimizing tag files...
+	Estimated genome size = 2722406241
+	Estimated average read density = 0.001367 per bp
+	Total Tags = 3721310.0
+	Total Positions = 3721299
+	Average tag length = 59.8
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.000
+
+	Optimizing tag files...
+
+	Optimizing tag files...
+	Fragment Length Estimate: 148
+	Peak Width Estimate: 123
+		!!! No reliable estimate for peak size
+		Setting Peak width estimate to be equal to fragment length estimate
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 1.4
+		Diff strand fold enrichment: 1.5
+		Same / Diff fold enrichment: 0.9
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+`makeTagDirectory MEP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441274  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/MEP/H3K27Ac/MEP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441274.bam"`
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/MEP/H3K27Ac/MEP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441274.bam
+
+	Creating directory: MEP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441274 and removing existing *.tags.tsv
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/MEP/H3K27Ac/MEP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441274.bam as a bam file
+
+	Optimizing tag files...
+
+	Optimizing tag files...
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/B/H3K4me3/B_ChIP_seq_H3K4me3_Amit_mm10_GSM1441328.bam
+
+	Optimizing tag files...
+	Estimated genome size = 2722464699
+	Estimated average read density = 0.001713 per bp
+	Total Tags = 4662818.0
+	Total Positions = 4654587
+
+	Optimizing tag files...
+	Estimated genome size = 2722412540
+	Estimated average read density = 0.001776 per bp
+	Total Tags = 4833722.0
+	Total Positions = 4820600
+	Average tag length = 59.9
+	Estimated genome size = 2722453233
+	Estimated average read density = 0.001611 per bp
+	Total Tags = 4387027.0
+	Total Positions = 4358657
+	Average tag length = 59.8
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.002
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.003
+	Fragment Length Estimate: 220
+	Peak Width Estimate: 203
+		!!! No reliable estimate for peak size
+		Setting Peak width estimate to be equal to fragment length estimate
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 1.5
+		Diff strand fold enrichment: 1.7
+		Same / Diff fold enrichment: 0.9
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+`makeTagDirectory STHSC_ChIP_seq_H3K4me2_Amit_mm10_GSM1441302  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/STHSC/H3K4me2/STHSC_ChIP_seq_H3K4me2_Amit_mm10_GSM1441302.bam"`
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/STHSC/H3K4me2/STHSC_ChIP_seq_H3K4me2_Amit_mm10_GSM1441302.bam
+
+	Creating directory: STHSC_ChIP_seq_H3K4me2_Amit_mm10_GSM1441302 and removing existing *.tags.tsv
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/STHSC/H3K4me2/STHSC_ChIP_seq_H3K4me2_Amit_mm10_GSM1441302.bam as a bam file
+	Average tag length = 59.6
+	Fragment Length Estimate: 161
+	Peak Width Estimate: 214
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 1.6
+		Diff strand fold enrichment: 1.6
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+`makeTagDirectory LTHSC_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441269  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/LTHSC/H3K27Ac/LTHSC_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441269.bam"`
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.007
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/LTHSC/H3K27Ac/LTHSC_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441269.bam
+
+	Creating directory: LTHSC_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441269 and removing existing *.tags.tsv
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/LTHSC/H3K27Ac/LTHSC_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441269.bam as a bam file
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/STHSC/H3K4me3/STHSC_ChIP_seq_H3K4me3_Amit_mm10_GSM1441318.bam
+	Estimated genome size = 2722442240
+	Estimated average read density = 0.001596 per bp
+	Total Tags = 4345671.0
+	Total Positions = 4334559
+	Fragment Length Estimate: 64
+	Peak Width Estimate: 238
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 2.0
+		Diff strand fold enrichment: 1.9
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+`makeTagDirectory CMP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441304  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CMP/H3K4me2/CMP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441304.bam"`
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CMP/H3K4me2/CMP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441304.bam
+
+	Creating directory: CMP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441304 and removing existing *.tags.tsv
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CMP/H3K4me2/CMP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441304.bam as a bam file
+	Average tag length = 59.8
+	Estimated genome size = 2722451299
+	Estimated average read density = 0.002757 per bp
+	Total Tags = 7506280.0
+	Total Positions = 7477466
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.003
+	Fragment Length Estimate: 223
+	Peak Width Estimate: 243
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 1.8
+		Diff strand fold enrichment: 1.9
+		Same / Diff fold enrichment: 0.9
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+`makeTagDirectory EryA_ChIP_seq_H3K4me1_Amit_mm10_GSM1441291  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EryA/H3K4me1/EryA_ChIP_seq_H3K4me1_Amit_mm10_GSM1441291.bam"`
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EryA/H3K4me1/EryA_ChIP_seq_H3K4me1_Amit_mm10_GSM1441291.bam
+
+	Creating directory: EryA_ChIP_seq_H3K4me1_Amit_mm10_GSM1441291 and removing existing *.tags.tsv
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EryA/H3K4me1/EryA_ChIP_seq_H3K4me1_Amit_mm10_GSM1441291.bam as a bam file
+	Estimated genome size = 2722454927
+	Estimated average read density = 0.001891 per bp
+	Total Tags = 5148746.0
+	Total Positions = 5138011
+	Average tag length = 59.8
+
+	Optimizing tag files...
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.004
+	Average tag length = 59.8
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.002
+	Fragment Length Estimate: 226
+	Peak Width Estimate: 225
+		!!! No reliable estimate for peak size
+		Setting Peak width estimate to be equal to fragment length estimate
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 1.4
+		Diff strand fold enrichment: 1.4
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - may have low enrichment with lots of background
+
+`makeTagDirectory GN_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441277  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/GN/H3K27Ac/GN_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441277.bam"`
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/GN/H3K27Ac/GN_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441277.bam
+
+	Creating directory: GN_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441277 and removing existing *.tags.tsv
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/GN/H3K27Ac/GN_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441277.bam as a bam file
+	Fragment Length Estimate: 184
+	Peak Width Estimate: 208
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 1.4
+		Diff strand fold enrichment: 1.5
+		Same / Diff fold enrichment: 0.9
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+`makeTagDirectory CLP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441300  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CLP/H3K4me1/CLP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441300.bam"`
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CLP/H3K4me1/CLP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441300.bam
+
+	Creating directory: CLP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441300 and removing existing *.tags.tsv
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CLP/H3K4me1/CLP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441300.bam as a bam file
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/GN/H3K4me3/GN_ChIP_seq_H3K4me3_Amit_mm10_GSM1441325.bam
+
+	Optimizing tag files...
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/NK/H3K4me1/NK_ChIP_seq_H3K4me1_Amit_mm10_GSM1441299.bam
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/NK/NK_ATAC_seq_Amit_mm10_GSM1463177.bam
+	Estimated genome size = 2722412364
+	Estimated average read density = 0.002866 per bp
+	Total Tags = 7802932.0
+	Total Positions = 7753818
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/B/H3K4me2/B_ChIP_seq_H3K4me2_Amit_mm10_GSM1441312.bam
+	Average tag length = 59.8
+
+	Optimizing tag files...
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.006
+	Fragment Length Estimate: 225
+	Peak Width Estimate: 230
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 1.7
+		Diff strand fold enrichment: 1.8
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+`makeTagDirectory MPP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441303  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/MPP/H3K4me2/MPP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441303.bam"`
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/MPP/H3K4me2/MPP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441303.bam
+
+	Creating directory: MPP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441303 and removing existing *.tags.tsv
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/MPP/H3K4me2/MPP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441303.bam as a bam file
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/GMP/GMP_ATAC_seq_Amit_mm10_GSM1463173.bam
+	Estimated genome size = 2722444991
+	Estimated average read density = 0.002298 per bp
+	Total Tags = 6256410.0
+	Total Positions = 6192235
+	Average tag length = 59.8
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.010
+	Estimated genome size = 2722420044
+	Estimated average read density = 0.002090 per bp
+	Total Tags = 5690347.0
+	Total Positions = 5657228
+	Fragment Length Estimate: 203
+	Peak Width Estimate: 223
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 2.3
+		Diff strand fold enrichment: 2.4
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+`makeTagDirectory Lsk_ATAC_seq_Amit_mm10_GSM1463179  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Lsk/Lsk_ATAC_seq_Amit_mm10_GSM1463179.bam"`
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Lsk/Lsk_ATAC_seq_Amit_mm10_GSM1463179.bam
+
+	Creating directory: Lsk_ATAC_seq_Amit_mm10_GSM1463179 and removing existing *.tags.tsv
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Lsk/Lsk_ATAC_seq_Amit_mm10_GSM1463179.bam as a bam file
+	Average tag length = 59.8
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.006
+
+	Optimizing tag files...
+	Fragment Length Estimate: 223
+	Peak Width Estimate: 277
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 2.1
+		Diff strand fold enrichment: 2.1
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+`makeTagDirectory CD8_ChIP_seq_H3K4me1_Amit_mm10_GSM1441298  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CD8/H3K4me1/CD8_ChIP_seq_H3K4me1_Amit_mm10_GSM1441298.bam"`
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CD8/H3K4me1/CD8_ChIP_seq_H3K4me1_Amit_mm10_GSM1441298.bam
+
+	Creating directory: CD8_ChIP_seq_H3K4me1_Amit_mm10_GSM1441298 and removing existing *.tags.tsv
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CD8/H3K4me1/CD8_ChIP_seq_H3K4me1_Amit_mm10_GSM1441298.bam as a bam file
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CLP/H3K4me3/CLP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441332.bam
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/Mono/H3K4me2/Mono_ChIP_seq_H3K4me2_Amit_mm10_GSM1441310.bam
+
+	Optimizing tag files...
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/MEP/H3K27Ac/MEP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441274.bam
+
+	Optimizing tag files...
+	Estimated genome size = 2722424635
+	Estimated average read density = 0.002299 per bp
+	Total Tags = 6258855.0
+	Total Positions = 6187830
+
+	Optimizing tag files...
+	Average tag length = 59.8
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.011
+	Fragment Length Estimate: 217
+	Peak Width Estimate: 244
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 2.4
+		Diff strand fold enrichment: 2.4
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+`makeTagDirectory GMP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441305  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/GMP/H3K4me2/GMP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441305.bam"`
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/GMP/H3K4me2/GMP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441305.bam
+
+	Creating directory: GMP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441305 and removing existing *.tags.tsv
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/GMP/H3K4me2/GMP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441305.bam as a bam file
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CD4/H3K4me3/CD4_ChIP_seq_H3K4me3_Amit_mm10_GSM1441329.bam
+	Estimated genome size = 2722464404
+	Estimated average read density = 0.002728 per bp
+	Total Tags = 7427218.0
+	Total Positions = 7281528
+	Estimated genome size = 2722442462
+	Estimated average read density = 0.002462 per bp
+	Total Tags = 6701953.0
+	Total Positions = 6660181
+
+	Optimizing tag files...
+
+	Optimizing tag files...
+	Estimated genome size = 2722467585
+	Estimated average read density = 0.003598 per bp
+	Total Tags = 9794406.0
+	Total Positions = 9037565
+	Average tag length = 59.8
+	Average tag length = 54.9
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.006
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.020
+	Fragment Length Estimate: 193
+	Peak Width Estimate: 232
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 1.8
+		Diff strand fold enrichment: 1.9
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+`makeTagDirectory LTHSC_ChIP_seq_H3K4me3_Amit_mm10_GSM1441317  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/LTHSC/H3K4me3/LTHSC_ChIP_seq_H3K4me3_Amit_mm10_GSM1441317.bam"`
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/LTHSC/H3K4me3/LTHSC_ChIP_seq_H3K4me3_Amit_mm10_GSM1441317.bam
+
+	Creating directory: LTHSC_ChIP_seq_H3K4me3_Amit_mm10_GSM1441317 and removing existing *.tags.tsv
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/LTHSC/H3K4me3/LTHSC_ChIP_seq_H3K4me3_Amit_mm10_GSM1441317.bam as a bam file
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CD8/H3K27Ac/CD8_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441282.bam
+	Fragment Length Estimate: 60
+	Peak Width Estimate: 85
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 3.2
+		Diff strand fold enrichment: 3.0
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+`makeTagDirectory B_ChIP_seq_H3K4me1_Amit_mm10_GSM1441296  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/B/H3K4me1/B_ChIP_seq_H3K4me1_Amit_mm10_GSM1441296.bam"`
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/B/H3K4me1/B_ChIP_seq_H3K4me1_Amit_mm10_GSM1441296.bam
+
+	Creating directory: B_ChIP_seq_H3K4me1_Amit_mm10_GSM1441296 and removing existing *.tags.tsv
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/B/H3K4me1/B_ChIP_seq_H3K4me1_Amit_mm10_GSM1441296.bam as a bam file
+	Average tag length = 55.5
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.084
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CMP/H3K4me3/CMP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441320.bam
+	Estimated genome size = 2722455249
+	Estimated average read density = 0.001220 per bp
+	Total Tags = 3320539.0
+	Total Positions = 3320522
+	Average tag length = 59.8
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.000
+	Fragment Length Estimate: 69
+	Peak Width Estimate: 82
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 3.9
+		Diff strand fold enrichment: 3.7
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+`makeTagDirectory MPP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441271  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/MPP/H3K27Ac/MPP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441271.bam"`
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/MPP/H3K27Ac/MPP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441271.bam
+
+	Creating directory: MPP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441271 and removing existing *.tags.tsv
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/MPP/H3K27Ac/MPP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441271.bam as a bam file
+	Fragment Length Estimate: 65
+	Peak Width Estimate: 323
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 1.8
+		Diff strand fold enrichment: 1.8
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+`makeTagDirectory MEP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441290  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/MEP/H3K4me1/MEP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441290.bam"`
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/MEP/H3K4me1/MEP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441290.bam
+
+	Creating directory: MEP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441290 and removing existing *.tags.tsv
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/MEP/H3K4me1/MEP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441290.bam as a bam file
+
+	Optimizing tag files...
+
+	Optimizing tag files...
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/MEP/H3K4me3/MEP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441322.bam
+	Estimated genome size = 2722463340
+	Estimated average read density = 0.003903 per bp
+	Total Tags = 10624910.0
+	Total Positions = 10576278
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/LTHSC/H3K27Ac/LTHSC_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441269.bam
+	Average tag length = 59.8
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.005
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/GMP/H3K4me3/GMP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441321.bam
+	Fragment Length Estimate: 205
+	Peak Width Estimate: 220
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 1.3
+		Diff strand fold enrichment: 1.3
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - may have low enrichment with lots of background
+
+`makeTagDirectory GN_ChIP_seq_H3K4me2_Amit_mm10_GSM1441309  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/GN/H3K4me2/GN_ChIP_seq_H3K4me2_Amit_mm10_GSM1441309.bam"`
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/GN/H3K4me2/GN_ChIP_seq_H3K4me2_Amit_mm10_GSM1441309.bam
+
+	Creating directory: GN_ChIP_seq_H3K4me2_Amit_mm10_GSM1441309 and removing existing *.tags.tsv
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/GN/H3K4me2/GN_ChIP_seq_H3K4me2_Amit_mm10_GSM1441309.bam as a bam file
+	Estimated genome size = 2722460332
+	Estimated average read density = 0.003255 per bp
+	Total Tags = 8861792.0
+	Total Positions = 8729974
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/LTHSC/H3K4me3/LTHSC_ChIP_seq_H3K4me3_Amit_mm10_GSM1441317.bam
+	Estimated genome size = 2722419495
+	Estimated average read density = 0.002915 per bp
+	Total Tags = 7935818.0
+	Total Positions = 7884747
+
+	Optimizing tag files...
+	Average tag length = 59.8
+	Average tag length = 59.8
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.015
+
+	Optimizing tag files...
+
+	Optimizing tag files...
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.006
+	Estimated genome size = 2722293362
+	Estimated average read density = 0.000518 per bp
+	Total Tags = 1409752.0
+	Total Positions = 1409745
+	Fragment Length Estimate: 202
+	Peak Width Estimate: 212
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 2.1
+		Diff strand fold enrichment: 2.1
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+`makeTagDirectory NK_ChIP_seq_H3K4me2_Amit_mm10_GSM1441313  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/NK/H3K4me2/NK_ChIP_seq_H3K4me2_Amit_mm10_GSM1441313.bam"`
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/NK/H3K4me2/NK_ChIP_seq_H3K4me2_Amit_mm10_GSM1441313.bam
+
+	Creating directory: NK_ChIP_seq_H3K4me2_Amit_mm10_GSM1441313 and removing existing *.tags.tsv
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/NK/H3K4me2/NK_ChIP_seq_H3K4me2_Amit_mm10_GSM1441313.bam as a bam file
+	Fragment Length Estimate: 181
+	Peak Width Estimate: 177
+		!!! No reliable estimate for peak size
+		Setting Peak width estimate to be equal to fragment length estimate
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 1.7
+		Diff strand fold enrichment: 1.7
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+`makeTagDirectory EryB_ChIP_seq_H3K4me1_Amit_mm10_GSM1441292  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EryB/H3K4me1/EryB_ChIP_seq_H3K4me1_Amit_mm10_GSM1441292.bam"`
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EryB/H3K4me1/EryB_ChIP_seq_H3K4me1_Amit_mm10_GSM1441292.bam
+
+	Creating directory: EryB_ChIP_seq_H3K4me1_Amit_mm10_GSM1441292 and removing existing *.tags.tsv
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EryB/H3K4me1/EryB_ChIP_seq_H3K4me1_Amit_mm10_GSM1441292.bam as a bam file
+	Average tag length = 59.8
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.000
+	Fragment Length Estimate: 176
+	Peak Width Estimate: 179
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 2.2
+		Diff strand fold enrichment: 2.4
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+`makeTagDirectory CD4_ATAC_seq_Amit_mm10_GSM1463175  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/CD4/CD4_ATAC_seq_Amit_mm10_GSM1463175.bam"`
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/CD4/CD4_ATAC_seq_Amit_mm10_GSM1463175.bam
+
+	Creating directory: CD4_ATAC_seq_Amit_mm10_GSM1463175 and removing existing *.tags.tsv
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/CD4/CD4_ATAC_seq_Amit_mm10_GSM1463175.bam as a bam file
+	Estimated genome size = 2722450702
+	Estimated average read density = 0.002313 per bp
+	Total Tags = 6298242.0
+	Total Positions = 6276523
+
+	Optimizing tag files...
+	Average tag length = 59.8
+
+	Optimizing tag files...
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.003
+	Fragment Length Estimate: 150
+	Peak Width Estimate: 159
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 1.4
+		Diff strand fold enrichment: 1.6
+		Same / Diff fold enrichment: 0.9
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+`makeTagDirectory CLP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441314  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CLP/H3K4me2/CLP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441314.bam"`
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CLP/H3K4me2/CLP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441314.bam
+
+	Creating directory: CLP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441314 and removing existing *.tags.tsv
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CLP/H3K4me2/CLP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441314.bam as a bam file
+
+	Optimizing tag files...
+	Estimated genome size = 2722444399
+	Estimated average read density = 0.001696 per bp
+	Total Tags = 4616908.0
+	Total Positions = 4608709
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/MF/H3K4me2/MF_ChIP_seq_H3K4me2_Amit_mm10_GSM1441311.bam
+	Estimated genome size = 2722460476
+	Estimated average read density = 0.003493 per bp
+	Total Tags = 9509118.0
+	Total Positions = 9478111
+	Average tag length = 59.8
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.002
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EryA/H3K4me1/EryA_ChIP_seq_H3K4me1_Amit_mm10_GSM1441291.bam
+	Fragment Length Estimate: 181
+	Peak Width Estimate: 169
+		!!! No reliable estimate for peak size
+		Setting Peak width estimate to be equal to fragment length estimate
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 1.6
+		Diff strand fold enrichment: 1.8
+		Same / Diff fold enrichment: 0.9
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+`makeTagDirectory CD4_ChIP_seq_H3K4me2_Amit_mm10_GSM1441315  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CD4/H3K4me2/CD4_ChIP_seq_H3K4me2_Amit_mm10_GSM1441315.bam"`
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CD4/H3K4me2/CD4_ChIP_seq_H3K4me2_Amit_mm10_GSM1441315.bam
+
+	Creating directory: CD4_ChIP_seq_H3K4me2_Amit_mm10_GSM1441315 and removing existing *.tags.tsv
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CD4/H3K4me2/CD4_ChIP_seq_H3K4me2_Amit_mm10_GSM1441315.bam as a bam file
+	Average tag length = 59.8
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.003
+
+	Optimizing tag files...
+	Fragment Length Estimate: 202
+	Peak Width Estimate: 156
+		!!! No reliable estimate for peak size
+		Setting Peak width estimate to be equal to fragment length estimate
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 1.7
+		Diff strand fold enrichment: 1.8
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+`makeTagDirectory GMP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441289  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/GMP/H3K4me1/GMP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441289.bam"`
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/GMP/H3K4me1/GMP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441289.bam
+
+	Creating directory: GMP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441289 and removing existing *.tags.tsv
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/GMP/H3K4me1/GMP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441289.bam as a bam file
+	Estimated genome size = 2722445744
+	Estimated average read density = 0.002641 per bp
+	Total Tags = 7190524.0
+	Total Positions = 7112420
+	Estimated genome size = 2722438235
+	Estimated average read density = 0.003448 per bp
+	Total Tags = 9386126.0
+	Total Positions = 9231214
+	Average tag length = 59.8
+	Average tag length = 59.8
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.011
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.017
+	Fragment Length Estimate: 211
+	Peak Width Estimate: 233
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 2.3
+		Diff strand fold enrichment: 2.3
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+`makeTagDirectory CD8_ChIP_seq_H3K4me3_Amit_mm10_GSM1441330  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CD8/H3K4me3/CD8_ChIP_seq_H3K4me3_Amit_mm10_GSM1441330.bam"`
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CD8/H3K4me3/CD8_ChIP_seq_H3K4me3_Amit_mm10_GSM1441330.bam
+
+	Creating directory: CD8_ChIP_seq_H3K4me3_Amit_mm10_GSM1441330 and removing existing *.tags.tsv
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CD8/H3K4me3/CD8_ChIP_seq_H3K4me3_Amit_mm10_GSM1441330.bam as a bam file
+	Fragment Length Estimate: 211
+	Peak Width Estimate: 214
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 2.3
+		Diff strand fold enrichment: 2.3
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+`makeTagDirectory Mono_ChIP_seq_H3K4me1_Amit_mm10_GSM1441294  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/Mono/H3K4me1/Mono_ChIP_seq_H3K4me1_Amit_mm10_GSM1441294.bam"`
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/Mono/H3K4me1/Mono_ChIP_seq_H3K4me1_Amit_mm10_GSM1441294.bam
+
+	Creating directory: Mono_ChIP_seq_H3K4me1_Amit_mm10_GSM1441294 and removing existing *.tags.tsv
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/Mono/H3K4me1/Mono_ChIP_seq_H3K4me1_Amit_mm10_GSM1441294.bam as a bam file
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/Mono/H3K4me3/Mono_ChIP_seq_H3K4me3_Amit_mm10_GSM1441326.bam
+	Estimated genome size = 2722460807
+	Estimated average read density = 0.002913 per bp
+	Total Tags = 7931419.0
+	Total Positions = 7823629
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/MPP/H3K27Ac/MPP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441271.bam
+	Average tag length = 59.8
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.014
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CD4/H3K27Ac/CD4_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441281.bam
+	Fragment Length Estimate: 200
+	Peak Width Estimate: 242
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 2.2
+		Diff strand fold enrichment: 2.3
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/NK/H3K4me2/NK_ChIP_seq_H3K4me2_Amit_mm10_GSM1441313.bam
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/MPP/H3K4me1/MPP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441287.bam
+
+	Optimizing tag files...
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CMP/H3K4me2/CMP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441304.bam
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/GN/H3K27Ac/GN_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441277.bam
+
+	Optimizing tag files...
+	Estimated genome size = 2722420654
+	Estimated average read density = 0.002274 per bp
+	Total Tags = 6192087.0
+	Total Positions = 6180047
+	Estimated genome size = 2722342398
+	Estimated average read density = 0.000756 per bp
+	Total Tags = 2057100.0
+	Total Positions = 2048773
+
+	Optimizing tag files...
+	Average tag length = 59.8
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.004
+	Fragment Length Estimate: 237
+	Peak Width Estimate: 303
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 1.9
+		Diff strand fold enrichment: 2.0
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+	Average tag length = 59.8
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.002
+	Fragment Length Estimate: 160
+	Peak Width Estimate: 141
+		!!! No reliable estimate for peak size
+		Setting Peak width estimate to be equal to fragment length estimate
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 1.4
+		Diff strand fold enrichment: 1.4
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - may have low enrichment with lots of background
+
+	Estimated genome size = 2722399768
+	Estimated average read density = 0.001330 per bp
+	Total Tags = 3619828.0
+	Total Positions = 3610524
+	Average tag length = 59.8
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.003
+	Fragment Length Estimate: 215
+	Peak Width Estimate: 266
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 1.9
+		Diff strand fold enrichment: 2.0
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/Mono/H3K27Ac/Mono_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441278.bam
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/MEP/MEP_ATAC_seq_Amit_mm10_GSM1463181.bam
+
+	Optimizing tag files...
+
+	Optimizing tag files...
+
+	Optimizing tag files...
+
+	Optimizing tag files...
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CMP/H3K27Ac/CMP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441272.bam
+
+	Optimizing tag files...
+	Estimated genome size = 2722415219
+	Estimated average read density = 0.002730 per bp
+	Total Tags = 7433211.0
+	Total Positions = 7370657
+	Estimated genome size = 2722422044
+	Estimated average read density = 0.002727 per bp
+	Total Tags = 7422787.0
+	Total Positions = 7401738
+	Average tag length = 59.8
+	Average tag length = 59.8
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/GN/H3K4me1/GN_ChIP_seq_H3K4me1_Amit_mm10_GSM1441293.bam
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.008
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.003
+	Estimated genome size = 2722460122
+	Estimated average read density = 0.004638 per bp
+	Total Tags = 12626278.0
+	Total Positions = 12486822
+	Fragment Length Estimate: 179
+	Peak Width Estimate: 242
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 1.5
+		Diff strand fold enrichment: 1.6
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+	Fragment Length Estimate: 218
+	Peak Width Estimate: 246
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 1.8
+		Diff strand fold enrichment: 1.8
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+	Average tag length = 59.8
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.011
+	Estimated genome size = 2722466431
+	Estimated average read density = 0.003603 per bp
+	Total Tags = 9808285.0
+	Total Positions = 9765980
+	Fragment Length Estimate: 206
+	Peak Width Estimate: 218
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 1.7
+		Diff strand fold enrichment: 1.7
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+	Average tag length = 59.8
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/MEP/H3K4me1/MEP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441290.bam
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.004
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/MF/H3K27Ac/MF_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441279.bam
+
+	Optimizing tag files...
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/CMP/CMP_ATAC_seq_Amit_mm10_GSM1463180.bam
+	Fragment Length Estimate: 170
+	Peak Width Estimate: 145
+		!!! No reliable estimate for peak size
+		Setting Peak width estimate to be equal to fragment length estimate
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 1.3
+		Diff strand fold enrichment: 1.4
+		Same / Diff fold enrichment: 0.9
+
+		Guessing sample is ChIP-Seq - may have low enrichment with lots of background
+
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/MF/H3K4me3/MF_ChIP_seq_H3K4me3_Amit_mm10_GSM1441327.bam
+	Estimated genome size = 2722462698
+	Estimated average read density = 0.004756 per bp
+	Total Tags = 12946767.0
+	Total Positions = 12717669
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CD4/H3K4me2/CD4_ChIP_seq_H3K4me2_Amit_mm10_GSM1441315.bam
+	Average tag length = 59.8
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/STHSC/H3K4me2/STHSC_ChIP_seq_H3K4me2_Amit_mm10_GSM1441302.bam
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.018
+	Fragment Length Estimate: 195
+	Peak Width Estimate: 196
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 2.1
+		Diff strand fold enrichment: 2.1
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+
+	Optimizing tag files...
+
+	Optimizing tag files...
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/B/B_ATAC_seq_Amit_mm10_GSM1463172.bam
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/GN/H3K4me2/GN_ChIP_seq_H3K4me2_Amit_mm10_GSM1441309.bam
+	Estimated genome size = 2722441548
+	Estimated average read density = 0.005418 per bp
+	Total Tags = 14750433.0
+	Total Positions = 14688265
+
+	Optimizing tag files...
+	Average tag length = 59.8
+
+	Optimizing tag files...
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CD4/H3K4me1/CD4_ChIP_seq_H3K4me1_Amit_mm10_GSM1441297.bam
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.004
+
+	Optimizing tag files...
+	Estimated genome size = 2722453211
+	Estimated average read density = 0.001684 per bp
+	Total Tags = 4583992.0
+	Total Positions = 4552309
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/MPP/H3K4me2/MPP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441303.bam
+	Fragment Length Estimate: 218
+	Peak Width Estimate: 243
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 1.3
+		Diff strand fold enrichment: 1.4
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - may have low enrichment with lots of background
+
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/GMP/H3K4me2/GMP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441305.bam
+	Average tag length = 59.7
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CLP/H3K27Ac/CLP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441284.bam
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.007
+	Fragment Length Estimate: 65
+	Peak Width Estimate: 257
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 2.0
+		Diff strand fold enrichment: 1.9
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+	Estimated genome size = 2722464772
+	Estimated average read density = 0.005265 per bp
+	Total Tags = 14333809.0
+	Total Positions = 14265999
+
+	Optimizing tag files...
+	Estimated genome size = 2722467088
+	Estimated average read density = 0.005167 per bp
+	Total Tags = 14067095.0
+	Total Positions = 13908922
+	Estimated genome size = 2722459459
+	Estimated average read density = 0.002504 per bp
+	Total Tags = 6816261.0
+	Total Positions = 6816249
+
+	Optimizing tag files...
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/GN/GN_ATAC_seq_Amit_mm10_GSM1463176.bam
+	Average tag length = 59.8
+	Average tag length = 49.9
+	Average tag length = 54.2
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.000
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.005
+	Fragment Length Estimate: 230
+	Peak Width Estimate: 211
+		!!! No reliable estimate for peak size
+		Setting Peak width estimate to be equal to fragment length estimate
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 1.3
+		Diff strand fold enrichment: 1.3
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - may have low enrichment with lots of background
+
+
+	Optimizing tag files...
+	Estimated genome size = 2722466845
+	Estimated average read density = 0.004824 per bp
+	Total Tags = 13131992.0
+	Total Positions = 13078363
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.011
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CD8/H3K4me1/CD8_ChIP_seq_H3K4me1_Amit_mm10_GSM1441298.bam
+	Fragment Length Estimate: 178
+	Peak Width Estimate: 175
+		!!! No reliable estimate for peak size
+		Setting Peak width estimate to be equal to fragment length estimate
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 1.5
+		Diff strand fold enrichment: 1.5
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CD8/H3K4me3/CD8_ChIP_seq_H3K4me3_Amit_mm10_GSM1441330.bam
+	Estimated genome size = 2722467979
+	Estimated average read density = 0.004511 per bp
+	Total Tags = 12281106.0
+	Total Positions = 9604932
+	Fragment Length Estimate: 616
+	Peak Width Estimate: 0
+		!!! No reliable estimate for peak size
+		Setting Peak width estimate to be equal to fragment length estimate
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 1.7
+		Diff strand fold enrichment: 1.8
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+	Average tag length = 59.8
+	Estimated genome size = 2722457375
+	Estimated average read density = 0.002569 per bp
+	Total Tags = 6994696.0
+	Total Positions = 6950837
+
+	Optimizing tag files...
+
+	Optimizing tag files...
+	Average tag length = 54.8
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.004
+
+	Optimizing tag files...
+	Average tag length = 59.8
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.279
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.006
+	Fragment Length Estimate: 190
+	Peak Width Estimate: 205
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 1.4
+		Diff strand fold enrichment: 1.5
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+
+	Optimizing tag files...
+	Fragment Length Estimate: 69
+	Peak Width Estimate: 91
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 4.2
+		Diff strand fold enrichment: 4.0
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+	Fragment Length Estimate: 217
+	Peak Width Estimate: 234
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 1.8
+		Diff strand fold enrichment: 1.8
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+	Estimated genome size = 2722465109
+	Estimated average read density = 0.004159 per bp
+	Total Tags = 11321613.0
+	Total Positions = 11203776
+
+	Optimizing tag files...
+	Average tag length = 59.8
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.011
+
+	Optimizing tag files...
+
+	Optimizing tag files...
+	Fragment Length Estimate: 214
+	Peak Width Estimate: 241
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 1.8
+		Diff strand fold enrichment: 1.8
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+	Estimated genome size = 2722466165
+	Estimated average read density = 0.005501 per bp
+	Total Tags = 14976372.0
+	Total Positions = 14562010
+	Estimated genome size = 2722466445
+	Estimated average read density = 0.005162 per bp
+	Total Tags = 14053379.0
+	Total Positions = 10770168
+	Estimated genome size = 2722424326
+	Estimated average read density = 0.003431 per bp
+	Total Tags = 9341920.0
+	Total Positions = 9250240
+	Estimated genome size = 2722464092
+	Estimated average read density = 0.006084 per bp
+	Total Tags = 16564805.0
+	Total Positions = 16474943
+	Estimated genome size = 2722465390
+	Estimated average read density = 0.006419 per bp
+	Total Tags = 17474884.0
+	Total Positions = 17422293
+	Estimated genome size = 2722461970
+	Estimated average read density = 0.002298 per bp
+	Total Tags = 6255276.0
+	Total Positions = 6240120
+	Estimated genome size = 2722461201
+	Estimated average read density = 0.004055 per bp
+	Total Tags = 11038913.0
+	Total Positions = 10930524
+	Average tag length = 55.5
+	Average tag length = 59.8
+
+	Optimizing tag files...
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.305
+	Average tag length = 59.8
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.010
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EryB/H3K4me1/EryB_ChIP_seq_H3K4me1_Amit_mm10_GSM1441292.bam
+
+	Optimizing tag files...
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.002
+	Average tag length = 59.8
+	Fragment Length Estimate: 189
+	Peak Width Estimate: 147
+		!!! No reliable estimate for peak size
+		Setting Peak width estimate to be equal to fragment length estimate
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 1.8
+		Diff strand fold enrichment: 1.8
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+	Fragment Length Estimate: 67
+	Peak Width Estimate: 58
+		!!! No reliable estimate for peak size
+		Setting Peak width estimate to be equal to fragment length estimate
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 3.6
+		Diff strand fold enrichment: 3.5
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+	Fragment Length Estimate: 216
+	Peak Width Estimate: 239
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 1.8
+		Diff strand fold enrichment: 1.8
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.028
+
+	Optimizing tag files...
+	Fragment Length Estimate: 204
+	Peak Width Estimate: 243
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 2.1
+		Diff strand fold enrichment: 2.1
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+	Average tag length = 59.8
+	Average tag length = 57.8
+	Average tag length = 59.8
+	Estimated genome size = 2722466052
+	Estimated average read density = 0.004194 per bp
+	Total Tags = 11417942.0
+	Total Positions = 11394133
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/GMP/H3K4me1/GMP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441289.bam
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.010
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.005
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.003
+	Fragment Length Estimate: 220
+	Peak Width Estimate: 225
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 1.8
+		Diff strand fold enrichment: 1.8
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+
+	Optimizing tag files...
+	Estimated genome size = 2722465568
+	Estimated average read density = 0.006534 per bp
+	Total Tags = 17789242.0
+	Total Positions = 17740494
+	Fragment Length Estimate: 185
+	Peak Width Estimate: 209
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 1.5
+		Diff strand fold enrichment: 1.5
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+	Fragment Length Estimate: 163
+	Peak Width Estimate: 190
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 1.3
+		Diff strand fold enrichment: 1.3
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - may have low enrichment with lots of background
+
+
+	Optimizing tag files...
+	Average tag length = 59.8
+	Estimated genome size = 2722466678
+	Estimated average read density = 0.006994 per bp
+	Total Tags = 19042081.0
+	Total Positions = 18877694
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.002
+	Estimated genome size = 2722464389
+	Estimated average read density = 0.003623 per bp
+	Total Tags = 9863158.0
+	Total Positions = 9828133
+	Estimated genome size = 2722466856
+	Estimated average read density = 0.006019 per bp
+	Total Tags = 16386952.0
+	Total Positions = 16087105
+	Fragment Length Estimate: 165
+	Peak Width Estimate: 143
+		!!! No reliable estimate for peak size
+		Setting Peak width estimate to be equal to fragment length estimate
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 1.2
+		Diff strand fold enrichment: 1.3
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - may have low enrichment with lots of background
+
+
+	Optimizing tag files...
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CMP/H3K4me1/CMP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441288.bam
+	Estimated genome size = 2722444157
+	Estimated average read density = 0.003190 per bp
+	Total Tags = 8684244.0
+	Total Positions = 8662102
+	Average tag length = 59.8
+	Average tag length = 59.8
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.003
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.004
+	Average tag length = 59.8
+	Average tag length = 54.6
+	Average tag length = 49.9
+	Fragment Length Estimate: 175
+	Peak Width Estimate: 137
+		!!! No reliable estimate for peak size
+		Setting Peak width estimate to be equal to fragment length estimate
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 1.2
+		Diff strand fold enrichment: 1.2
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - may have low enrichment with lots of background
+
+	Fragment Length Estimate: 197
+	Peak Width Estimate: 225
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 1.3
+		Diff strand fold enrichment: 1.3
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - may have low enrichment with lots of background
+
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.003
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.009
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.019
+	Fragment Length Estimate: 224
+	Peak Width Estimate: 218
+		!!! No reliable estimate for peak size
+		Setting Peak width estimate to be equal to fragment length estimate
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 1.3
+		Diff strand fold enrichment: 1.3
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - may have low enrichment with lots of background
+
+
+	Optimizing tag files...
+	Fragment Length Estimate: 60
+	Peak Width Estimate: 102
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 3.2
+		Diff strand fold enrichment: 3.1
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+	Fragment Length Estimate: 196
+	Peak Width Estimate: 228
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 1.5
+		Diff strand fold enrichment: 1.6
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/CD4/CD4_ATAC_seq_Amit_mm10_GSM1463175.bam
+
+	Optimizing tag files...
+	Estimated genome size = 2722465603
+	Estimated average read density = 0.007991 per bp
+	Total Tags = 21754489.0
+	Total Positions = 21626968
+	Estimated genome size = 2722467284
+	Estimated average read density = 0.003245 per bp
+	Total Tags = 8835373.0
+	Total Positions = 5488435
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CLP/H3K4me2/CLP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441314.bam
+	Average tag length = 55.4
+	Median tags per position = 2 (ideal: 1)
+	Average tags per position = 1.610
+		!! Might have some clonal amplification in this sample if sonication was used
+		If using BED files, try using -forceBED to ignore the 5th column
+		Ignore if analyzing RNA, MNase, etc. data
+	Fragment Length Estimate: 61
+	Peak Width Estimate: 47
+		!!! No reliable estimate for peak size
+		Setting Peak width estimate to be equal to fragment length estimate
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 3.9
+		Diff strand fold enrichment: 3.7
+		Same / Diff fold enrichment: 1.1
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+	Average tag length = 59.9
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Lsk/Lsk_ATAC_seq_Amit_mm10_GSM1463179.bam
+
+	Optimizing tag files...
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.006
+	Estimated genome size = 2722460118
+	Estimated average read density = 0.004226 per bp
+	Total Tags = 11504044.0
+	Total Positions = 11393719
+
+	Optimizing tag files...
+	Fragment Length Estimate: 204
+	Peak Width Estimate: 152
+		!!! No reliable estimate for peak size
+		Setting Peak width estimate to be equal to fragment length estimate
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 1.2
+		Diff strand fold enrichment: 1.2
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - may have low enrichment with lots of background
+
+	Average tag length = 59.7
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/STHSC/H3K4me1/STHSC_ChIP_seq_H3K4me1_Amit_mm10_GSM1441286.bam
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.010
+	Estimated genome size = 2722468057
+	Estimated average read density = 0.004911 per bp
+	Total Tags = 13368731.0
+	Total Positions = 12518096
+	Fragment Length Estimate: 174
+	Peak Width Estimate: 197
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 1.8
+		Diff strand fold enrichment: 1.8
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+	Average tag length = 56.0
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.068
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/MF/H3K4me1/MF_ChIP_seq_H3K4me1_Amit_mm10_GSM1441295.bam
+	Fragment Length Estimate: 70
+	Peak Width Estimate: 67
+		!!! No reliable estimate for peak size
+		Setting Peak width estimate to be equal to fragment length estimate
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 4.3
+		Diff strand fold enrichment: 4.1
+		Same / Diff fold enrichment: 1.1
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+
+	Optimizing tag files...
+	Estimated genome size = 2722451756
+	Estimated average read density = 0.009288 per bp
+	Total Tags = 25287273.0
+	Total Positions = 25102924
+
+	Optimizing tag files...
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/B/H3K4me1/B_ChIP_seq_H3K4me1_Amit_mm10_GSM1441296.bam
+	Average tag length = 59.8
+	Estimated genome size = 2722451680
+	Estimated average read density = 0.008946 per bp
+	Total Tags = 24354839.0
+	Total Positions = 24174383
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.007
+
+	Optimizing tag files...
+	Fragment Length Estimate: 208
+	Peak Width Estimate: 230
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 1.3
+		Diff strand fold enrichment: 1.3
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - may have low enrichment with lots of background
+
+	Average tag length = 59.8
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/Mono/H3K4me1/Mono_ChIP_seq_H3K4me1_Amit_mm10_GSM1441294.bam
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.007
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/CLP/H3K4me1/CLP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441300.bam
+	Estimated genome size = 2722466526
+	Estimated average read density = 0.008659 per bp
+	Total Tags = 23574125.0
+	Total Positions = 23430541
+	Fragment Length Estimate: 169
+	Peak Width Estimate: 129
+		!!! No reliable estimate for peak size
+		Setting Peak width estimate to be equal to fragment length estimate
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 1.2
+		Diff strand fold enrichment: 1.2
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - may have low enrichment with lots of background
+
+	Average tag length = 59.8
+
+	Optimizing tag files...
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.006
+	Fragment Length Estimate: 208
+	Peak Width Estimate: 123
+		!!! No reliable estimate for peak size
+		Setting Peak width estimate to be equal to fragment length estimate
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 1.2
+		Diff strand fold enrichment: 1.2
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - may have low enrichment with lots of background
+
+	Estimated genome size = 2722467467
+	Estimated average read density = 0.010102 per bp
+	Total Tags = 27503408.0
+	Total Positions = 27299778
+
+	Optimizing tag files...
+	Average tag length = 59.8
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.007
+	Fragment Length Estimate: 169
+	Peak Width Estimate: 109
+		!!! No reliable estimate for peak size
+		Setting Peak width estimate to be equal to fragment length estimate
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 1.2
+		Diff strand fold enrichment: 1.2
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - may have low enrichment with lots of background
+
+	Estimated genome size = 2722467823
+	Estimated average read density = 0.016131 per bp
+	Total Tags = 43916811.0
+	Total Positions = 43323697
+	Average tag length = 59.8
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.014
+	Fragment Length Estimate: 194
+	Peak Width Estimate: 150
+		!!! No reliable estimate for peak size
+		Setting Peak width estimate to be equal to fragment length estimate
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 1.3
+		Diff strand fold enrichment: 1.3
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - may have low enrichment with lots of background
+

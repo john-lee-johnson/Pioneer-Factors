@@ -1,0 +1,222 @@
+Generating bigWig for MEP_ATAC_seq_Amit_mm10_GSM1463181
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for CMP_ATAC_seq_Amit_mm10_GSM1463180
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for Lsk_ATAC_seq_Amit_mm10_GSM1463179
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for CD8_ATAC_seq_Amit_mm10_GSM1463178
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for NK_ATAC_seq_Amit_mm10_GSM1463177
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for GN_ATAC_seq_Amit_mm10_GSM1463176
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for CD4_ATAC_seq_Amit_mm10_GSM1463175
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for Mono_ATAC_seq_Amit_mm10_GSM1463174
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for GMP_ATAC_seq_Amit_mm10_GSM1463173
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for B_ATAC_seq_Amit_mm10_GSM1463172
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for CLP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441332
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for NK_ChIP_seq_H3K4me3_Amit_mm10_GSM1441331
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for CD8_ChIP_seq_H3K4me3_Amit_mm10_GSM1441330
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for CD4_ChIP_seq_H3K4me3_Amit_mm10_GSM1441329
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for B_ChIP_seq_H3K4me3_Amit_mm10_GSM1441328
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for MF_ChIP_seq_H3K4me3_Amit_mm10_GSM1441327
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for Mono_ChIP_seq_H3K4me3_Amit_mm10_GSM1441326
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for GN_ChIP_seq_H3K4me3_Amit_mm10_GSM1441325
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for EryB_ChIP_seq_H3K4me3_Amit_mm10_GSM1441324
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for EryA_ChIP_seq_H3K4me3_Amit_mm10_GSM1441323
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for MEP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441322
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for GMP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441321
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for CMP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441320
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for MPP_ChIP_seq_H3K4me3_Amit_mm10_GSM1441319
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for STHSC_ChIP_seq_H3K4me3_Amit_mm10_GSM1441318
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for LTHSC_ChIP_seq_H3K4me3_Amit_mm10_GSM1441317
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for CD8_ChIP_seq_H3K4me2_Amit_mm10_GSM1441316
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for CD4_ChIP_seq_H3K4me2_Amit_mm10_GSM1441315
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for CLP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441314
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for NK_ChIP_seq_H3K4me2_Amit_mm10_GSM1441313
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for B_ChIP_seq_H3K4me2_Amit_mm10_GSM1441312
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for MF_ChIP_seq_H3K4me2_Amit_mm10_GSM1441311
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for Mono_ChIP_seq_H3K4me2_Amit_mm10_GSM1441310
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for GN_ChIP_seq_H3K4me2_Amit_mm10_GSM1441309
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for EryB_ChIP_seq_H3K4me2_Amit_mm10_GSM1441308
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for EryA_ChIP_seq_H3K4me2_Amit_mm10_GSM1441307
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for MEP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441306
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for GMP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441305
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for CMP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441304
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for MPP_ChIP_seq_H3K4me2_Amit_mm10_GSM1441303
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for STHSC_ChIP_seq_H3K4me2_Amit_mm10_GSM1441302
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for LTHSC_ChIP_seq_H3K4me2_Amit_mm10_GSM1441301
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for CLP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441300
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for NK_ChIP_seq_H3K4me1_Amit_mm10_GSM1441299
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for CD8_ChIP_seq_H3K4me1_Amit_mm10_GSM1441298
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for CD4_ChIP_seq_H3K4me1_Amit_mm10_GSM1441297
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for B_ChIP_seq_H3K4me1_Amit_mm10_GSM1441296
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for MF_ChIP_seq_H3K4me1_Amit_mm10_GSM1441295
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for Mono_ChIP_seq_H3K4me1_Amit_mm10_GSM1441294
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for GN_ChIP_seq_H3K4me1_Amit_mm10_GSM1441293
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for EryB_ChIP_seq_H3K4me1_Amit_mm10_GSM1441292
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for EryA_ChIP_seq_H3K4me1_Amit_mm10_GSM1441291
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for MEP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441290
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for GMP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441289
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for CMP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441288
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for MPP_ChIP_seq_H3K4me1_Amit_mm10_GSM1441287
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for STHSC_ChIP_seq_H3K4me1_Amit_mm10_GSM1441286
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for LTHSC_ChIP_seq_H3K4me1_Amit_mm10_GSM1441285
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for CLP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441284
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for NK_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441283
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for CD8_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441282
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for CD4_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441281
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for B_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441280
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for MF_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441279
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for Mono_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441278
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for GN_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441277
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for EryB_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441276
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for EryA_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441275
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for MEP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441274
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for GMP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441273
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for CMP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441272
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for MPP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441271
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for STHSC_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441270
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources
+Generating bigWig for LTHSC_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441269
+/mnt/data1/bin/deepTools/lib/python2.7/site-packages/deeptools/config.py:61: UserWarning: Module pysam was already imported from /usr/local/lib/python2.7/dist-packages/RSeQC-2.6.1-py2.7-linux-x86_64.egg/pysam/__init__.pyc, but /mnt/data1/bin/CrossMap-0.2.1/usr/local/lib/python2.7/dist-packages is being added to sys.path
+  import pkg_resources

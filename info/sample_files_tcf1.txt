@@ -1,0 +1,2 @@
+GSM1133645: Input Thy; Mus musculus; ChIP_seq
+GSM1133644: Tcf1 Thy; Mus musculus; ChIP_seq

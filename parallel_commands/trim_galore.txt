@@ -1,24 +1,76 @@
-/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/MEP /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/MEP/SRR1533868.fastq
-/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/MEP /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/MEP/SRR1533869.fastq
-/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/MEP /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/MEP/SRR1533870.fastq
-/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/CMP /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/CMP/SRR1533865.fastq
-/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/CMP /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/CMP/SRR1533866.fastq
-/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/CMP /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/CMP/SRR1533867.fastq
-/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Lsk /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Lsk/SRR1533862.fastq
-/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Lsk /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Lsk/SRR1533863.fastq
-/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Lsk /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Lsk/SRR1533864.fastq
-/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/CD8 /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/CD8/SRR1533861.fastq
-/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/NK /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/NK/SRR1533859.fastq
-/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/NK /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/NK/SRR1533860.fastq
-/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/GN /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/GN/SRR1533857.fastq
-/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/GN /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/GN/SRR1533858.fastq
-/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/CD4 /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/CD4/SRR1533853.fastq
-/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/CD4 /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/CD4/SRR1533854.fastq
-/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/CD4 /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/CD4/SRR1533855.fastq
-/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/CD4 /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/CD4/SRR1533856.fastq
-/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Mono /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Mono/SRR1533852.fastq
-/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/GMP /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/GMP/SRR1533850.fastq
-/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/GMP /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/GMP/SRR1533851.fastq
-/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/B /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/B/SRR1533847.fastq
-/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/B /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/B/SRR1533848.fastq
-/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/B /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/B/SRR1533849.fastq
+/mnt/data1/John/Pioneer_Factors/Data/RNA_seq/EryB /mnt/data1/John/Pioneer_Factors/Data/RNA_seq/EryB/SRR1536429.fastq illumina
+/mnt/data1/John/Pioneer_Factors/Data/RNA_seq/EryA /mnt/data1/John/Pioneer_Factors/Data/RNA_seq/EryA/SRR1536427.fastq illumina
+/mnt/data1/John/Pioneer_Factors/Data/RNA_seq/EryA /mnt/data1/John/Pioneer_Factors/Data/RNA_seq/EryA/SRR1536428.fastq illumina
+/mnt/data1/John/Pioneer_Factors/Data/RNA_seq/MEP /mnt/data1/John/Pioneer_Factors/Data/RNA_seq/MEP/SRR1536423.fastq illumina
+/mnt/data1/John/Pioneer_Factors/Data/RNA_seq/MEP /mnt/data1/John/Pioneer_Factors/Data/RNA_seq/MEP/SRR1536424.fastq illumina
+/mnt/data1/John/Pioneer_Factors/Data/RNA_seq/MEP /mnt/data1/John/Pioneer_Factors/Data/RNA_seq/MEP/SRR1536425.fastq illumina
+/mnt/data1/John/Pioneer_Factors/Data/RNA_seq/MEP /mnt/data1/John/Pioneer_Factors/Data/RNA_seq/MEP/SRR1536426.fastq illumina
+/mnt/data1/John/Pioneer_Factors/Data/RNA_seq/NK /mnt/data1/John/Pioneer_Factors/Data/RNA_seq/NK/SRR1536421.fastq illumina
+/mnt/data1/John/Pioneer_Factors/Data/RNA_seq/NK /mnt/data1/John/Pioneer_Factors/Data/RNA_seq/NK/SRR1536422.fastq illumina
+/mnt/data1/John/Pioneer_Factors/Data/RNA_seq/CD8 /mnt/data1/John/Pioneer_Factors/Data/RNA_seq/CD8/SRR1536417.fastq illumina
+/mnt/data1/John/Pioneer_Factors/Data/RNA_seq/CD8 /mnt/data1/John/Pioneer_Factors/Data/RNA_seq/CD8/SRR1536418.fastq illumina
+/mnt/data1/John/Pioneer_Factors/Data/RNA_seq/CD8 /mnt/data1/John/Pioneer_Factors/Data/RNA_seq/CD8/SRR1536419.fastq illumina
+/mnt/data1/John/Pioneer_Factors/Data/RNA_seq/CD8 /mnt/data1/John/Pioneer_Factors/Data/RNA_seq/CD8/SRR1536420.fastq illumina
+/mnt/data1/John/Pioneer_Factors/Data/RNA_seq/CD4 /mnt/data1/John/Pioneer_Factors/Data/RNA_seq/CD4/SRR1536413.fastq illumina
+/mnt/data1/John/Pioneer_Factors/Data/RNA_seq/CD4 /mnt/data1/John/Pioneer_Factors/Data/RNA_seq/CD4/SRR1536414.fastq illumina
+/mnt/data1/John/Pioneer_Factors/Data/RNA_seq/CD4 /mnt/data1/John/Pioneer_Factors/Data/RNA_seq/CD4/SRR1536415.fastq illumina
+/mnt/data1/John/Pioneer_Factors/Data/RNA_seq/CD4 /mnt/data1/John/Pioneer_Factors/Data/RNA_seq/CD4/SRR1536416.fastq illumina
+/mnt/data1/John/Pioneer_Factors/Data/RNA_seq/B /mnt/data1/John/Pioneer_Factors/Data/RNA_seq/B/SRR1536411.fastq illumina
+/mnt/data1/John/Pioneer_Factors/Data/RNA_seq/B /mnt/data1/John/Pioneer_Factors/Data/RNA_seq/B/SRR1536412.fastq illumina
+/mnt/data1/John/Pioneer_Factors/Data/RNA_seq/Mono /mnt/data1/John/Pioneer_Factors/Data/RNA_seq/Mono/SRR1536407.fastq illumina
+/mnt/data1/John/Pioneer_Factors/Data/RNA_seq/Mono /mnt/data1/John/Pioneer_Factors/Data/RNA_seq/Mono/SRR1536408.fastq illumina
+/mnt/data1/John/Pioneer_Factors/Data/RNA_seq/Mono /mnt/data1/John/Pioneer_Factors/Data/RNA_seq/Mono/SRR1536409.fastq illumina
+/mnt/data1/John/Pioneer_Factors/Data/RNA_seq/Mono /mnt/data1/John/Pioneer_Factors/Data/RNA_seq/Mono/SRR1536410.fastq illumina
+/mnt/data1/John/Pioneer_Factors/Data/RNA_seq/GN /mnt/data1/John/Pioneer_Factors/Data/RNA_seq/GN/SRR1536401.fastq illumina
+/mnt/data1/John/Pioneer_Factors/Data/RNA_seq/GN /mnt/data1/John/Pioneer_Factors/Data/RNA_seq/GN/SRR1536402.fastq illumina
+/mnt/data1/John/Pioneer_Factors/Data/RNA_seq/GN /mnt/data1/John/Pioneer_Factors/Data/RNA_seq/GN/SRR1536403.fastq illumina
+/mnt/data1/John/Pioneer_Factors/Data/RNA_seq/GN /mnt/data1/John/Pioneer_Factors/Data/RNA_seq/GN/SRR1536404.fastq illumina
+/mnt/data1/John/Pioneer_Factors/Data/RNA_seq/GN /mnt/data1/John/Pioneer_Factors/Data/RNA_seq/GN/SRR1536405.fastq illumina
+/mnt/data1/John/Pioneer_Factors/Data/RNA_seq/GN /mnt/data1/John/Pioneer_Factors/Data/RNA_seq/GN/SRR1536406.fastq illumina
+/mnt/data1/John/Pioneer_Factors/Data/RNA_seq/MF /mnt/data1/John/Pioneer_Factors/Data/RNA_seq/MF/SRR1536397.fastq illumina
+/mnt/data1/John/Pioneer_Factors/Data/RNA_seq/MF /mnt/data1/John/Pioneer_Factors/Data/RNA_seq/MF/SRR1536398.fastq illumina
+/mnt/data1/John/Pioneer_Factors/Data/RNA_seq/MF /mnt/data1/John/Pioneer_Factors/Data/RNA_seq/MF/SRR1536399.fastq illumina
+/mnt/data1/John/Pioneer_Factors/Data/RNA_seq/MF /mnt/data1/John/Pioneer_Factors/Data/RNA_seq/MF/SRR1536400.fastq illumina
+/mnt/data1/John/Pioneer_Factors/Data/RNA_seq/GMP /mnt/data1/John/Pioneer_Factors/Data/RNA_seq/GMP/SRR1536393.fastq illumina
+/mnt/data1/John/Pioneer_Factors/Data/RNA_seq/GMP /mnt/data1/John/Pioneer_Factors/Data/RNA_seq/GMP/SRR1536394.fastq illumina
+/mnt/data1/John/Pioneer_Factors/Data/RNA_seq/GMP /mnt/data1/John/Pioneer_Factors/Data/RNA_seq/GMP/SRR1536395.fastq illumina
+/mnt/data1/John/Pioneer_Factors/Data/RNA_seq/GMP /mnt/data1/John/Pioneer_Factors/Data/RNA_seq/GMP/SRR1536396.fastq illumina
+/mnt/data1/John/Pioneer_Factors/Data/RNA_seq/CMP /mnt/data1/John/Pioneer_Factors/Data/RNA_seq/CMP/SRR1536389.fastq illumina
+/mnt/data1/John/Pioneer_Factors/Data/RNA_seq/CMP /mnt/data1/John/Pioneer_Factors/Data/RNA_seq/CMP/SRR1536390.fastq illumina
+/mnt/data1/John/Pioneer_Factors/Data/RNA_seq/CMP /mnt/data1/John/Pioneer_Factors/Data/RNA_seq/CMP/SRR1536391.fastq illumina
+/mnt/data1/John/Pioneer_Factors/Data/RNA_seq/CMP /mnt/data1/John/Pioneer_Factors/Data/RNA_seq/CMP/SRR1536392.fastq illumina
+/mnt/data1/John/Pioneer_Factors/Data/RNA_seq/CLP /mnt/data1/John/Pioneer_Factors/Data/RNA_seq/CLP/SRR1536385.fastq illumina
+/mnt/data1/John/Pioneer_Factors/Data/RNA_seq/CLP /mnt/data1/John/Pioneer_Factors/Data/RNA_seq/CLP/SRR1536386.fastq illumina
+/mnt/data1/John/Pioneer_Factors/Data/RNA_seq/CLP /mnt/data1/John/Pioneer_Factors/Data/RNA_seq/CLP/SRR1536387.fastq illumina
+/mnt/data1/John/Pioneer_Factors/Data/RNA_seq/CLP /mnt/data1/John/Pioneer_Factors/Data/RNA_seq/CLP/SRR1536388.fastq illumina
+/mnt/data1/John/Pioneer_Factors/Data/RNA_seq/MPP /mnt/data1/John/Pioneer_Factors/Data/RNA_seq/MPP/SRR1536383.fastq illumina
+/mnt/data1/John/Pioneer_Factors/Data/RNA_seq/MPP /mnt/data1/John/Pioneer_Factors/Data/RNA_seq/MPP/SRR1536384.fastq illumina
+/mnt/data1/John/Pioneer_Factors/Data/RNA_seq/STHSC /mnt/data1/John/Pioneer_Factors/Data/RNA_seq/STHSC/SRR1536379.fastq illumina
+/mnt/data1/John/Pioneer_Factors/Data/RNA_seq/STHSC /mnt/data1/John/Pioneer_Factors/Data/RNA_seq/STHSC/SRR1536380.fastq illumina
+/mnt/data1/John/Pioneer_Factors/Data/RNA_seq/STHSC /mnt/data1/John/Pioneer_Factors/Data/RNA_seq/STHSC/SRR1536381.fastq illumina
+/mnt/data1/John/Pioneer_Factors/Data/RNA_seq/STHSC /mnt/data1/John/Pioneer_Factors/Data/RNA_seq/STHSC/SRR1536382.fastq illumina
+/mnt/data1/John/Pioneer_Factors/Data/RNA_seq/LTHSC /mnt/data1/John/Pioneer_Factors/Data/RNA_seq/LTHSC/SRR1536378.fastq illumina
+/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/MEP /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/MEP/SRR1533868.fastq nextera
+/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/MEP /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/MEP/SRR1533869.fastq nextera
+/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/MEP /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/MEP/SRR1533870.fastq nextera
+/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/CMP /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/CMP/SRR1533865.fastq nextera
+/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/CMP /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/CMP/SRR1533866.fastq nextera
+/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/CMP /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/CMP/SRR1533867.fastq nextera
+/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Lsk /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Lsk/SRR1533862.fastq nextera
+/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Lsk /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Lsk/SRR1533863.fastq nextera
+/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Lsk /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Lsk/SRR1533864.fastq nextera
+/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/CD8 /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/CD8/SRR1533861.fastq nextera
+/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/NK /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/NK/SRR1533859.fastq nextera
+/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/NK /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/NK/SRR1533860.fastq nextera
+/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/GN /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/GN/SRR1533857.fastq nextera
+/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/GN /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/GN/SRR1533858.fastq nextera
+/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/CD4 /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/CD4/SRR1533853.fastq nextera
+/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/CD4 /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/CD4/SRR1533854.fastq nextera
+/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/CD4 /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/CD4/SRR1533855.fastq nextera
+/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/CD4 /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/CD4/SRR1533856.fastq nextera
+/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Mono /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Mono/SRR1533852.fastq nextera
+/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/GMP /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/GMP/SRR1533850.fastq nextera
+/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/GMP /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/GMP/SRR1533851.fastq nextera
+/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/B /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/B/SRR1533847.fastq nextera
+/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/B /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/B/SRR1533848.fastq nextera
+/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/B /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/B/SRR1533849.fastq nextera

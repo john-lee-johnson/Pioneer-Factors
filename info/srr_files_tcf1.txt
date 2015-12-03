@@ -1,0 +1,2 @@
+ChIP_seq Input Thy SRR846898
+ChIP_seq Tcf1 Thy SRR846897

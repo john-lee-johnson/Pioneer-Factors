@@ -47,8 +47,9 @@ fi
 
 #STAR alignment for RNA-seq 2-pass
 function star_rna {
-STAR --runMode alignReads --runThreadN 40 --genomeDir /mnt/data0/John/genome_GRCm38p4_M6 --readFilesIn ${srr}.fastq --outSAMtype BAM SortedByCoordinate --outFilterScoreMinOverLread 0 --outFilterMatchNminOverLread 0 --outFilterMatchNmin 30
+STAR --runMode alignReads --runThreadN 40 --genomeDir /mnt/data0/John/genome_GRCm38p4_M6 --readFilesIn ${srr}_trimmed.fq --outSAMtype BAM SortedByCoordinate --outFilterScoreMinOverLread 0 --outFilterMatchNminOverLread 0 --outFilterMatchNmin 30
 mv Aligned.sortedByCoord.out.bam ${srr}.bam #Keeps the bam file that STAR generates
+mv Log.final.out ${srr}_Log.final.out #Keeps a copy of the aligner log
 STAR --runMode inputAlignmentsFromBAM --runThreadN 40 --genomeDir /mnt/data0/John/genome_GRCm38p4_M6 --inputBAMfile ${srr}.bam --bamRemoveDuplicatesType UniqueIdentical
 mv Processed.out.bam dedupSTAR_${srr}.bam #Keeps a bam file with PCR duplicates removed via STAR
 }
@@ -98,13 +99,13 @@ rm -f $paralleldir/heat_map.txt
 #Download the SRR files for Amit Data
 if [ -f $paralleldir/srr_download.txt ]; then
 parallel --xapply --dryrun -j 30 --colsep ' ' -a $paralleldir/srr_download.txt  "fastq-dump {3} {1} -O {2}"
-#parallel --xapply -j 30 --colsep ' ' -a $paralleldir/srr_download.txt  "fastq-dump {3} {1} -O {2}"
+parallel --xapply -j 30 --colsep ' ' -a $paralleldir/srr_download.txt  "fastq-dump {3} {1} -O {2}"
 fi
 ##---------------------REMOVE ADAPTERS SRR AMIT DATA--------------------------------------
 #Remove sequencing adapters from Amit Data
 if [ -f $paralleldir/trim_galore.txt ]; then
-parallel --xapply --dryrun -j 30 --colsep ' ' -a $paralleldir/trim_galore.txt "trim_galore -o {1} --nextera {2}" #Removes Nextera Transposase Adapters
-#parallel --xapply -j 30 --colsep ' ' -a $paralleldir/trim_galore.txt "trim_galore -o {1} --nextera {2}"
+parallel --xapply --dryrun -j 30 --colsep ' ' -a $paralleldir/trim_galore.txt "trim_galore -o {1} --{3} {2}" #Removes Nextera Transposase Adapters
+parallel --xapply -j 30 --colsep ' ' -a $paralleldir/trim_galore.txt "trim_galore -o {1} --{3} {2} --length 15 -q 20"
 fi
 
 ##---------------------ALIGN AMIT DATA----------------------------------------------------
@@ -118,7 +119,7 @@ if [[ "$seq" = ATAC* ]]; then
   IFS=' ' read -r -a srr_array <<< $srr_line
   for srr in "${srr_array[@]}"; do
   echo $srr "ATAC"
-    #star_atac
+    star_atac
     mark_duplicates
   done
 fi
@@ -130,7 +131,7 @@ if [[ "$seq" = ChIP* ]]; then
   IFS=' ' read -r -a srr_array <<< $srr_line
   for srr in "${srr_array[@]}"; do
   echo $srr "CHIP"
-    #star_chip
+    star_chip
     mark_duplicates
   done
 fi
@@ -142,7 +143,7 @@ then
   IFS=' ' read -r -a srr_array <<< $srr_line
   for srr in "${srr_array[@]}"; do
   echo $srr
-    #star_rna
+    star_rna
   done
 fi
 done < $infodir/srr_files_amit.txt
@@ -157,9 +158,9 @@ parallel --xapply -j 40 -- < $paralleldir/remove_duplicates.txt
 fi
 
 ##---------------------COMBINE BAM FILES AMIT---------------------------------------------
-#Combine fastq files, compress to .gz, and align
+#Combine fastq files, compress to .gz, combine bam files
 lines=$(wc -l $infodir/sample_files_amit.txt | cut -d' ' -f1)
-for ((i=1; i<$lines; i++)); do
+for ((i=1; i<=$lines; i++)); do
 line=$(sed -n "${i}p" < $infodir/sample_files_amit.txt)
 gsm=$(echo $line | cut -d':' -f1 | xargs)
 seq=$(echo $line | cut -d':' -f2 | cut -d';' -f3 | xargs)
@@ -169,7 +170,7 @@ if [[ "$seq" = ATAC* ]]; then
   filename=${cell}_${seq}_Amit_mm10_${gsm}
   cat SRR*_trimmed.fq > ${filename}.fastq
   pigz -f -p 40 ${filename}.fastq
-  fastqc -t 40 $(ls SRR*.bam)
+  #fastqc -t 40 $(ls SRR*.bam)
   #heatmap
   bam_combine
 fi
@@ -181,7 +182,7 @@ if [[ "$seq" = ChIP* ]]; then
   cd $dir0/Data/ChIP_seq/$cell/$mark
   cat SRR*.fastq > ${filename}.fastq
   pigz -f -p 40  ${filename}.fastq
-  fastqc -t 40 $(ls SRR*.bam)
+  #fastqc -t 40 $(ls SRR*.bam)
   #heatmap
   bam_combine
 fi
@@ -190,7 +191,7 @@ if [[ "$seq" = RNA* ]]; then
   filename=${cell}_${seq}_Amit_mm10_${gsm}
   cat SRR*.fastq > ${filename}.fastq
   pigz -f -p 40 ${filename}.fastq
-  fastqc -t 40 $(ls SRR*.bam)
+  #fastqc -t 40 $(ls SRR*.bam)
   #heatmap
   bam_combine
 fi

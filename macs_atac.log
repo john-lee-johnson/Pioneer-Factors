@@ -1,0 +1,246 @@
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ATAC_seq/bam/MEP_ATAC_seq_Amit_mm10_GSM1463181.bam -n MEP_ATAC_seq_Amit_mm10_GSM1463181_macs --bw 616 -f BAM -g mm -p 1e-7 -w --single-profile >> MEP_ATAC_seq_Amit_mm10_GSM1463181_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ATAC_seq/bam/CMP_ATAC_seq_Amit_mm10_GSM1463180.bam -n CMP_ATAC_seq_Amit_mm10_GSM1463180_macs --bw 69 -f BAM -g mm -p 1e-7 -w --single-profile >> CMP_ATAC_seq_Amit_mm10_GSM1463180_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ATAC_seq/bam/Lsk_ATAC_seq_Amit_mm10_GSM1463179.bam -n Lsk_ATAC_seq_Amit_mm10_GSM1463179_macs --bw 70 -f BAM -g mm -p 1e-7 -w --single-profile >> Lsk_ATAC_seq_Amit_mm10_GSM1463179_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ATAC_seq/bam/CD8_ATAC_seq_Amit_mm10_GSM1463178.bam -n CD8_ATAC_seq_Amit_mm10_GSM1463178_macs --bw 60 -f BAM -g mm -p 1e-7 -w --single-profile >> CD8_ATAC_seq_Amit_mm10_GSM1463178_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ATAC_seq/bam/NK_ATAC_seq_Amit_mm10_GSM1463177.bam -n NK_ATAC_seq_Amit_mm10_GSM1463177_macs --bw 69 -f BAM -g mm -p 1e-7 -w --single-profile >> NK_ATAC_seq_Amit_mm10_GSM1463177_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ATAC_seq/bam/GN_ATAC_seq_Amit_mm10_GSM1463176.bam -n GN_ATAC_seq_Amit_mm10_GSM1463176_macs --bw 60 -f BAM -g mm -p 1e-7 -w --single-profile >> GN_ATAC_seq_Amit_mm10_GSM1463176_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ATAC_seq/bam/CD4_ATAC_seq_Amit_mm10_GSM1463175.bam -n CD4_ATAC_seq_Amit_mm10_GSM1463175_macs --bw 61 -f BAM -g mm -p 1e-7 -w --single-profile >> CD4_ATAC_seq_Amit_mm10_GSM1463175_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ATAC_seq/bam/Mono_ATAC_seq_Amit_mm10_GSM1463174.bam -n Mono_ATAC_seq_Amit_mm10_GSM1463174_macs --bw 70 -f BAM -g mm -p 1e-7 -w --single-profile >> Mono_ATAC_seq_Amit_mm10_GSM1463174_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ATAC_seq/bam/GMP_ATAC_seq_Amit_mm10_GSM1463173.bam -n GMP_ATAC_seq_Amit_mm10_GSM1463173_macs --bw 60 -f BAM -g mm -p 1e-7 -w --single-profile >> GMP_ATAC_seq_Amit_mm10_GSM1463173_macs.log 2>&1
+macs14 -t /mnt/data1/VahediLab/PTF_Team/Data/ATAC_seq/bam/B_ATAC_seq_Amit_mm10_GSM1463172.bam -n B_ATAC_seq_Amit_mm10_GSM1463172_macs --bw 67 -f BAM -g mm -p 1e-7 -w --single-profile >> B_ATAC_seq_Amit_mm10_GSM1463172_macs.log 2>&1
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=B_ATAC_seq_Amit_mm10_GSM1463172_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=CD4_ATAC_seq_Amit_mm10_GSM1463175_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=CD8_ATAC_seq_Amit_mm10_GSM1463178_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=CMP_ATAC_seq_Amit_mm10_GSM1463180_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=GMP_ATAC_seq_Amit_mm10_GSM1463173_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=GN_ATAC_seq_Amit_mm10_GSM1463176_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=Lsk_ATAC_seq_Amit_mm10_GSM1463179_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=MEP_ATAC_seq_Amit_mm10_GSM1463181_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=Mono_ATAC_seq_Amit_mm10_GSM1463174_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=NK_ATAC_seq_Amit_mm10_GSM1463177_macs_model.r'
+
+null device 
+          1 
+B_ATAC_seq_Amit_mm10_GSM1463172 # band width = 67 compared to 65 bps 
+CD4_ATAC_seq_Amit_mm10_GSM1463175 # band width = 61 compared to 51 bps 
+CD8_ATAC_seq_Amit_mm10_GSM1463178 # band width = 60 compared to 52 bps 
+CMP_ATAC_seq_Amit_mm10_GSM1463180 # band width = 69 compared to 68 bps 
+GMP_ATAC_seq_Amit_mm10_GSM1463173 # band width = 60 compared to 52 bps 
+GN_ATAC_seq_Amit_mm10_GSM1463176 # band width = 60 compared to 70 bps 
+Lsk_ATAC_seq_Amit_mm10_GSM1463179 # band width = 70 compared to 61 bps 
+MEP_ATAC_seq_Amit_mm10_GSM1463181 # band width = 616 compared to 66 bps 
+Mono_ATAC_seq_Amit_mm10_GSM1463174 # band width = 70 compared to 75 bps 
+NK_ATAC_seq_Amit_mm10_GSM1463177 # band width = 69 compared to 60 bps 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=B_ATAC_seq_Amit_mm10_GSM1463172_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=CD4_ATAC_seq_Amit_mm10_GSM1463175_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=CD8_ATAC_seq_Amit_mm10_GSM1463178_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=CMP_ATAC_seq_Amit_mm10_GSM1463180_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=GMP_ATAC_seq_Amit_mm10_GSM1463173_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=GN_ATAC_seq_Amit_mm10_GSM1463176_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=Lsk_ATAC_seq_Amit_mm10_GSM1463179_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=MEP_ATAC_seq_Amit_mm10_GSM1463181_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=Mono_ATAC_seq_Amit_mm10_GSM1463174_macs_model.r'
+
+null device 
+          1 
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=NK_ATAC_seq_Amit_mm10_GSM1463177_macs_model.r'
+
+null device 
+          1 
+B_ATAC_seq_Amit_mm10_GSM1463172 normalizing of wig file underway
+CD4_ATAC_seq_Amit_mm10_GSM1463175 normalizing of wig file underway
+CD8_ATAC_seq_Amit_mm10_GSM1463178 normalizing of wig file underway
+CMP_ATAC_seq_Amit_mm10_GSM1463180 normalizing of wig file underway
+GMP_ATAC_seq_Amit_mm10_GSM1463173 normalizing of wig file underway
+GN_ATAC_seq_Amit_mm10_GSM1463176 normalizing of wig file underway
+Lsk_ATAC_seq_Amit_mm10_GSM1463179 normalizing of wig file underway
+MEP_ATAC_seq_Amit_mm10_GSM1463181 normalizing of wig file underway
+Mono_ATAC_seq_Amit_mm10_GSM1463174 normalizing of wig file underway
+NK_ATAC_seq_Amit_mm10_GSM1463177 normalizing of wig file underway
+wigToBigWig -clip MEP_ATAC_seq_Amit_mm10_GSM1463181_macs_MACS_wiggle/treat/MEP_ATAC_seq_Amit_mm10_GSM1463181_macs_treat_afterfiting_all.wig /mnt/data1/VahediLab/PTF_Team/Data/mm10.chrom.sizes MEP_ATAC_seq_Amit_mm10_GSM1463181_macs.bw
+wigToBigWig -clip CMP_ATAC_seq_Amit_mm10_GSM1463180_macs_MACS_wiggle/treat/CMP_ATAC_seq_Amit_mm10_GSM1463180_macs_treat_afterfiting_all.wig /mnt/data1/VahediLab/PTF_Team/Data/mm10.chrom.sizes CMP_ATAC_seq_Amit_mm10_GSM1463180_macs.bw
+wigToBigWig -clip Lsk_ATAC_seq_Amit_mm10_GSM1463179_macs_MACS_wiggle/treat/Lsk_ATAC_seq_Amit_mm10_GSM1463179_macs_treat_afterfiting_all.wig /mnt/data1/VahediLab/PTF_Team/Data/mm10.chrom.sizes Lsk_ATAC_seq_Amit_mm10_GSM1463179_macs.bw
+wigToBigWig -clip CD8_ATAC_seq_Amit_mm10_GSM1463178_macs_MACS_wiggle/treat/CD8_ATAC_seq_Amit_mm10_GSM1463178_macs_treat_afterfiting_all.wig /mnt/data1/VahediLab/PTF_Team/Data/mm10.chrom.sizes CD8_ATAC_seq_Amit_mm10_GSM1463178_macs.bw
+wigToBigWig -clip NK_ATAC_seq_Amit_mm10_GSM1463177_macs_MACS_wiggle/treat/NK_ATAC_seq_Amit_mm10_GSM1463177_macs_treat_afterfiting_all.wig /mnt/data1/VahediLab/PTF_Team/Data/mm10.chrom.sizes NK_ATAC_seq_Amit_mm10_GSM1463177_macs.bw
+wigToBigWig -clip GN_ATAC_seq_Amit_mm10_GSM1463176_macs_MACS_wiggle/treat/GN_ATAC_seq_Amit_mm10_GSM1463176_macs_treat_afterfiting_all.wig /mnt/data1/VahediLab/PTF_Team/Data/mm10.chrom.sizes GN_ATAC_seq_Amit_mm10_GSM1463176_macs.bw
+wigToBigWig -clip CD4_ATAC_seq_Amit_mm10_GSM1463175_macs_MACS_wiggle/treat/CD4_ATAC_seq_Amit_mm10_GSM1463175_macs_treat_afterfiting_all.wig /mnt/data1/VahediLab/PTF_Team/Data/mm10.chrom.sizes CD4_ATAC_seq_Amit_mm10_GSM1463175_macs.bw
+wigToBigWig -clip Mono_ATAC_seq_Amit_mm10_GSM1463174_macs_MACS_wiggle/treat/Mono_ATAC_seq_Amit_mm10_GSM1463174_macs_treat_afterfiting_all.wig /mnt/data1/VahediLab/PTF_Team/Data/mm10.chrom.sizes Mono_ATAC_seq_Amit_mm10_GSM1463174_macs.bw
+wigToBigWig -clip GMP_ATAC_seq_Amit_mm10_GSM1463173_macs_MACS_wiggle/treat/GMP_ATAC_seq_Amit_mm10_GSM1463173_macs_treat_afterfiting_all.wig /mnt/data1/VahediLab/PTF_Team/Data/mm10.chrom.sizes GMP_ATAC_seq_Amit_mm10_GSM1463173_macs.bw
+wigToBigWig -clip B_ATAC_seq_Amit_mm10_GSM1463172_macs_MACS_wiggle/treat/B_ATAC_seq_Amit_mm10_GSM1463172_macs_treat_afterfiting_all.wig /mnt/data1/VahediLab/PTF_Team/Data/mm10.chrom.sizes B_ATAC_seq_Amit_mm10_GSM1463172_macs.bw
+line 12964139 of CD8_ATAC_seq_Amit_mm10_GSM1463178_macs_MACS_wiggle/treat/CD8_ATAC_seq_Amit_mm10_GSM1463178_macs_treat_afterfiting_all.wig: chromosome chrM has 16299 bases, but item ends at 16300
+line 12964140 of CD8_ATAC_seq_Amit_mm10_GSM1463178_macs_MACS_wiggle/treat/CD8_ATAC_seq_Amit_mm10_GSM1463178_macs_treat_afterfiting_all.wig: chromosome chrM has 16299 bases, but item ends at 16310
+line 12964141 of CD8_ATAC_seq_Amit_mm10_GSM1463178_macs_MACS_wiggle/treat/CD8_ATAC_seq_Amit_mm10_GSM1463178_macs_treat_afterfiting_all.wig: chromosome chrM has 16299 bases, but item ends at 16320
+line 12964142 of CD8_ATAC_seq_Amit_mm10_GSM1463178_macs_MACS_wiggle/treat/CD8_ATAC_seq_Amit_mm10_GSM1463178_macs_treat_afterfiting_all.wig: chromosome chrM has 16299 bases, but item ends at 16330
+line 14886650 of CD4_ATAC_seq_Amit_mm10_GSM1463175_macs_MACS_wiggle/treat/CD4_ATAC_seq_Amit_mm10_GSM1463175_macs_treat_afterfiting_all.wig: chromosome chrM has 16299 bases, but item ends at 16300
+line 14886651 of CD4_ATAC_seq_Amit_mm10_GSM1463175_macs_MACS_wiggle/treat/CD4_ATAC_seq_Amit_mm10_GSM1463175_macs_treat_afterfiting_all.wig: chromosome chrM has 16299 bases, but item ends at 16310
+line 14886652 of CD4_ATAC_seq_Amit_mm10_GSM1463175_macs_MACS_wiggle/treat/CD4_ATAC_seq_Amit_mm10_GSM1463175_macs_treat_afterfiting_all.wig: chromosome chrM has 16299 bases, but item ends at 16320
+line 14886653 of CD4_ATAC_seq_Amit_mm10_GSM1463175_macs_MACS_wiggle/treat/CD4_ATAC_seq_Amit_mm10_GSM1463175_macs_treat_afterfiting_all.wig: chromosome chrM has 16299 bases, but item ends at 16330
+line 14257648 of Mono_ATAC_seq_Amit_mm10_GSM1463174_macs_MACS_wiggle/treat/Mono_ATAC_seq_Amit_mm10_GSM1463174_macs_treat_afterfiting_all.wig: chromosome chrM has 16299 bases, but item ends at 16300
+line 14257649 of Mono_ATAC_seq_Amit_mm10_GSM1463174_macs_MACS_wiggle/treat/Mono_ATAC_seq_Amit_mm10_GSM1463174_macs_treat_afterfiting_all.wig: chromosome chrM has 16299 bases, but item ends at 16310
+line 14257650 of Mono_ATAC_seq_Amit_mm10_GSM1463174_macs_MACS_wiggle/treat/Mono_ATAC_seq_Amit_mm10_GSM1463174_macs_treat_afterfiting_all.wig: chromosome chrM has 16299 bases, but item ends at 16320
+line 14257651 of Mono_ATAC_seq_Amit_mm10_GSM1463174_macs_MACS_wiggle/treat/Mono_ATAC_seq_Amit_mm10_GSM1463174_macs_treat_afterfiting_all.wig: chromosome chrM has 16299 bases, but item ends at 16330
+line 14257652 of Mono_ATAC_seq_Amit_mm10_GSM1463174_macs_MACS_wiggle/treat/Mono_ATAC_seq_Amit_mm10_GSM1463174_macs_treat_afterfiting_all.wig: chromosome chrM has 16299 bases, but item ends at 16340
+line 23954559 of NK_ATAC_seq_Amit_mm10_GSM1463177_macs_MACS_wiggle/treat/NK_ATAC_seq_Amit_mm10_GSM1463177_macs_treat_afterfiting_all.wig: chromosome chrM has 16299 bases, but item ends at 16300
+line 23954560 of NK_ATAC_seq_Amit_mm10_GSM1463177_macs_MACS_wiggle/treat/NK_ATAC_seq_Amit_mm10_GSM1463177_macs_treat_afterfiting_all.wig: chromosome chrM has 16299 bases, but item ends at 16310
+line 23954561 of NK_ATAC_seq_Amit_mm10_GSM1463177_macs_MACS_wiggle/treat/NK_ATAC_seq_Amit_mm10_GSM1463177_macs_treat_afterfiting_all.wig: chromosome chrM has 16299 bases, but item ends at 16320
+line 23954562 of NK_ATAC_seq_Amit_mm10_GSM1463177_macs_MACS_wiggle/treat/NK_ATAC_seq_Amit_mm10_GSM1463177_macs_treat_afterfiting_all.wig: chromosome chrM has 16299 bases, but item ends at 16330
+line 27340874 of GMP_ATAC_seq_Amit_mm10_GSM1463173_macs_MACS_wiggle/treat/GMP_ATAC_seq_Amit_mm10_GSM1463173_macs_treat_afterfiting_all.wig: chromosome chrM has 16299 bases, but item ends at 16300
+line 27340875 of GMP_ATAC_seq_Amit_mm10_GSM1463173_macs_MACS_wiggle/treat/GMP_ATAC_seq_Amit_mm10_GSM1463173_macs_treat_afterfiting_all.wig: chromosome chrM has 16299 bases, but item ends at 16310
+line 27340876 of GMP_ATAC_seq_Amit_mm10_GSM1463173_macs_MACS_wiggle/treat/GMP_ATAC_seq_Amit_mm10_GSM1463173_macs_treat_afterfiting_all.wig: chromosome chrM has 16299 bases, but item ends at 16320
+line 27340877 of GMP_ATAC_seq_Amit_mm10_GSM1463173_macs_MACS_wiggle/treat/GMP_ATAC_seq_Amit_mm10_GSM1463173_macs_treat_afterfiting_all.wig: chromosome chrM has 16299 bases, but item ends at 16330
+line 28223998 of Lsk_ATAC_seq_Amit_mm10_GSM1463179_macs_MACS_wiggle/treat/Lsk_ATAC_seq_Amit_mm10_GSM1463179_macs_treat_afterfiting_all.wig: chromosome chrM has 16299 bases, but item ends at 16300
+line 28223999 of Lsk_ATAC_seq_Amit_mm10_GSM1463179_macs_MACS_wiggle/treat/Lsk_ATAC_seq_Amit_mm10_GSM1463179_macs_treat_afterfiting_all.wig: chromosome chrM has 16299 bases, but item ends at 16310
+line 28224000 of Lsk_ATAC_seq_Amit_mm10_GSM1463179_macs_MACS_wiggle/treat/Lsk_ATAC_seq_Amit_mm10_GSM1463179_macs_treat_afterfiting_all.wig: chromosome chrM has 16299 bases, but item ends at 16320
+line 28224001 of Lsk_ATAC_seq_Amit_mm10_GSM1463179_macs_MACS_wiggle/treat/Lsk_ATAC_seq_Amit_mm10_GSM1463179_macs_treat_afterfiting_all.wig: chromosome chrM has 16299 bases, but item ends at 16330
+line 28224002 of Lsk_ATAC_seq_Amit_mm10_GSM1463179_macs_MACS_wiggle/treat/Lsk_ATAC_seq_Amit_mm10_GSM1463179_macs_treat_afterfiting_all.wig: chromosome chrM has 16299 bases, but item ends at 16340
+line 34570790 of B_ATAC_seq_Amit_mm10_GSM1463172_macs_MACS_wiggle/treat/B_ATAC_seq_Amit_mm10_GSM1463172_macs_treat_afterfiting_all.wig: chromosome chrM has 16299 bases, but item ends at 16300
+line 34570791 of B_ATAC_seq_Amit_mm10_GSM1463172_macs_MACS_wiggle/treat/B_ATAC_seq_Amit_mm10_GSM1463172_macs_treat_afterfiting_all.wig: chromosome chrM has 16299 bases, but item ends at 16310
+line 34570792 of B_ATAC_seq_Amit_mm10_GSM1463172_macs_MACS_wiggle/treat/B_ATAC_seq_Amit_mm10_GSM1463172_macs_treat_afterfiting_all.wig: chromosome chrM has 16299 bases, but item ends at 16320
+line 34570793 of B_ATAC_seq_Amit_mm10_GSM1463172_macs_MACS_wiggle/treat/B_ATAC_seq_Amit_mm10_GSM1463172_macs_treat_afterfiting_all.wig: chromosome chrM has 16299 bases, but item ends at 16330
+line 34570794 of B_ATAC_seq_Amit_mm10_GSM1463172_macs_MACS_wiggle/treat/B_ATAC_seq_Amit_mm10_GSM1463172_macs_treat_afterfiting_all.wig: chromosome chrM has 16299 bases, but item ends at 16340
+line 34861768 of CMP_ATAC_seq_Amit_mm10_GSM1463180_macs_MACS_wiggle/treat/CMP_ATAC_seq_Amit_mm10_GSM1463180_macs_treat_afterfiting_all.wig: chromosome chrM has 16299 bases, but item ends at 16300
+line 34861769 of CMP_ATAC_seq_Amit_mm10_GSM1463180_macs_MACS_wiggle/treat/CMP_ATAC_seq_Amit_mm10_GSM1463180_macs_treat_afterfiting_all.wig: chromosome chrM has 16299 bases, but item ends at 16310
+line 34861770 of CMP_ATAC_seq_Amit_mm10_GSM1463180_macs_MACS_wiggle/treat/CMP_ATAC_seq_Amit_mm10_GSM1463180_macs_treat_afterfiting_all.wig: chromosome chrM has 16299 bases, but item ends at 16320
+line 34861771 of CMP_ATAC_seq_Amit_mm10_GSM1463180_macs_MACS_wiggle/treat/CMP_ATAC_seq_Amit_mm10_GSM1463180_macs_treat_afterfiting_all.wig: chromosome chrM has 16299 bases, but item ends at 16330
+line 34861772 of CMP_ATAC_seq_Amit_mm10_GSM1463180_macs_MACS_wiggle/treat/CMP_ATAC_seq_Amit_mm10_GSM1463180_macs_treat_afterfiting_all.wig: chromosome chrM has 16299 bases, but item ends at 16340
+line 34861773 of CMP_ATAC_seq_Amit_mm10_GSM1463180_macs_MACS_wiggle/treat/CMP_ATAC_seq_Amit_mm10_GSM1463180_macs_treat_afterfiting_all.wig: chromosome chrM has 16299 bases, but item ends at 16350
+line 61824491 of MEP_ATAC_seq_Amit_mm10_GSM1463181_macs_MACS_wiggle/treat/MEP_ATAC_seq_Amit_mm10_GSM1463181_macs_treat_afterfiting_all.wig: chromosome chrM has 16299 bases, but item ends at 16300
+line 61824492 of MEP_ATAC_seq_Amit_mm10_GSM1463181_macs_MACS_wiggle/treat/MEP_ATAC_seq_Amit_mm10_GSM1463181_macs_treat_afterfiting_all.wig: chromosome chrM has 16299 bases, but item ends at 16310
+line 61824493 of MEP_ATAC_seq_Amit_mm10_GSM1463181_macs_MACS_wiggle/treat/MEP_ATAC_seq_Amit_mm10_GSM1463181_macs_treat_afterfiting_all.wig: chromosome chrM has 16299 bases, but item ends at 16320
+line 61824494 of MEP_ATAC_seq_Amit_mm10_GSM1463181_macs_MACS_wiggle/treat/MEP_ATAC_seq_Amit_mm10_GSM1463181_macs_treat_afterfiting_all.wig: chromosome chrM has 16299 bases, but item ends at 16330
+line 61824495 of MEP_ATAC_seq_Amit_mm10_GSM1463181_macs_MACS_wiggle/treat/MEP_ATAC_seq_Amit_mm10_GSM1463181_macs_treat_afterfiting_all.wig: chromosome chrM has 16299 bases, but item ends at 16340
+line 61824496 of MEP_ATAC_seq_Amit_mm10_GSM1463181_macs_MACS_wiggle/treat/MEP_ATAC_seq_Amit_mm10_GSM1463181_macs_treat_afterfiting_all.wig: chromosome chrM has 16299 bases, but item ends at 16350
+line 75080544 of GN_ATAC_seq_Amit_mm10_GSM1463176_macs_MACS_wiggle/treat/GN_ATAC_seq_Amit_mm10_GSM1463176_macs_treat_afterfiting_all.wig: chromosome chrM has 16299 bases, but item ends at 16300
+line 75080545 of GN_ATAC_seq_Amit_mm10_GSM1463176_macs_MACS_wiggle/treat/GN_ATAC_seq_Amit_mm10_GSM1463176_macs_treat_afterfiting_all.wig: chromosome chrM has 16299 bases, but item ends at 16310
+line 75080546 of GN_ATAC_seq_Amit_mm10_GSM1463176_macs_MACS_wiggle/treat/GN_ATAC_seq_Amit_mm10_GSM1463176_macs_treat_afterfiting_all.wig: chromosome chrM has 16299 bases, but item ends at 16320
+line 75080547 of GN_ATAC_seq_Amit_mm10_GSM1463176_macs_MACS_wiggle/treat/GN_ATAC_seq_Amit_mm10_GSM1463176_macs_treat_afterfiting_all.wig: chromosome chrM has 16299 bases, but item ends at 16330
+line 75080548 of GN_ATAC_seq_Amit_mm10_GSM1463176_macs_MACS_wiggle/treat/GN_ATAC_seq_Amit_mm10_GSM1463176_macs_treat_afterfiting_all.wig: chromosome chrM has 16299 bases, but item ends at 16340
+wigToBigWig -clip MEP_ATAC_seq_Amit_mm10_GSM1463181_macs_MACS_wiggle/treat/MEP_ATAC_seq_Amit_mm10_GSM1463181_macs_normalized.wig /mnt/data1/VahediLab/PTF_Team/Data/mm10.chrom.sizes MEP_ATAC_seq_Amit_mm10_GSM1463181_macs_normalized.bw
+wigToBigWig -clip CMP_ATAC_seq_Amit_mm10_GSM1463180_macs_MACS_wiggle/treat/CMP_ATAC_seq_Amit_mm10_GSM1463180_macs_normalized.wig /mnt/data1/VahediLab/PTF_Team/Data/mm10.chrom.sizes CMP_ATAC_seq_Amit_mm10_GSM1463180_macs_normalized.bw
+wigToBigWig -clip Lsk_ATAC_seq_Amit_mm10_GSM1463179_macs_MACS_wiggle/treat/Lsk_ATAC_seq_Amit_mm10_GSM1463179_macs_normalized.wig /mnt/data1/VahediLab/PTF_Team/Data/mm10.chrom.sizes Lsk_ATAC_seq_Amit_mm10_GSM1463179_macs_normalized.bw
+wigToBigWig -clip CD8_ATAC_seq_Amit_mm10_GSM1463178_macs_MACS_wiggle/treat/CD8_ATAC_seq_Amit_mm10_GSM1463178_macs_normalized.wig /mnt/data1/VahediLab/PTF_Team/Data/mm10.chrom.sizes CD8_ATAC_seq_Amit_mm10_GSM1463178_macs_normalized.bw
+wigToBigWig -clip NK_ATAC_seq_Amit_mm10_GSM1463177_macs_MACS_wiggle/treat/NK_ATAC_seq_Amit_mm10_GSM1463177_macs_normalized.wig /mnt/data1/VahediLab/PTF_Team/Data/mm10.chrom.sizes NK_ATAC_seq_Amit_mm10_GSM1463177_macs_normalized.bw
+wigToBigWig -clip GN_ATAC_seq_Amit_mm10_GSM1463176_macs_MACS_wiggle/treat/GN_ATAC_seq_Amit_mm10_GSM1463176_macs_normalized.wig /mnt/data1/VahediLab/PTF_Team/Data/mm10.chrom.sizes GN_ATAC_seq_Amit_mm10_GSM1463176_macs_normalized.bw
+wigToBigWig -clip CD4_ATAC_seq_Amit_mm10_GSM1463175_macs_MACS_wiggle/treat/CD4_ATAC_seq_Amit_mm10_GSM1463175_macs_normalized.wig /mnt/data1/VahediLab/PTF_Team/Data/mm10.chrom.sizes CD4_ATAC_seq_Amit_mm10_GSM1463175_macs_normalized.bw
+wigToBigWig -clip Mono_ATAC_seq_Amit_mm10_GSM1463174_macs_MACS_wiggle/treat/Mono_ATAC_seq_Amit_mm10_GSM1463174_macs_normalized.wig /mnt/data1/VahediLab/PTF_Team/Data/mm10.chrom.sizes Mono_ATAC_seq_Amit_mm10_GSM1463174_macs_normalized.bw
+wigToBigWig -clip GMP_ATAC_seq_Amit_mm10_GSM1463173_macs_MACS_wiggle/treat/GMP_ATAC_seq_Amit_mm10_GSM1463173_macs_normalized.wig /mnt/data1/VahediLab/PTF_Team/Data/mm10.chrom.sizes GMP_ATAC_seq_Amit_mm10_GSM1463173_macs_normalized.bw
+wigToBigWig -clip B_ATAC_seq_Amit_mm10_GSM1463172_macs_MACS_wiggle/treat/B_ATAC_seq_Amit_mm10_GSM1463172_macs_normalized.wig /mnt/data1/VahediLab/PTF_Team/Data/mm10.chrom.sizes B_ATAC_seq_Amit_mm10_GSM1463172_macs_normalized.bw
+line 12964139 of CD8_ATAC_seq_Amit_mm10_GSM1463178_macs_MACS_wiggle/treat/CD8_ATAC_seq_Amit_mm10_GSM1463178_macs_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16300
+line 12964140 of CD8_ATAC_seq_Amit_mm10_GSM1463178_macs_MACS_wiggle/treat/CD8_ATAC_seq_Amit_mm10_GSM1463178_macs_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16310
+line 12964141 of CD8_ATAC_seq_Amit_mm10_GSM1463178_macs_MACS_wiggle/treat/CD8_ATAC_seq_Amit_mm10_GSM1463178_macs_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16320
+line 12964142 of CD8_ATAC_seq_Amit_mm10_GSM1463178_macs_MACS_wiggle/treat/CD8_ATAC_seq_Amit_mm10_GSM1463178_macs_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16330
+line 14257648 of Mono_ATAC_seq_Amit_mm10_GSM1463174_macs_MACS_wiggle/treat/Mono_ATAC_seq_Amit_mm10_GSM1463174_macs_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16300
+line 14257649 of Mono_ATAC_seq_Amit_mm10_GSM1463174_macs_MACS_wiggle/treat/Mono_ATAC_seq_Amit_mm10_GSM1463174_macs_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16310
+line 14257650 of Mono_ATAC_seq_Amit_mm10_GSM1463174_macs_MACS_wiggle/treat/Mono_ATAC_seq_Amit_mm10_GSM1463174_macs_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16320
+line 14257651 of Mono_ATAC_seq_Amit_mm10_GSM1463174_macs_MACS_wiggle/treat/Mono_ATAC_seq_Amit_mm10_GSM1463174_macs_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16330
+line 14257652 of Mono_ATAC_seq_Amit_mm10_GSM1463174_macs_MACS_wiggle/treat/Mono_ATAC_seq_Amit_mm10_GSM1463174_macs_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16340
+line 14886650 of CD4_ATAC_seq_Amit_mm10_GSM1463175_macs_MACS_wiggle/treat/CD4_ATAC_seq_Amit_mm10_GSM1463175_macs_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16300
+line 14886651 of CD4_ATAC_seq_Amit_mm10_GSM1463175_macs_MACS_wiggle/treat/CD4_ATAC_seq_Amit_mm10_GSM1463175_macs_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16310
+line 14886652 of CD4_ATAC_seq_Amit_mm10_GSM1463175_macs_MACS_wiggle/treat/CD4_ATAC_seq_Amit_mm10_GSM1463175_macs_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16320
+line 14886653 of CD4_ATAC_seq_Amit_mm10_GSM1463175_macs_MACS_wiggle/treat/CD4_ATAC_seq_Amit_mm10_GSM1463175_macs_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16330
+line 23954559 of NK_ATAC_seq_Amit_mm10_GSM1463177_macs_MACS_wiggle/treat/NK_ATAC_seq_Amit_mm10_GSM1463177_macs_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16300
+line 23954560 of NK_ATAC_seq_Amit_mm10_GSM1463177_macs_MACS_wiggle/treat/NK_ATAC_seq_Amit_mm10_GSM1463177_macs_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16310
+line 23954561 of NK_ATAC_seq_Amit_mm10_GSM1463177_macs_MACS_wiggle/treat/NK_ATAC_seq_Amit_mm10_GSM1463177_macs_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16320
+line 23954562 of NK_ATAC_seq_Amit_mm10_GSM1463177_macs_MACS_wiggle/treat/NK_ATAC_seq_Amit_mm10_GSM1463177_macs_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16330
+line 27340874 of GMP_ATAC_seq_Amit_mm10_GSM1463173_macs_MACS_wiggle/treat/GMP_ATAC_seq_Amit_mm10_GSM1463173_macs_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16300
+line 27340875 of GMP_ATAC_seq_Amit_mm10_GSM1463173_macs_MACS_wiggle/treat/GMP_ATAC_seq_Amit_mm10_GSM1463173_macs_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16310
+line 27340876 of GMP_ATAC_seq_Amit_mm10_GSM1463173_macs_MACS_wiggle/treat/GMP_ATAC_seq_Amit_mm10_GSM1463173_macs_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16320
+line 27340877 of GMP_ATAC_seq_Amit_mm10_GSM1463173_macs_MACS_wiggle/treat/GMP_ATAC_seq_Amit_mm10_GSM1463173_macs_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16330
+line 28223998 of Lsk_ATAC_seq_Amit_mm10_GSM1463179_macs_MACS_wiggle/treat/Lsk_ATAC_seq_Amit_mm10_GSM1463179_macs_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16300
+line 28223999 of Lsk_ATAC_seq_Amit_mm10_GSM1463179_macs_MACS_wiggle/treat/Lsk_ATAC_seq_Amit_mm10_GSM1463179_macs_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16310
+line 28224000 of Lsk_ATAC_seq_Amit_mm10_GSM1463179_macs_MACS_wiggle/treat/Lsk_ATAC_seq_Amit_mm10_GSM1463179_macs_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16320
+line 28224001 of Lsk_ATAC_seq_Amit_mm10_GSM1463179_macs_MACS_wiggle/treat/Lsk_ATAC_seq_Amit_mm10_GSM1463179_macs_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16330
+line 28224002 of Lsk_ATAC_seq_Amit_mm10_GSM1463179_macs_MACS_wiggle/treat/Lsk_ATAC_seq_Amit_mm10_GSM1463179_macs_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16340
+line 34570790 of B_ATAC_seq_Amit_mm10_GSM1463172_macs_MACS_wiggle/treat/B_ATAC_seq_Amit_mm10_GSM1463172_macs_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16300
+line 34570791 of B_ATAC_seq_Amit_mm10_GSM1463172_macs_MACS_wiggle/treat/B_ATAC_seq_Amit_mm10_GSM1463172_macs_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16310
+line 34570792 of B_ATAC_seq_Amit_mm10_GSM1463172_macs_MACS_wiggle/treat/B_ATAC_seq_Amit_mm10_GSM1463172_macs_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16320
+line 34570793 of B_ATAC_seq_Amit_mm10_GSM1463172_macs_MACS_wiggle/treat/B_ATAC_seq_Amit_mm10_GSM1463172_macs_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16330
+line 34570794 of B_ATAC_seq_Amit_mm10_GSM1463172_macs_MACS_wiggle/treat/B_ATAC_seq_Amit_mm10_GSM1463172_macs_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16340
+line 34861768 of CMP_ATAC_seq_Amit_mm10_GSM1463180_macs_MACS_wiggle/treat/CMP_ATAC_seq_Amit_mm10_GSM1463180_macs_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16300
+line 34861769 of CMP_ATAC_seq_Amit_mm10_GSM1463180_macs_MACS_wiggle/treat/CMP_ATAC_seq_Amit_mm10_GSM1463180_macs_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16310
+line 34861770 of CMP_ATAC_seq_Amit_mm10_GSM1463180_macs_MACS_wiggle/treat/CMP_ATAC_seq_Amit_mm10_GSM1463180_macs_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16320
+line 34861771 of CMP_ATAC_seq_Amit_mm10_GSM1463180_macs_MACS_wiggle/treat/CMP_ATAC_seq_Amit_mm10_GSM1463180_macs_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16330
+line 34861772 of CMP_ATAC_seq_Amit_mm10_GSM1463180_macs_MACS_wiggle/treat/CMP_ATAC_seq_Amit_mm10_GSM1463180_macs_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16340
+line 34861773 of CMP_ATAC_seq_Amit_mm10_GSM1463180_macs_MACS_wiggle/treat/CMP_ATAC_seq_Amit_mm10_GSM1463180_macs_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16350
+line 61824491 of MEP_ATAC_seq_Amit_mm10_GSM1463181_macs_MACS_wiggle/treat/MEP_ATAC_seq_Amit_mm10_GSM1463181_macs_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16300
+line 61824492 of MEP_ATAC_seq_Amit_mm10_GSM1463181_macs_MACS_wiggle/treat/MEP_ATAC_seq_Amit_mm10_GSM1463181_macs_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16310
+line 61824493 of MEP_ATAC_seq_Amit_mm10_GSM1463181_macs_MACS_wiggle/treat/MEP_ATAC_seq_Amit_mm10_GSM1463181_macs_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16320
+line 61824494 of MEP_ATAC_seq_Amit_mm10_GSM1463181_macs_MACS_wiggle/treat/MEP_ATAC_seq_Amit_mm10_GSM1463181_macs_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16330
+line 61824495 of MEP_ATAC_seq_Amit_mm10_GSM1463181_macs_MACS_wiggle/treat/MEP_ATAC_seq_Amit_mm10_GSM1463181_macs_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16340
+line 61824496 of MEP_ATAC_seq_Amit_mm10_GSM1463181_macs_MACS_wiggle/treat/MEP_ATAC_seq_Amit_mm10_GSM1463181_macs_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16350
+line 75080544 of GN_ATAC_seq_Amit_mm10_GSM1463176_macs_MACS_wiggle/treat/GN_ATAC_seq_Amit_mm10_GSM1463176_macs_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16300
+line 75080545 of GN_ATAC_seq_Amit_mm10_GSM1463176_macs_MACS_wiggle/treat/GN_ATAC_seq_Amit_mm10_GSM1463176_macs_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16310
+line 75080546 of GN_ATAC_seq_Amit_mm10_GSM1463176_macs_MACS_wiggle/treat/GN_ATAC_seq_Amit_mm10_GSM1463176_macs_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16320
+line 75080547 of GN_ATAC_seq_Amit_mm10_GSM1463176_macs_MACS_wiggle/treat/GN_ATAC_seq_Amit_mm10_GSM1463176_macs_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16330
+line 75080548 of GN_ATAC_seq_Amit_mm10_GSM1463176_macs_MACS_wiggle/treat/GN_ATAC_seq_Amit_mm10_GSM1463176_macs_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16340

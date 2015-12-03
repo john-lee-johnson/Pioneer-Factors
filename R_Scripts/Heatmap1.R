@@ -4,6 +4,7 @@ setwd(wd)
 #getwd()
 #setwd("/mnt/data1/John/Pioneer_Factors")
 #setwd("~/Desktop/John/Pioneer_Factors")
+setwd("/mnt/data1/John/Pioneer-Factors")
 #Read in Data
 #datadir="/mnt/data1/VahediLab/PTF_Team/Data"
 library(rafalib)

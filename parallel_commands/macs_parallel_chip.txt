@@ -61,3 +61,4 @@
 /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/CMP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441272.bam CMP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441272_macs 190
 /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/MPP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441271.bam MPP_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441271_macs 215
 /mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/STHSC_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441270.bam STHSC_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441270_macs 223
+/mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/bam/LTHSC_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441269.bam LTHSC_ChIP_seq_H3K27Ac_Amit_mm10_GSM1441269_macs 181

@@ -1,0 +1,2 @@
+/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/Transcription_Factor/Thy/Input /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/Transcription_Factor/Thy/Input/SRR846898.fastq
+/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/Transcription_Factor/Thy/Tcf1 /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/Transcription_Factor/Thy/Tcf1/SRR846897.fastq
