@@ -1,0 +1,6 @@
+GSM1978248,Beta,Homo sapiens,ATAC_seq,Wang,Illumina,Paired,Rep_1,/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Rep_1:SRR3048049 SRR3048050
+GSM1978247,Beta,Homo sapiens,ATAC_seq,Wang,Illumina,Paired,Rep_2,/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Rep_2:SRR3048047 SRR3048048
+GSM1978246,Beta,Homo sapiens,ATAC_seq,Wang,Illumina,Paired,Rep_3,/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Rep_3:SRR3048045 SRR3048046
+GSM1978245,Alpha,Homo sapiens,ATAC_seq,Wang,Illumina,Paired,Rep_1,/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Rep_1:SRR3048043 SRR3048044
+GSM1978244,Alpha,Homo sapiens,ATAC_seq,Wang,Illumina,Paired,Rep_2,/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Rep_2:SRR3048041 SRR3048042
+GSM1978243,Alpha,Homo sapiens,ATAC_seq,Wang,Illumina,Paired,Rep_3,/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Rep_3:SRR3048039 SRR3048040

@@ -1,0 +1,2 @@
+/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/DP/Gata3/Zhao/DP_ChIP_seq_Gata3_Zhao_mm10_GSM523222.bam /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/DP/Gata3/Zhao/macs/DP_ChIP_seq_Gata3_Zhao_mm10_GSM523222 128
+/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/DN/Gata3/Zhao/DN_ChIP_seq_Gata3_Zhao_mm10_GSM523221.bam /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/DN/Gata3/Zhao/macs/DN_ChIP_seq_Gata3_Zhao_mm10_GSM523221 113

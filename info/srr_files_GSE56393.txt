@@ -1,0 +1,5 @@
+GSM1360737,DP,Mus musculus,ChIP_seq,E47,Cauchy,ABI,Single,Rep_0,/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/DP/E47/Cauchy:SRR1210617
+GSM1360736,DN,Mus musculus,ChIP_seq,Input,Cauchy,Illumina,Single,Rep_0,/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/DN/Input/Cauchy:SRR1210616
+GSM1360735,DN,Mus musculus,ChIP_seq,Runx1,Cauchy,ABI,Single,Rep_0,/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/DN/Runx1/Cauchy:SRR1210615
+GSM1360719,DN,Mus musculus,ChIP_seq,Ets1,Cauchy,Illumina,Single,Rep_2,/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/DN/Ets1/Cauchy/Rep_2:SRR1210609
+GSM1360718,DN,Mus musculus,ChIP_seq,Ets1,Cauchy,Illumina,Single,Rep_1,/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/DN/Ets1/Cauchy/Rep_1:SRR1210608

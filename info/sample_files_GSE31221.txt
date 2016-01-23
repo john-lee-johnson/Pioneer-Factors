@@ -1,0 +1,5 @@
+GSM773998,EML,Mus musculus,ChIP_seq,Input,Runx1,Illumina,Single,Rep_0
+GSM773997,EML,Mus musculus,ChIP_seq,Input,Tcf1,Illumina,Single,Rep_0
+GSM773996,EML,Mus musculus,ChIP_seq,Runx1,Wu,Illumina,Single,Rep_2
+GSM773995,EML,Mus musculus,ChIP_seq,Runx1,Wu,Illumina,Single,Rep_1
+GSM773994,EML,Mus musculus,ChIP_seq,Tcf1,Wu,Illumina,Single,Rep_0

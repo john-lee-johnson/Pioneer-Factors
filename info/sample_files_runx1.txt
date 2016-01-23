@@ -1,0 +1,3 @@
+GSM1360737: DP; Mus musculus; ChIP_seq; E47
+GSM1360736: DN; Mus musculus; ChIP_seq; Input
+GSM1360735: DN; Mus musculus; ChIP_seq; Runx1

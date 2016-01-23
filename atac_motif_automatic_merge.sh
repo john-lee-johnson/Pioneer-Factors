@@ -1,0 +1,44 @@
+#!/bin/bash
+dir0=/mnt/data1/John/Pioneer_Factors
+cd /mnt/data1/John/Pioneer_Factors/Analysis/ATAC_seq/Union/R_output_Common_Merge1.5
+for a in `ls -d CD4_CD8*/`; do
+  cd $a
+  filename=$(echo $a | cut -d'/' -f1)
+  cp $dir0/Analysis/ATAC_seq/Union/R_output/B_CD4_CD8_CMP_GMP_GN_Lsk_MEP_Mono_NK_union_log2.bed .
+  cp $dir0/Analysis/ChIP_seq/Transcription_Factor/Motif/Tcf1/Thy_ChIP_seq_Tcf1_Dose_mm10_GSM1133644_5_column.bed .
+  mergeBed -i B_CD4_CD8_CMP_GMP_GN_Lsk_MEP_Mono_NK_union_log2.bed > B_CD4_CD8_CMP_GMP_GN_Lsk_MEP_Mono_NK_union_log2_merge.bed
+  rm -f Tcf1.txt
+  bedtools intersect -a B_CD4_CD8_CMP_GMP_GN_Lsk_MEP_Mono_NK_union_log2_merge.bed -b ${filename}.bed -wa > ${filename}_peaks.bed
+  bedtools subtract -A -a B_CD4_CD8_CMP_GMP_GN_Lsk_MEP_Mono_NK_union_log2_merge.bed -b ${filename}_peaks.bed | awk 'BEGIN{OFS="\t"} {print $1,$2,$3}' - > ${filename}_peaks_subtract.bed
+  awk 'BEGIN {OFS="\t"} {print $1,$2,$3 "\tpeak" NR "\t0" "\t+"}' ${filename}_peaks_subtract.bed > ${filename}_peaks_subtract_5_column.bed ##Adds a unique peak name and strand info
+  awk 'BEGIN {OFS="\t"} {print $1,$2,$3 "\tpeak" NR "\t0" "\t+"}' ${filename}.bed > ${filename}_peaks_5_column_merge.bed
+  #findMotifsGenome.pl ${filename}_peaks_5_column_merge.bed mm10 Motif.$filename -nomotif -size 200 -p 35 -bg ${filename}_peaks_subtract_5_column.bed -keepFiles	##Does motif analysis at unique ATAC seq peaks
+  bedtools intersect -a ${filename}_peaks_5_column_merge.bed -b Thy_ChIP_seq_Tcf1_Dose_mm10_GSM1133644_5_column.bed -wa > Tcf1_peaks.bed
+  tcf1=$(wc -l Tcf1_peaks.bed | cut -d" " -f1)
+  peaks=$(wc -l ${filename}_peaks_5_column_merge.bed | cut -d" " -f1)
+  results=$( echo "$tcf1 / $peaks" | bc -l )
+  if [[ $(echo "if (${results} > 0.50) 1 else 0" | bc) -eq 1 ]]; then
+    #findMotifsGenome.pl ${filename}_peaks_5_column_merge.bed mm10 Motif.$filename -bg ${filename}_peaks_subtract_5_column.bed -nomotif -dumpFasta -size 200 -p 35 -keepFiles	##Does motif analysis at unique ATAC seq peaks
+    awk 'BEGIN {OFS="\t"} {print $1,$2,$3 "\tpeak" NR "\t0" "\t+"}' Tcf1_peaks.bed > Tcf1_peaks_5_column.bed
+    findMotifsGenome.pl ${filename}_peaks_5_column_merge.bed mm10 Motif400.$filename -size 400 -p 35 -bg ${filename}_peaks_subtract_5_column.bed -keepFiles	##Does motif analysis at unique ATAC seq peaks
+    findMotifsGenome.pl ${filename}_peaks_5_column_merge.bed mm10 Motif200.$filename -size 200 -p 35 -bg ${filename}_peaks_subtract_5_column.bed -keepFiles	##Does motif analysis at unique ATAC seq peaks    
+    #findMotifsGenome.pl Tcf1_peaks_5_column.bed mm10 Motif.TCF1.$filename -nomotif -size 200 -p 35 -bg ${filename}_peaks_subtract_5_column.bed -keepFiles	##Does motif analysis at unique ATAC seq peaks
+
+    count=`head Motif.$filename/knownResults.txt -n 5 | grep -i Tcf | grep -v CTCF | grep -v Tcf12 | wc -l`
+    echo "Greater than 60 percent! FC < 1.5 $results Motif.$filename"
+    if [ $count -ne 0 ]
+    then
+     line=$(head Motif.$filename/knownResults.txt -n 5 | grep -i Tcf | grep -v CTCF | grep -v Tcf12)
+      echo "$line" >> Tcf1.txt
+      #echo "$line FC < 1.5 $results Motif.$filename" | mail -s "Tcf1 found FC" johnlee.johnson@gmail.com
+      unset count
+      echo "MATCH FOUND! Motif.$num"
+    else
+      echo "No match with the pattern"
+    fi
+    else
+     echo "Less than 60 percent!"
+  fi
+  cd /mnt/data1/John/Pioneer_Factors/Analysis/ATAC_seq/Union/R_output_Common_Merge1.5
+done
+

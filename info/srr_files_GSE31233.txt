@@ -1,0 +1,12 @@
+GSM774302,DP,Mus musculus,ChIP_seq,Input,Rothenberg,Illumina,Single,Rep_0,/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/DP/Input/Rothenberg:SRR330845
+GSM774301,DN3,Mus musculus,ChIP_seq,Input,Rothenberg,Illumina,Single,Rep_0,/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/DN3/Input/Rothenberg:SRR330843 SRR330844
+GSM774300,FLDN2b,Mus musculus,ChIP_seq,Input,Rothenberg,Illumina,Single,Rep_0,/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/FLDN2b/Input/Rothenberg:SRR330842
+GSM774299,FLDN2a,Mus musculus,ChIP_seq,Input,Rothenberg,Illumina,Single,Rep_0,/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/FLDN2a/Input/Rothenberg:SRR330841
+GSM774298,FLDN1,Mus musculus,ChIP_seq,Input,Rothenberg,Illumina,Single,Rep_0,/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/FLDN1/Input/Rothenberg:SRR330840
+GSM774297,DP,Mus musculus,ChIP_seq,Gata3,Rothenberg,Illumina,Single,Rep_0,/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/DP/Gata3/Rothenberg:SRR330839
+GSM774296,FLDN2b,Mus musculus,ChIP_seq,Gata3,Rothenberg,Illumina,Single,Rep_0,/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/FLDN2b/Gata3/Rothenberg:SRR330838
+GSM774295,FLDN1,Mus musculus,ChIP_seq,Gata3,Rothenberg,Illumina,Single,Rep_0,/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/FLDN1/Gata3/Rothenberg:SRR330837
+GSM774294,DP,Mus musculus,ChIP_seq,PU.1,Rothenberg,Illumina,Single,Rep_0,/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/DP/PU.1/Rothenberg:SRR330836
+GSM774293,FLDN2b,Mus musculus,ChIP_seq,PU.1,Rothenberg,Illumina,Single,Rep_0,/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/FLDN2b/PU.1/Rothenberg:SRR330835
+GSM774292,FLDN2a,Mus musculus,ChIP_seq,PU.1,Rothenberg,Illumina,Single,Rep_0,/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/FLDN2a/PU.1/Rothenberg:SRR330834
+GSM774291,FLDN1,Mus musculus,ChIP_seq,PU.1,Rothenberg,Illumina,Single,Rep_0,/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/FLDN1/PU.1/Rothenberg:SRR330833

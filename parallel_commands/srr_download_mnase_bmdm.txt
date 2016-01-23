@@ -1,0 +1,4 @@
+fastq-dump -I --split-files -F SRR976080 -O /mnt/data1/John/Pioneer_Factors/Data/MNase_seq/BMDM
+fastq-dump -I --split-files -F SRR976079 -O /mnt/data1/John/Pioneer_Factors/Data/MNase_seq/BMDM
+fastq-dump -I --split-files -F SRR976078 -O /mnt/data1/John/Pioneer_Factors/Data/MNase_seq/BMDM
+fastq-dump -I --split-files -F SRR976077 -O /mnt/data1/John/Pioneer_Factors/Data/MNase_seq/BMDM

@@ -1,0 +1,7 @@
+fastq-dump -F SRR572707 -O /mnt/data1/John/Pioneer_Factors/Data/MNase_seq/MEF
+fastq-dump -F SRR572708 -O /mnt/data1/John/Pioneer_Factors/Data/MNase_seq/MEF
+fastq-dump -F SRR572704 -O /mnt/data1/John/Pioneer_Factors/Data/MNase_seq/ESC
+fastq-dump -F SRR572705 -O /mnt/data1/John/Pioneer_Factors/Data/MNase_seq/ESC
+fastq-dump -F SRR572706 -O /mnt/data1/John/Pioneer_Factors/Data/MNase_seq/ESC
+fastq-dump -F SRR572702 -O /mnt/data1/John/Pioneer_Factors/Data/MNase_seq/NPC
+fastq-dump -F SRR572703 -O /mnt/data1/John/Pioneer_Factors/Data/MNase_seq/NPC

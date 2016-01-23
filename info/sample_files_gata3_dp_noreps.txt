@@ -1,0 +1,3 @@
+GSM774302,DP,Mus musculus,ChIP_seq,Input_Rothenberg,Illumina,Single,Rep_0
+GSM774297,DP,Mus musculus,ChIP_seq,Gata3_Rothenberg,Illumina,Single,Rep_0
+GSM774294,DP,Mus musculus,ChIP_seq,PU.1_Rothenberg,Illumina,Single,Rep_0

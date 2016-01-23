@@ -1,2 +1,2 @@
-Thy_ChIP_seq_Input_Dose_mm10_GSM1133645	/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/Transcription_Factor/Thy/Input/Thy_ChIP_seq_Input_Dose_mm10_GSM1133645.bam
-Thy_ChIP_seq_Tcf1_Dose_mm10_GSM1133644	/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/Transcription_Factor/Thy/Tcf1/Thy_ChIP_seq_Tcf1_Dose_mm10_GSM1133644.bam
+Beta_ATAC_seq_Wang_hg19_GSM1978248	/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Beta_ATAC_seq_Wang_hg19_GSM1978248.bam
+Alpha_ATAC_seq_Wang_hg19_GSM1978245	/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Alpha_ATAC_seq_Wang_hg19_GSM1978245.bam

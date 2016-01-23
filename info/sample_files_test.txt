@@ -1,0 +1,2 @@
+GSM1095815,DP,Mus musculus,ChIP_seq,Runx1,ABI,Single,Rep_1
+GSM1095814,DP,Mus musculus,ChIP_seq,Runx1_Input,ABI,Single,Rep_1

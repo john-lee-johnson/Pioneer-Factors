@@ -1,0 +1,3 @@
+ChIP_seq E47 DP /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/DP/E47 SRR1210617
+ChIP_seq Input DN /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/DN/Input SRR1210616
+ChIP_seq Runx1 DN /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/DN/Runx1 SRR1210615

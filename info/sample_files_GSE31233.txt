@@ -1,0 +1,12 @@
+GSM774302,DP,Mus musculus,ChIP_seq,Input,Rothenberg,Illumina,Single,Rep_0
+GSM774301,DN3,Mus musculus,ChIP_seq,Input,Rothenberg,Illumina,Single,Rep_0
+GSM774300,FLDN2b,Mus musculus,ChIP_seq,Input,Rothenberg,Illumina,Single,Rep_0
+GSM774299,FLDN2a,Mus musculus,ChIP_seq,Input,Rothenberg,Illumina,Single,Rep_0
+GSM774298,FLDN1,Mus musculus,ChIP_seq,Input,Rothenberg,Illumina,Single,Rep_0
+GSM774297,DP,Mus musculus,ChIP_seq,Gata3,Rothenberg,Illumina,Single,Rep_0
+GSM774296,FLDN2b,Mus musculus,ChIP_seq,Gata3,Rothenberg,Illumina,Single,Rep_0
+GSM774295,FLDN1,Mus musculus,ChIP_seq,Gata3,Rothenberg,Illumina,Single,Rep_0
+GSM774294,DP,Mus musculus,ChIP_seq,PU.1,Rothenberg,Illumina,Single,Rep_0
+GSM774293,FLDN2b,Mus musculus,ChIP_seq,PU.1,Rothenberg,Illumina,Single,Rep_0
+GSM774292,FLDN2a,Mus musculus,ChIP_seq,PU.1,Rothenberg,Illumina,Single,Rep_0
+GSM774291,FLDN1,Mus musculus,ChIP_seq,PU.1,Rothenberg,Illumina,Single,Rep_0

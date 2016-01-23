@@ -1,0 +1,12 @@
+/mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/other/DP_ChIP_seq_ETS1_Cauchy_mm10_GSE56393_tag_peaks.bedgraph
+/mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/other/DN_ChIP_seq_ETS1_Cauchy_mm10_GSE56393_tag_peaks.bedgraph
+/mnt/data1/VahediLab/PTF_Team/Data2/ChIP_seq/macs/DN_ChIP_seq_Gata3_Zhao_mm10_GSM523221_tag_peaks.bedgraph
+/mnt/data1/VahediLab/PTF_Team/Data2/ChIP_seq/macs/DP_ChIP_seq_Gata3_Zhao_mm10_GSM523222_tag_peaks.bedgraph
+/mnt/data1/VahediLab/PTF_Team/Data2/ChIP_seq/macs/DP_ChIP_seq_Runx1_Bergon_mm10_GSM1095815_tag_peaks.bedgraph
+/mnt/data1/VahediLab/PTF_Team/Data2/ChIP_seq/macs/DN_ChIP_seq_Runx1_Cauchy_mm10_GSM1360735_tag_peaks.bedgraph
+/mnt/data1/VahediLab/PTF_Team/Data2/ChIP_seq/macs/DP_ChIP_seq_PU.1_Rothenberg_mm10_GSM774294_tag_peaks.bedgraph
+/mnt/data1/VahediLab/PTF_Team/Data2/ChIP_seq/macs/FLDN1_ChIP_seq_PU.1_Rothenberg_mm10_GSM774291_tag_peaks.bedgraph
+/mnt/data1/VahediLab/PTF_Team/Data2/ChIP_seq/macs/FLDN2a_ChIP_seq_PU.1_Rothenberg_mm10_GSM774292_tag_peaks.bedgraph
+/mnt/data1/VahediLab/PTF_Team/Data2/ChIP_seq/macs/FLDN2b_ChIP_seq_PU.1_Rothenberg_mm10_GSM774293_tag_peaks.bedgraph
+/mnt/data1/VahediLab/PTF_Team/Data2/ChIP_seq/macs/EML_ChIP_seq_Tcf1_Wu_mm10_GSM773994_tag_peaks.bedgraph
+/mnt/data1/VahediLab/PTF_Team/Data/ChIP_seq/macs/Thy_ChIP_seq_Tcf1_Dose_mm10_GSM1133644_tag_peaks.bedgraph

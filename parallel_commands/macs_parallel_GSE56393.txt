@@ -1,0 +1,3 @@
+/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/DP/E47/Cauchy/DP_ChIP_seq_E47_Cauchy_mm10_GSM1360737.bam /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/DP/E47/Cauchy/macs/DP_ChIP_seq_E47_Cauchy_mm10_GSM1360737 270
+/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/DN/Runx1/Cauchy/DN_ChIP_seq_Runx1_Cauchy_mm10_GSM1360735.bam /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/DN/Runx1/Cauchy/macs/DN_ChIP_seq_Runx1_Cauchy_mm10_GSM1360735 156
+/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/DN/Ets1/Cauchy/DN_ChIP_seq_Ets1_Cauchy_mm10_GSM1360718.bam /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/DN/Ets1/Cauchy/macs/DN_ChIP_seq_Ets1_Cauchy_mm10_GSM1360718 142

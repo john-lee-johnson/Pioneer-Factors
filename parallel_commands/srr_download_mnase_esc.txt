@@ -1,0 +1,7 @@
+SRR572707 /mnt/data1/John/Pioneer_Factors/Data/MNase_seq/MEF -F
+SRR572708 /mnt/data1/John/Pioneer_Factors/Data/MNase_seq/MEF -F
+SRR572704 /mnt/data1/John/Pioneer_Factors/Data/MNase_seq/ESC -F
+SRR572705 /mnt/data1/John/Pioneer_Factors/Data/MNase_seq/ESC -F
+SRR572706 /mnt/data1/John/Pioneer_Factors/Data/MNase_seq/ESC -F
+SRR572702 /mnt/data1/John/Pioneer_Factors/Data/MNase_seq/NPC -F
+SRR572703 /mnt/data1/John/Pioneer_Factors/Data/MNase_seq/NPC -F

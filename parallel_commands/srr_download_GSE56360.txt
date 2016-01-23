@@ -1,0 +1,2 @@
+abi-dump -F SRR1209650 -O /mnt/data1/John/Pioneer_Factors/Data/MNase_seq/DP/Cauchy
+abi-dump -F SRR1209649 -O /mnt/data1/John/Pioneer_Factors/Data/MNase_seq/DN/Cauchy

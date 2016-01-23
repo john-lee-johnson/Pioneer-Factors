@@ -1,0 +1,8 @@
+/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/DP/Gata3_Input/DP_ChIP_seq_mm10_GSM774302.bam DP_ChIP_seq_mm10_GSM774302_macs 
+/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/DP/GATA3/DP_ChIP_seq_mm10_GSM774297.bam DP_ChIP_seq_mm10_GSM774297_macs 
+/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/DP/PU.1/DP_ChIP_seq_mm10_GSM774294.bam DP_ChIP_seq_mm10_GSM774294_macs 
+/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/DP/Gata3_Input/DP_ChIP_seq_mm10_GSM774302.bam DP_ChIP_seq_mm10_GSM774302_macs 
+/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/DP/GATA3/DP_ChIP_seq_mm10_GSM774297.bam DP_ChIP_seq_mm10_GSM774297_macs 
+/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/DP/PU.1/DP_ChIP_seq_mm10_GSM774294.bam DP_ChIP_seq_mm10_GSM774294_macs 
+/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/DP/GATA3/macs/DP_ChIP_seq_mm10_GSM774297.bam DP_ChIP_seq_mm10_GSM774297_macs 
+/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/DP/PU.1/macs/DP_ChIP_seq_mm10_GSM774294.bam DP_ChIP_seq_mm10_GSM774294_macs 

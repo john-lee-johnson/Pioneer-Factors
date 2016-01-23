@@ -232,3 +232,4 @@ SRR1521790 /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/STHSC/H3K27Ac -F
 SRR1521791 /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/STHSC/H3K27Ac -F
 SRR1521788 /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/LTHSC/H3K27Ac -F
 SRR1521789 /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/LTHSC/H3K27Ac -F
+SRR1209650 /mnt/data1/John/Pioneer_Factors -F

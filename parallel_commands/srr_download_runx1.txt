@@ -1,0 +1,3 @@
+abi-dump -F SRR1210617 -O /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/DP/E47
+fastq-dump -F SRR1210616 -O /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/DN/Input
+abi-dump -F SRR1210615 -O /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/DN/Runx1

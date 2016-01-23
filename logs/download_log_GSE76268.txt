@@ -1,0 +1,117 @@
+#--------------DOWNLOADING-------------------------
+fastq-dump -I --split-files SRR3048049 -O /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Rep_1
+fastq-dump -I --split-files SRR3048050 -O /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Rep_1
+fastq-dump -I --split-files SRR3048047 -O /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Rep_2
+fastq-dump -I --split-files SRR3048048 -O /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Rep_2
+fastq-dump -I --split-files SRR3048045 -O /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Rep_3
+fastq-dump -I --split-files SRR3048046 -O /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Rep_3
+fastq-dump -I --split-files SRR3048043 -O /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Rep_1
+fastq-dump -I --split-files SRR3048044 -O /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Rep_1
+fastq-dump -I --split-files SRR3048041 -O /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Rep_2
+fastq-dump -I --split-files SRR3048042 -O /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Rep_2
+fastq-dump -I --split-files SRR3048039 -O /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Rep_3
+fastq-dump -I --split-files SRR3048040 -O /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Rep_3
+#--------------------------------------------------------
+#--------------ALIGNMENT-------------------------
+STAR VERSION: STAR_2.5.0a_alpha
+STAR --runMode alignReads --alignIntronMax 1 --genomeLoad LoadAndKeep --limitBAMsortRAM 10000000000 --seedSearchStartLmax 30 --outFilterMultimapNmax 2 --runThreadN 40 --genomeDir /mnt/data0/John/STAR_GRCh37p13_v19 --readFilesIn SRR3048049_1.fastq SRR3048049_2.fastq --outSAMtype BAM SortedByCoordinate
+STAR VERSION: STAR_2.5.0a_alpha
+STAR --runMode alignReads --alignIntronMax 1 --genomeLoad LoadAndKeep --limitBAMsortRAM 10000000000 --seedSearchStartLmax 30 --outFilterMultimapNmax 2 --runThreadN 40 --genomeDir /mnt/data0/John/STAR_GRCh37p13_v19 --readFilesIn SRR3048050_1.fastq SRR3048050_2.fastq --outSAMtype BAM SortedByCoordinate
+STAR VERSION: STAR_2.5.0a_alpha
+STAR --runMode alignReads --alignIntronMax 1 --genomeLoad LoadAndKeep --limitBAMsortRAM 10000000000 --seedSearchStartLmax 30 --outFilterMultimapNmax 2 --runThreadN 40 --genomeDir /mnt/data0/John/STAR_GRCh37p13_v19 --readFilesIn SRR3048047_1.fastq SRR3048047_2.fastq --outSAMtype BAM SortedByCoordinate
+STAR VERSION: STAR_2.5.0a_alpha
+STAR --runMode alignReads --alignIntronMax 1 --genomeLoad LoadAndKeep --limitBAMsortRAM 10000000000 --seedSearchStartLmax 30 --outFilterMultimapNmax 2 --runThreadN 40 --genomeDir /mnt/data0/John/STAR_GRCh37p13_v19 --readFilesIn SRR3048048_1.fastq SRR3048048_2.fastq --outSAMtype BAM SortedByCoordinate
+STAR VERSION: STAR_2.5.0a_alpha
+STAR --runMode alignReads --alignIntronMax 1 --genomeLoad LoadAndKeep --limitBAMsortRAM 10000000000 --seedSearchStartLmax 30 --outFilterMultimapNmax 2 --runThreadN 40 --genomeDir /mnt/data0/John/STAR_GRCh37p13_v19 --readFilesIn SRR3048045_1.fastq SRR3048045_2.fastq --outSAMtype BAM SortedByCoordinate
+STAR VERSION: STAR_2.5.0a_alpha
+STAR --runMode alignReads --alignIntronMax 1 --genomeLoad LoadAndKeep --limitBAMsortRAM 10000000000 --seedSearchStartLmax 30 --outFilterMultimapNmax 2 --runThreadN 40 --genomeDir /mnt/data0/John/STAR_GRCh37p13_v19 --readFilesIn SRR3048046_1.fastq SRR3048046_2.fastq --outSAMtype BAM SortedByCoordinate
+STAR VERSION: STAR_2.5.0a_alpha
+STAR --runMode alignReads --alignIntronMax 1 --genomeLoad LoadAndKeep --limitBAMsortRAM 10000000000 --seedSearchStartLmax 30 --outFilterMultimapNmax 2 --runThreadN 40 --genomeDir /mnt/data0/John/STAR_GRCh37p13_v19 --readFilesIn SRR3048043_1.fastq SRR3048043_2.fastq --outSAMtype BAM SortedByCoordinate
+PICARD VERSION MergeSamFiles: 
+PICARD VERSION MergeSamFiles: 
+PICARD VERSION MergeSamFiles: 
+PICARD VERSION MergeSamFiles: 
+PICARD VERSION MergeSamFiles: 
+PICARD VERSION MergeSamFiles: 
+#-------------------MACS PEAK CALLING--------------------------
+macs14 -t /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Beta_ATAC_seq_Wang_hg19_GSM1978248.bam -n /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/macs/Beta_ATAC_seq_Wang_hg19_GSM1978248 --bw 741 -f BAM -g hs -p 1e-7 -w --single-profile >> /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/macs/Beta_ATAC_seq_Wang_hg19_GSM1978248.log 2>&1
+macs14 -t /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Beta_ATAC_seq_Wang_hg19_GSM1978247.bam -n /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/macs/Beta_ATAC_seq_Wang_hg19_GSM1978247 --bw '' -f BAM -g hs -p 1e-7 -w --single-profile >> /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/macs/Beta_ATAC_seq_Wang_hg19_GSM1978247.log 2>&1
+macs14 -t /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Beta_ATAC_seq_Wang_hg19_GSM1978246.bam -n /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/macs/Beta_ATAC_seq_Wang_hg19_GSM1978246 --bw '' -f BAM -g hs -p 1e-7 -w --single-profile >> /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/macs/Beta_ATAC_seq_Wang_hg19_GSM1978246.log 2>&1
+macs14 -t /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Alpha_ATAC_seq_Wang_hg19_GSM1978245.bam -n /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/macs/Alpha_ATAC_seq_Wang_hg19_GSM1978245 --bw 734 -f BAM -g hs -p 1e-7 -w --single-profile >> /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/macs/Alpha_ATAC_seq_Wang_hg19_GSM1978245.log 2>&1
+macs14 -t /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Alpha_ATAC_seq_Wang_hg19_GSM1978244.bam -n /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/macs/Alpha_ATAC_seq_Wang_hg19_GSM1978244 --bw '' -f BAM -g hs -p 1e-7 -w --single-profile >> /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/macs/Alpha_ATAC_seq_Wang_hg19_GSM1978244.log 2>&1
+macs14 -t /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Alpha_ATAC_seq_Wang_hg19_GSM1978243.bam -n /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/macs/Alpha_ATAC_seq_Wang_hg19_GSM1978243 --bw '' -f BAM -g hs -p 1e-7 -w --single-profile >> /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/macs/Alpha_ATAC_seq_Wang_hg19_GSM1978243.log 2>&1
+#--------------------------------------------------------
+#----------------NORMALIZING WIG FILE--------------------------
+#--------------------------------------------------------
+#--------------ALIGNMENT-------------------------
+STAR VERSION: STAR_2.5.0a_alpha
+STAR --runMode alignReads --alignIntronMax 1 --genomeLoad LoadAndKeep --limitBAMsortRAM 10000000000 --seedSearchStartLmax 30 --outFilterMultimapNmax 2 --runThreadN 40 --genomeDir /mnt/data0/John/STAR_GRCh37p13_v19 --readFilesIn SRR3048049_1.fastq SRR3048049_2.fastq --outSAMtype BAM SortedByCoordinate
+STAR VERSION: STAR_2.5.0a_alpha
+STAR --runMode alignReads --alignIntronMax 1 --genomeLoad LoadAndKeep --limitBAMsortRAM 10000000000 --seedSearchStartLmax 30 --outFilterMultimapNmax 2 --runThreadN 40 --genomeDir /mnt/data0/John/STAR_GRCh37p13_v19 --readFilesIn SRR3048050_1.fastq SRR3048050_2.fastq --outSAMtype BAM SortedByCoordinate
+STAR VERSION: STAR_2.5.0a_alpha
+STAR --runMode alignReads --alignIntronMax 1 --genomeLoad LoadAndKeep --limitBAMsortRAM 10000000000 --seedSearchStartLmax 30 --outFilterMultimapNmax 2 --runThreadN 40 --genomeDir /mnt/data0/John/STAR_GRCh37p13_v19 --readFilesIn SRR3048047_1.fastq SRR3048047_2.fastq --outSAMtype BAM SortedByCoordinate
+STAR VERSION: STAR_2.5.0a_alpha
+STAR --runMode alignReads --alignIntronMax 1 --genomeLoad LoadAndKeep --limitBAMsortRAM 10000000000 --seedSearchStartLmax 30 --outFilterMultimapNmax 2 --runThreadN 40 --genomeDir /mnt/data0/John/STAR_GRCh37p13_v19 --readFilesIn SRR3048048_1.fastq SRR3048048_2.fastq --outSAMtype BAM SortedByCoordinate
+STAR VERSION: STAR_2.5.0a_alpha
+STAR --runMode alignReads --alignIntronMax 1 --genomeLoad LoadAndKeep --limitBAMsortRAM 10000000000 --seedSearchStartLmax 30 --outFilterMultimapNmax 2 --runThreadN 40 --genomeDir /mnt/data0/John/STAR_GRCh37p13_v19 --readFilesIn SRR3048045_1.fastq SRR3048045_2.fastq --outSAMtype BAM SortedByCoordinate
+STAR VERSION: STAR_2.5.0a_alpha
+STAR --runMode alignReads --alignIntronMax 1 --genomeLoad LoadAndKeep --limitBAMsortRAM 10000000000 --seedSearchStartLmax 30 --outFilterMultimapNmax 2 --runThreadN 40 --genomeDir /mnt/data0/John/STAR_GRCh37p13_v19 --readFilesIn SRR3048046_1.fastq SRR3048046_2.fastq --outSAMtype BAM SortedByCoordinate
+STAR VERSION: STAR_2.5.0a_alpha
+STAR --runMode alignReads --alignIntronMax 1 --genomeLoad LoadAndKeep --limitBAMsortRAM 10000000000 --seedSearchStartLmax 30 --outFilterMultimapNmax 2 --runThreadN 40 --genomeDir /mnt/data0/John/STAR_GRCh37p13_v19 --readFilesIn SRR3048043_1.fastq SRR3048043_2.fastq --outSAMtype BAM SortedByCoordinate
+STAR VERSION: STAR_2.5.0a_alpha
+STAR --runMode alignReads --alignIntronMax 1 --genomeLoad LoadAndKeep --limitBAMsortRAM 10000000000 --seedSearchStartLmax 30 --outFilterMultimapNmax 2 --runThreadN 40 --genomeDir /mnt/data0/John/STAR_GRCh37p13_v19 --readFilesIn SRR3048044_1.fastq SRR3048044_2.fastq --outSAMtype BAM SortedByCoordinate
+STAR VERSION: STAR_2.5.0a_alpha
+STAR --runMode alignReads --alignIntronMax 1 --genomeLoad LoadAndKeep --limitBAMsortRAM 10000000000 --seedSearchStartLmax 30 --outFilterMultimapNmax 2 --runThreadN 40 --genomeDir /mnt/data0/John/STAR_GRCh37p13_v19 --readFilesIn SRR3048041_1.fastq SRR3048041_2.fastq --outSAMtype BAM SortedByCoordinate
+STAR VERSION: STAR_2.5.0a_alpha
+STAR --runMode alignReads --alignIntronMax 1 --genomeLoad LoadAndKeep --limitBAMsortRAM 10000000000 --seedSearchStartLmax 30 --outFilterMultimapNmax 2 --runThreadN 40 --genomeDir /mnt/data0/John/STAR_GRCh37p13_v19 --readFilesIn SRR3048042_1.fastq SRR3048042_2.fastq --outSAMtype BAM SortedByCoordinate
+STAR VERSION: STAR_2.5.0a_alpha
+STAR --runMode alignReads --alignIntronMax 1 --genomeLoad LoadAndKeep --limitBAMsortRAM 10000000000 --seedSearchStartLmax 30 --outFilterMultimapNmax 2 --runThreadN 40 --genomeDir /mnt/data0/John/STAR_GRCh37p13_v19 --readFilesIn SRR3048039_1.fastq SRR3048039_2.fastq --outSAMtype BAM SortedByCoordinate
+STAR VERSION: STAR_2.5.0a_alpha
+STAR --runMode alignReads --alignIntronMax 1 --genomeLoad LoadAndKeep --limitBAMsortRAM 10000000000 --seedSearchStartLmax 30 --outFilterMultimapNmax 2 --runThreadN 40 --genomeDir /mnt/data0/John/STAR_GRCh37p13_v19 --readFilesIn SRR3048040_1.fastq SRR3048040_2.fastq --outSAMtype BAM SortedByCoordinate
+#--------------------------------------------------------
+PICARD VERSION: 
+PICARD VERSION: 
+PICARD VERSION: 
+PICARD VERSION: 
+PICARD VERSION: 
+PICARD VERSION: 
+PICARD VERSION: 
+PICARD VERSION: 
+PICARD VERSION: 
+PICARD VERSION: 
+PICARD VERSION: 
+PICARD VERSION: 
+#--------------MARKING DUPLICATES-----------------------------
+java -Xmx2g -Djava.io.tmpdir=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Rep_1/tmp -jar /mnt/data1/bin/picard/dist/picard.jar MarkDuplicates INPUT=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Rep_1/SRR3048049.bam OUTPUT=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Rep_1/SRR3048049_marked.bam READ_NAME_REGEX=null METRICS_FILE=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Rep_1/dupsMarked_SRR3048049_metrics.txt
+java -Xmx2g -Djava.io.tmpdir=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Rep_1/tmp -jar /mnt/data1/bin/picard/dist/picard.jar MarkDuplicates INPUT=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Rep_1/SRR3048050.bam OUTPUT=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Rep_1/SRR3048050_marked.bam READ_NAME_REGEX=null METRICS_FILE=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Rep_1/dupsMarked_SRR3048050_metrics.txt
+java -Xmx2g -Djava.io.tmpdir=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Rep_2/tmp -jar /mnt/data1/bin/picard/dist/picard.jar MarkDuplicates INPUT=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Rep_2/SRR3048047.bam OUTPUT=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Rep_2/SRR3048047_marked.bam READ_NAME_REGEX=null METRICS_FILE=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Rep_2/dupsMarked_SRR3048047_metrics.txt
+java -Xmx2g -Djava.io.tmpdir=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Rep_2/tmp -jar /mnt/data1/bin/picard/dist/picard.jar MarkDuplicates INPUT=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Rep_2/SRR3048048.bam OUTPUT=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Rep_2/SRR3048048_marked.bam READ_NAME_REGEX=null METRICS_FILE=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Rep_2/dupsMarked_SRR3048048_metrics.txt
+java -Xmx2g -Djava.io.tmpdir=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Rep_3/tmp -jar /mnt/data1/bin/picard/dist/picard.jar MarkDuplicates INPUT=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Rep_3/SRR3048045.bam OUTPUT=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Rep_3/SRR3048045_marked.bam READ_NAME_REGEX=null METRICS_FILE=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Rep_3/dupsMarked_SRR3048045_metrics.txt
+java -Xmx2g -Djava.io.tmpdir=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Rep_3/tmp -jar /mnt/data1/bin/picard/dist/picard.jar MarkDuplicates INPUT=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Rep_3/SRR3048046.bam OUTPUT=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Rep_3/SRR3048046_marked.bam READ_NAME_REGEX=null METRICS_FILE=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Rep_3/dupsMarked_SRR3048046_metrics.txt
+java -Xmx2g -Djava.io.tmpdir=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Rep_1/tmp -jar /mnt/data1/bin/picard/dist/picard.jar MarkDuplicates INPUT=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Rep_1/SRR3048043.bam OUTPUT=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Rep_1/SRR3048043_marked.bam READ_NAME_REGEX=null METRICS_FILE=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Rep_1/dupsMarked_SRR3048043_metrics.txt
+java -Xmx2g -Djava.io.tmpdir=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Rep_1/tmp -jar /mnt/data1/bin/picard/dist/picard.jar MarkDuplicates INPUT=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Rep_1/SRR3048044.bam OUTPUT=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Rep_1/SRR3048044_marked.bam READ_NAME_REGEX=null METRICS_FILE=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Rep_1/dupsMarked_SRR3048044_metrics.txt
+java -Xmx2g -Djava.io.tmpdir=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Rep_2/tmp -jar /mnt/data1/bin/picard/dist/picard.jar MarkDuplicates INPUT=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Rep_2/SRR3048041.bam OUTPUT=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Rep_2/SRR3048041_marked.bam READ_NAME_REGEX=null METRICS_FILE=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Rep_2/dupsMarked_SRR3048041_metrics.txt
+java -Xmx2g -Djava.io.tmpdir=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Rep_2/tmp -jar /mnt/data1/bin/picard/dist/picard.jar MarkDuplicates INPUT=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Rep_2/SRR3048042.bam OUTPUT=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Rep_2/SRR3048042_marked.bam READ_NAME_REGEX=null METRICS_FILE=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Rep_2/dupsMarked_SRR3048042_metrics.txt
+java -Xmx2g -Djava.io.tmpdir=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Rep_3/tmp -jar /mnt/data1/bin/picard/dist/picard.jar MarkDuplicates INPUT=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Rep_3/SRR3048039.bam OUTPUT=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Rep_3/SRR3048039_marked.bam READ_NAME_REGEX=null METRICS_FILE=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Rep_3/dupsMarked_SRR3048039_metrics.txt
+java -Xmx2g -Djava.io.tmpdir=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Rep_3/tmp -jar /mnt/data1/bin/picard/dist/picard.jar MarkDuplicates INPUT=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Rep_3/SRR3048040.bam OUTPUT=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Rep_3/SRR3048040_marked.bam READ_NAME_REGEX=null METRICS_FILE=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Rep_3/dupsMarked_SRR3048040_metrics.txt
+#--------------------------------------------------------
+PICARD VERSION MergeSamFiles: 
+PICARD VERSION MergeSamFiles: 
+PICARD VERSION MergeSamFiles: 
+PICARD VERSION MergeSamFiles: 
+PICARD VERSION MergeSamFiles: 
+PICARD VERSION MergeSamFiles: 
+#----------------COMBINING TECHNICAL REPLICATES-----------------------
+java -Xmx2g -Djava.io.tmpdir=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Rep_1/tmp -jar /mnt/data1/bin/picard/dist/picard.jar MergeSamFiles INPUT=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Rep_1/SRR3048049.bam INPUT=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Rep_1/SRR3048050.bam OUTPUT=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Rep_1/Beta_ATAC_seq_Wang_hg19_GSM1978248.bam
+java -Xmx2g -Djava.io.tmpdir=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Rep_2/tmp -jar /mnt/data1/bin/picard/dist/picard.jar MergeSamFiles INPUT=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Rep_2/SRR3048047.bam INPUT=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Rep_2/SRR3048048.bam OUTPUT=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Rep_2/Beta_ATAC_seq_Wang_hg19_GSM1978247.bam
+java -Xmx2g -Djava.io.tmpdir=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Rep_3/tmp -jar /mnt/data1/bin/picard/dist/picard.jar MergeSamFiles INPUT=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Rep_3/SRR3048045.bam INPUT=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Rep_3/SRR3048046.bam OUTPUT=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Rep_3/Beta_ATAC_seq_Wang_hg19_GSM1978246.bam
+java -Xmx2g -Djava.io.tmpdir=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Rep_1/tmp -jar /mnt/data1/bin/picard/dist/picard.jar MergeSamFiles INPUT=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Rep_1/SRR3048043.bam INPUT=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Rep_1/SRR3048044.bam OUTPUT=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Rep_1/Alpha_ATAC_seq_Wang_hg19_GSM1978245.bam
+java -Xmx2g -Djava.io.tmpdir=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Rep_2/tmp -jar /mnt/data1/bin/picard/dist/picard.jar MergeSamFiles INPUT=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Rep_2/SRR3048041.bam INPUT=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Rep_2/SRR3048042.bam OUTPUT=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Rep_2/Alpha_ATAC_seq_Wang_hg19_GSM1978244.bam
+java -Xmx2g -Djava.io.tmpdir=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Rep_3/tmp -jar /mnt/data1/bin/picard/dist/picard.jar MergeSamFiles INPUT=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Rep_3/SRR3048039.bam INPUT=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Rep_3/SRR3048040.bam OUTPUT=/mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Rep_3/Alpha_ATAC_seq_Wang_hg19_GSM1978243.bam
+Skipping combining of FASTQ files because Paired-End Reads
+Skipping combining of FASTQ files because Paired-End Reads
+Skipping combining of FASTQ files because Paired-End Reads
+Skipping combining of FASTQ files because Paired-End Reads
+Skipping combining of FASTQ files because Paired-End Reads
+Skipping combining of FASTQ files because Paired-End Reads
+#--------------------------------------------------------

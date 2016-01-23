@@ -1,0 +1,4 @@
+GSM1360737,DP,Mus musculus,ChIP_seq,E47,Cauchy,ABI,Single,Rep_0
+GSM1360736,DN,Mus musculus,ChIP_seq,Input,Cauchy,Illumina,Single,Rep_0
+GSM1360735,DN,Mus musculus,ChIP_seq,Runx1,Cauchy,ABI,Single,Rep_0
+GSM1360718,DN,Mus musculus,ChIP_seq,Ets1,Cauchy,Illumina,Single,Rep_1

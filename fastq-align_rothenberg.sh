@@ -174,7 +174,6 @@ if [[ "$seq" = RNA_seq* ]]; then
   echo "$filename"
   cat SRR*_trimmed.fq > ${filename}.fastq
   pigz -f -p 40 ${filename}.fastq
-  #heatmap
   bam_combine
 else
   mark="$seq"
@@ -184,7 +183,6 @@ else
     echo "$filename"
     cat SRR*_trimmed.fq > ${filename}.fastq
     pigz -f -p 40 ${filename}.fastq
-    #heatmap
     bam_combine
   else
     cd $dir0/Data/ChIP_seq/$cell/$mark
@@ -192,7 +190,6 @@ else
     echo "$filename"
     cat SRR*_trimmed.fq > ${filename}.fastq
     pigz -f -p 40 ${filename}.fastq
-    #heatmap
     bam_combine
   fi
 fi
@@ -200,5 +197,3 @@ done
 
 parallel --xapply --dryrun -j 30 -- < $paralleldir/merge_bam_rothenberg.txt
 parallel --xapply -j 30 -- < $paralleldir/merge_bam_rothenberg.txt
-#parallel --xapply --dryrun -j 30 -- < $paralleldir/heat_map_rothenberg.txt
-#parallel --xapply -j 30 -- < $paralleldir/heat_map_rothenberg.txt

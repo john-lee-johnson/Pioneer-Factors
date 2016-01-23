@@ -1,0 +1,1 @@
+/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/DP/E47/Cauchy/DP_ChIP_seq_E47_Cauchy_mm10_GSM1360737.bam /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/DP/E47/Cauchy/macs/DP_ChIP_seq_E47_Cauchy_mm10_GSM1360737 270

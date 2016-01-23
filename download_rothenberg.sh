@@ -16,18 +16,15 @@ dir0=$maindir
 ##---------------------SETTING FUNCTIONS--------------------------------------------------
 #Creates parallel commands for fastq-dump
 function fastq-download {
-#if [ ! -f ${srr}.fastq ]; then
   fastq-dump -F -X 1 -Z ${srr} > $infodir/test.txt #Will download one line of the file to check for header information
     if [[ $(head $infodir/test.txt | sed -n 1p | cut -d":" -f1) = "@1" ]]; then
       echo "$srr" `pwd` >> $paralleldir/srr_download_rothenberg.txt #If file does not have proper header information, will keep the SRR header
     else
       echo "$srr" `pwd` "-F" >> $paralleldir/srr_download_rothenberg.txt #If file does have proper header information, will keep the original header
     fi
-#else
-#  echo "Raw fastq file exists!"
-#fi
+
 echo `pwd` `pwd`"/${srr}.fastq illumina" >> $paralleldir/trim_galore_rothenberg.txt #Will remove sequencing adapters
-echo "fastq_masker -q 20 -i `pwd`/${srr}_trimmed.fq -o `pwd`/${srr}_mask.fastq" >> $paralleldir/quality_masking_rothenberg.txt
+echo "fastq_masker -q 20 -i `pwd`/${srr}_trimmed.fq -o `pwd`/${srr}_mask.fastq" >> $paralleldir/quality_masking_rothenberg.txt #Will mask low quality data
 }
 
 rm -f $infodir/srr_files_rothenberg.txt
@@ -35,7 +32,7 @@ rm -f $paralleldir/srr_download_rothenberg.txt
 rm -f $paralleldir/trim_galore_rothenberg.txt
 rm -f $paralleldir/quality_masking_rothenberg.txt
 
-##---------------------DOWNLOAD AMIT BIOPROJECT SAMPLE DATA-------------------------------
+##---------------------DOWNLOAD BIOPROJECT SAMPLE DATA------------------------------------
 esearch -db sra -query $query | efetch --format docsum | xtract -pattern DocumentSummary -element Title > $infodir/sample_files_rothenberg.txt
 #Clean up sample names
 sed -i -e '/FLDN/d' $infodir/sample_files_rothenberg.txt
@@ -44,7 +41,7 @@ sed -i -e 's/RNA-seq/RNA_seq/g' $infodir/sample_files_rothenberg.txt
 sed -i -e '/ThyDN3 Input/d' $infodir/sample_files_rothenberg.txt
 sed '' $infodir/sample_files_rothenberg.txt
 
-##---------------------DOWNLOAD SRR ROTHENBERG DATA---------------------------------------------
+##---------------------DOWNLOAD SRR NUMBERS DATA------------------------------------------
 #Read in samples and generate a file of SRR numbers for Rothenberg Data
 lines=$(wc -l $infodir/sample_files_rothenberg.txt | cut -d' ' -f1)
 for ((i=1; i<=$lines; i++)); do
@@ -69,7 +66,7 @@ else
 fi
 done
 
-##---------------------SRR AMIT DATA PARALLEL OUTPUT--------------------------------------
+##---------------------SRR DOWNLOAD DATA PARALLEL OUTPUT--------------------------------------
 #Read in a file and set up parallel commands for later SRR download
 while read line; do
 seq=$(echo $line | cut -d' ' -f2)

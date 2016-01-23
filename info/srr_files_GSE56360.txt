@@ -1,0 +1,2 @@
+GSM1359852,DP,Mus musculus,MNase_seq,Cauchy,ABI,Single,Rep_0,/mnt/data1/John/Pioneer_Factors/Data/MNase_seq/DP/Cauchy:SRR1209650
+GSM1359851,DN,Mus musculus,MNase_seq,Cauchy,ABI,Single,Rep_0,/mnt/data1/John/Pioneer_Factors/Data/MNase_seq/DN/Cauchy:SRR1209649

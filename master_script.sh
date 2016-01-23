@@ -33,7 +33,10 @@ mkdir -p $dir0/Analysis/ChIP_seq/srr_macs
 mkdir -p $dir0/Analysis/ChIP_seq/Transcription_Factor/macs
 mkdir -p $dir0/Analysis/ATAC_seq/R_output
 mkdir -p $dir0/Analysis/ChIP_seq/R_output
+mkdir -p $dir0/Analysis/MNase_seq/DP
 mkdir -p $dir0/Analysis/Motif/Homer/Common_CD4_CD8_NK
+mkdir -p $dir0/Analysis/ATAC_seq/Overlap
+mkdir -p $dir0/Analysis/ATAC_seq/Union/R_output_Discover/Cluster_Plots
 mkdir -p $dir0/Analysis/ATAC_seq/Union/R_output
 mkdir -p $dir0/Analysis/ATAC_seq/Union/R_output_FC1
 mkdir -p $dir0/Analysis/ATAC_seq/Union/R_output_FC75
@@ -49,8 +52,13 @@ mkdir -p $dir0/Analysis/ATAC_seq/Union/R_output_Intersect
 mkdir -p $dir0/Analysis/ChIP_seq/Transcription_Factor/Motif/Tcf1/Homer_Motif_Tcf1
 mkdir -p $dir0/Analysis/Homer/Tag_Directories/Amit
 mkdir -p $dir0/Analysis/Homer/Tag_Directories/Dose
+mkdir -p $dir0/Analysis/Homer/Tag_Directories/MNase
 mkdir -p $dir0/Analysis/Homer/Tag_Directories/Rothenberg
+mkdir -p $dir0/Data/MNase_seq/DP
 mkdir -p $dir0/Analysis/ATAC_seq/Union/R_output_Common/CD4_CD8_FC_NK
+mkdir -p $datadir/MNase_seq/bam
+mkdir -p $dir0/Data/MNase_seq/DP_Bfast
+
 
 #--------------------Downloading Accessory Data-------------------------------------------
 if [ ! -e $datadir/mm10.chrom.sizes ]; then
@@ -59,10 +67,12 @@ if [ ! -e $datadir/mm10.chrom.sizes ]; then
 fi
 
 #---------------------Downloading Sample Info---------------------------------------------
-#. ${scriptdir}/download.sh
+#. ${scriptdir}/download_amit.sh
+#. ${scriptdir}/download_tcf1.sh
+#. ${scriptdir}/download_rothenberg.sh
 
 #---------------------Downloading and Aligning Files to mm10------------------------------
-#. ${scriptdir}/fastq-align.sh
+#. ${scriptdir}/fastq-align-amit.sh
 
 #---------------------Move Files and Generate MACS----------------------------------------
 #. ${scriptdir}/move_and_macs_output.sh
@@ -74,13 +84,14 @@ fi
 #. ${scriptdir}/macs_peak_amit.sh
 
 #---------------------Downloading Sample Info---------------------------------------------
-#. ${scriptdir}/download_tcf1.sh
+
+#---------------------Downloading MNase DP------------------------------------------------
+#. ${scriptdir}/download_mnase.sh
 
 #---------------------Downloading and Aligning Files to mm10------------------------------
 #. ${scriptdir}/fastq-align_tcf1.sh
 
 #---------------------Downloading Sample Info---------------------------------------------
-#. ${scriptdir}/download_rothenberg.sh
 
 #---------------------Downloading and Aligning Files to mm10------------------------------
 #. ${scriptdir}/fastq-align_rothenberg.sh
@@ -102,6 +113,9 @@ fi
 
 #---------------------Unique ATAC seq Peaks------------------------------------------------------
 . ${scriptdir}/atac_seq_unique_all.sh
+
+#---------------------MNase Macropahge------------------------------------------------------
+. ${scriptdir}/MNase_Macrophage.sh
 
 #---------------------Homer Motif Search Tcf1------------------------------------------------------
 #. ${scriptdir}/homer_motif_search_tcf1.sh

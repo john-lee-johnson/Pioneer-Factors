@@ -1,0 +1,4 @@
+GSM1228683: BMDM; Mus musculus; MNase_seq
+GSM1228682: BMDM; Mus musculus; MNase_seq
+GSM1228681: BMDM; Mus musculus; MNase_seq
+GSM1228680: BMDM; Mus musculus; MNase_seq

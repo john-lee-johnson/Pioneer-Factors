@@ -1,0 +1,3 @@
+GSM1004654: MEF; Mus musculus; MNase_Seq
+GSM1004653: ESC; Mus musculus; MNase_Seq
+GSM1004652: NPC; Mus musculus; MNase_Seq

@@ -1,0 +1,13 @@
+fastq-dump -F SRR330845 -O /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/DP/Input/Rothenberg
+fastq-dump -F SRR330843 -O /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/DN3/Input/Rothenberg
+fastq-dump -F SRR330844 -O /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/DN3/Input/Rothenberg
+fastq-dump -F SRR330842 -O /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/FLDN2b/Input/Rothenberg
+fastq-dump -F SRR330841 -O /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/FLDN2a/Input/Rothenberg
+fastq-dump -F SRR330840 -O /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/FLDN1/Input/Rothenberg
+fastq-dump -F SRR330839 -O /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/DP/Gata3/Rothenberg
+fastq-dump -F SRR330838 -O /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/FLDN2b/Gata3/Rothenberg
+fastq-dump -F SRR330837 -O /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/FLDN1/Gata3/Rothenberg
+fastq-dump -F SRR330836 -O /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/DP/PU.1/Rothenberg
+fastq-dump -F SRR330835 -O /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/FLDN2b/PU.1/Rothenberg
+fastq-dump -F SRR330834 -O /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/FLDN2a/PU.1/Rothenberg
+fastq-dump -F SRR330833 -O /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/FLDN1/PU.1/Rothenberg

@@ -1,0 +1,2 @@
+ChIP_seq Runx1 DP /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/DP/Runx1 SRR770062 SRR770063
+ChIP_seq Runx1_Input DP /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/DP/Runx1_Input SRR770061

@@ -1,0 +1,12 @@
+fastq-dump -I --split-files SRR3048049 -O /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Rep_1
+fastq-dump -I --split-files SRR3048050 -O /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Rep_1
+fastq-dump -I --split-files SRR3048047 -O /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Rep_2
+fastq-dump -I --split-files SRR3048048 -O /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Rep_2
+fastq-dump -I --split-files SRR3048045 -O /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Rep_3
+fastq-dump -I --split-files SRR3048046 -O /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Beta/Wang/Rep_3
+fastq-dump -I --split-files SRR3048043 -O /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Rep_1
+fastq-dump -I --split-files SRR3048044 -O /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Rep_1
+fastq-dump -I --split-files SRR3048041 -O /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Rep_2
+fastq-dump -I --split-files SRR3048042 -O /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Rep_2
+fastq-dump -I --split-files SRR3048039 -O /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Rep_3
+fastq-dump -I --split-files SRR3048040 -O /mnt/data1/John/Pioneer_Factors/Data/ATAC_seq/Alpha/Wang/Rep_3

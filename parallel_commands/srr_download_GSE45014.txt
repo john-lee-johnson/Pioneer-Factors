@@ -1,0 +1,3 @@
+abi-dump -F SRR770062 -O /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/DP/Runx1/Bergon
+abi-dump -F SRR770063 -O /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/DP/Runx1/Bergon
+abi-dump -F SRR770061 -O /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/DP/Input/Bergon

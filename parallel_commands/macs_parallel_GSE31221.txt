@@ -1,0 +1,2 @@
+/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/EML_ChIP_seq_Runx1_Wu_mm10_GSM773995.bam /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/macs/EML_ChIP_seq_Runx1_Wu_mm10_GSM773995 118
+/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Tcf1/Wu/EML_ChIP_seq_Tcf1_Wu_mm10_GSM773994.bam /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Tcf1/Wu/macs/EML_ChIP_seq_Tcf1_Wu_mm10_GSM773994 98

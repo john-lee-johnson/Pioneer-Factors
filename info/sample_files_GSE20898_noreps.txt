@@ -1,0 +1,2 @@
+GSM523222,DP,Mus musculus,ChIP_seq,Gata3,Zhao,Illumina,Single,Rep_1
+GSM523221,DN,Mus musculus,ChIP_seq,Gata3,Zhao,Illumina,Single,Rep_0

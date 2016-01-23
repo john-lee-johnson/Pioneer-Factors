@@ -1,0 +1,3 @@
+fastq-dump -F SRR279900 -O /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/DP/Gata3/Zhao/Rep_2
+fastq-dump -F SRR038545 -O /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/DP/Gata3/Zhao/Rep_1
+fastq-dump -F SRR038544 -O /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/DN/Gata3/Zhao

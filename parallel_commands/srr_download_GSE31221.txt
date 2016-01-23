@@ -1,0 +1,5 @@
+fastq-dump -F SRR332264 -O /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Input/Runx1
+fastq-dump -F SRR332263 -O /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Input/Tcf1
+fastq-dump -F SRR332262 -O /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/Rep_2
+fastq-dump -F SRR332261 -O /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/Rep_1
+fastq-dump -F SRR332260 -O /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Tcf1/Wu

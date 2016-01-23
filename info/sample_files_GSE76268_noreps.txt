@@ -1,0 +1,2 @@
+GSM1978248,Beta,Homo sapiens,ATAC_seq,Wang,Illumina,Paired,Rep_1
+GSM1978245,Alpha,Homo sapiens,ATAC_seq,Wang,Illumina,Paired,Rep_1

@@ -1,0 +1,1 @@
+/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/DP/Runx1/Bergon/DP_ChIP_seq_Runx1_Bergon_mm10_GSM1095815.bam /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/DP/Runx1/Bergon/macs/DP_ChIP_seq_Runx1_Bergon_mm10_GSM1095815 78

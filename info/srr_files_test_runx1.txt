@@ -1,0 +1,2 @@
+GSM1095815,DP,Mus musculus,ChIP_seq,Runx1,ABI,Single,Rep_0,/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/DP/Runx1:SRR770062 SRR770063
+GSM1095814,DP,Mus musculus,ChIP_seq,Runx1_Input,ABI,Single,Rep_0,/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/DP/Runx1_Input:SRR770061

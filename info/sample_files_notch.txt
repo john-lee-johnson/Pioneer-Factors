@@ -1,0 +1,8 @@
+GSM859503: DP; Mus musculus; ChIP_seq; Input_Rep2
+GSM859502: DP; Mus musculus; ChIP_seq; Input_Rep1
+GSM859501: DP; Mus musculus; ChIP_seq; H3K9ac_Rep2
+GSM859500: DP; Mus musculus; ChIP_seq; H3K9ac_Rep1
+GSM859499: DP; Mus musculus; ChIP_seq; H3K4me3_Rep2
+GSM859498: DP; Mus musculus; ChIP_seq; H3K4me3_Rep1
+GSM859497: DP; Mus musculus; ChIP_seq; H3K27me3_Rep2
+GSM859496: DP; Mus musculus; ChIP_seq; H3K27me3_Rep1

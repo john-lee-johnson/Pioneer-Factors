@@ -1,0 +1,5 @@
+GSM773998,EML,Mus musculus,ChIP_seq,Input,Runx1,Illumina,Single,Rep_0,/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Input/Runx1:SRR332264
+GSM773997,EML,Mus musculus,ChIP_seq,Input,Tcf1,Illumina,Single,Rep_0,/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Input/Tcf1:SRR332263
+GSM773996,EML,Mus musculus,ChIP_seq,Runx1,Wu,Illumina,Single,Rep_2,/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/Rep_2:SRR332262
+GSM773995,EML,Mus musculus,ChIP_seq,Runx1,Wu,Illumina,Single,Rep_1,/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/Rep_1:SRR332261
+GSM773994,EML,Mus musculus,ChIP_seq,Tcf1,Wu,Illumina,Single,Rep_0,/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Tcf1/Wu:SRR332260

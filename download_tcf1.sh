@@ -1,6 +1,6 @@
 #!/bin/bash
-
-##---------------------SET ROTHENBERG BIOPROJECT NUMBER-----------------------------------
+#This script will download sample information for Tcf1 and generate parallel commands
+##---------------------SET BIOPROJECT NUMBER----------------------------------------------
 query=PRJNA201421
 
 #Sets the working directories

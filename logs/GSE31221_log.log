@@ -1,0 +1,1182 @@
+#--------------------SAMPLE FILE-----------------------
+GSM773998,EML,Mus musculus,ChIP_seq,Input,Runx1,Illumina,Single,Rep_0
+GSM773997,EML,Mus musculus,ChIP_seq,Input,Tcf1,Illumina,Single,Rep_0
+GSM773996,EML,Mus musculus,ChIP_seq,Runx1,Wu,Illumina,Single,Rep_2
+GSM773995,EML,Mus musculus,ChIP_seq,Runx1,Wu,Illumina,Single,Rep_1
+GSM773994,EML,Mus musculus,ChIP_seq,Tcf1,Wu,Illumina,Single,Rep_0
+#--------------------------------------------------------
+Notes about formatting:
+The format for the sample file needs to be in the following format:
+gsm,cell,species,seq,(mark),investigator,sequencer,type,replicate
+
+If the SAMPLE FILE is properly formated, set test1 = true
+
+-----SAMPLE FILE PROPERLY FORMATTED MOVING ONTO DOWNLOAD PREP-----
+
+#--------------------SRR FILES---------------------------
+Downloading SRR numbers for GSM773998 and making directory for EML ChIP_seq Input at /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Input/Runx1
+Downloading SRR numbers for GSM773997 and making directory for EML ChIP_seq Input at /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Input/Tcf1
+Downloading SRR numbers for GSM773996 and making directory for EML ChIP_seq Runx1 at /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/Rep_2
+Downloading SRR numbers for GSM773995 and making directory for EML ChIP_seq Runx1 at /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/Rep_1
+Downloading SRR numbers for GSM773994 and making directory for EML ChIP_seq Tcf1 at /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Tcf1/Wu
+#--------------------------------------------------------
+SRR File should have the following format gsm,cell,species,seq,(mark),investigator,sequencer,type,pwd:SRR1 SRR2 SRR3 ...
+
+GSM773998,EML,Mus musculus,ChIP_seq,Input,Runx1,Illumina,Single,Rep_0,/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Input/Runx1:SRR332264
+GSM773997,EML,Mus musculus,ChIP_seq,Input,Tcf1,Illumina,Single,Rep_0,/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Input/Tcf1:SRR332263
+GSM773996,EML,Mus musculus,ChIP_seq,Runx1,Wu,Illumina,Single,Rep_2,/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/Rep_2:SRR332262
+GSM773995,EML,Mus musculus,ChIP_seq,Runx1,Wu,Illumina,Single,Rep_1,/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/Rep_1:SRR332261
+GSM773994,EML,Mus musculus,ChIP_seq,Tcf1,Wu,Illumina,Single,Rep_0,/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Tcf1/Wu:SRR332260
+If the SRR FILE is properly formated, set test2 = true
+
+----SETTING UP COMMANDS FOR DOWNLOAD-----
+----------------FASTQ-DUMP---------------------
+SRR332264 Download Single-end Illumina data
+Read 1 spots for SRR332264
+Written 1 spots for SRR332264
+SRR332263 Download Single-end Illumina data
+Read 1 spots for SRR332263
+Written 1 spots for SRR332263
+SRR332262 Download Single-end Illumina data
+Read 1 spots for SRR332262
+Written 1 spots for SRR332262
+SRR332261 Download Single-end Illumina data
+Read 1 spots for SRR332261
+Written 1 spots for SRR332261
+SRR332260 Download Single-end Illumina data
+Read 1 spots for SRR332260
+Written 1 spots for SRR332260
+#--------------------------------------------------------
+
+-----------------CHECK PARALLEL COMMANDS-----------------
+fastq-dump -F SRR332264 -O /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Input/Runx1
+fastq-dump -F SRR332263 -O /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Input/Tcf1
+fastq-dump -F SRR332262 -O /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/Rep_2
+fastq-dump -F SRR332261 -O /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/Rep_1
+fastq-dump -F SRR332260 -O /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Tcf1/Wu
+#--------------------------------------------------------
+Check to make sure download commands are correct before setting download = true
+
+--------CARRYING OUT THE ACTUAL DOWNLOAD----------
+fastq-dump -F SRR332264 -O /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Input/Runx1
+fastq-dump -F SRR332263 -O /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Input/Tcf1
+fastq-dump -F SRR332262 -O /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/Rep_2
+fastq-dump -F SRR332261 -O /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/Rep_1
+fastq-dump -F SRR332260 -O /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Tcf1/Wu
+Read 20828473 spots for SRR332260
+Written 20828473 spots for SRR332260
+Read 21027585 spots for SRR332262
+Written 21027585 spots for SRR332262
+Read 21450390 spots for SRR332261
+Written 21450390 spots for SRR332261
+Read 20285942 spots for SRR332264
+Written 20285942 spots for SRR332264
+Read 28196187 spots for SRR332263
+Written 28196187 spots for SRR332263
+
+-------------------------------------------------------
+Recommended to stop here and check a few of the files for quality and adapter contamination using FASTQC
+Set test3 = true when ready to continue
+
+MOVING ONTO PREPROCESSING
+
+--------------PREPROCESSING FILES--------------------
+
+SRR332264 Preprocessing: Quality Masking
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+Path to Cutadapt set as: 'cutadapt' (default)
+1.9
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Writing report to '/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Input/Runx1/SRR332264.fastq_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Input/Runx1/SRR332264.fastq
+Trimming mode: single-end
+Trim Galore version: 0.4.0
+Cutadapt version: 1.9
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'GATCGGAAGAGCTCGTATGCCGTCTTCTGCTTGAAA' ()
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length before a sequence gets removed: 20 bp
+
+Writing final adapter and quality trimmed output to SRR332264_trimmed.fq
+
+
+  >>> Now performing quality (cutoff 20) and adapter trimming in a single pass for the adapter sequence: 'GATCGGAAGAGCTCGTATGCCGTCTTCTGCTTGAAA' from file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Input/Runx1/SRR332264.fastq <<< 
+10000000 sequences processed
+20000000 sequences processed
+This is cutadapt 1.9 with Python 2.7.6
+Command line parameters: -f fastq -e 0.1 -q 20 -O 1 -a GATCGGAAGAGCTCGTATGCCGTCTTCTGCTTGAAA /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Input/Runx1/SRR332264.fastq
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 230.20 s (11 us/read; 5.29 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              20,285,942
+Reads with adapters:                 5,400,952 (26.6%)
+Reads written (passing filters):    20,285,942 (100.0%)
+
+Total basepairs processed:   689,722,028 bp
+Quality-trimmed:             145,295,832 bp (21.1%)
+Total written (filtered):    537,122,165 bp (77.9%)
+
+=== Adapter 1 ===
+
+Sequence: GATCGGAAGAGCTCGTATGCCGTCTTCTGCTTGAAA; Type: regular 3'; Length: 36; Trimmed: 5400952 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-36 bp: 3
+
+Bases preceding removed adapters:
+  A: 32.1%
+  C: 6.0%
+  G: 24.5%
+  T: 34.7%
+  none/other: 2.7%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	4116196	5071485.5	0	4116196
+2	989949	1267871.4	0	989949
+3	224867	316967.8	0	224867
+4	47905	79242.0	0	47905
+5	4657	19810.5	0	4657
+6	2965	4952.6	0	2965
+7	1504	1238.2	0	1504
+8	1109	309.5	0	1109
+9	1268	77.4	0	1074 194
+10	996	19.3	1	632 364
+11	649	4.8	1	459 190
+12	520	1.2	1	399 121
+13	313	0.3	1	248 65
+14	330	0.1	1	251 79
+15	271	0.0	1	194 77
+16	73	0.0	1	51 22
+17	47	0.0	1	31 16
+18	84	0.0	1	59 25
+19	56	0.0	1	36 20
+20	81	0.0	2	48 26 7
+21	146	0.0	2	76 46 24
+22	141	0.0	2	81 39 21
+23	44	0.0	2	24 12 8
+24	69	0.0	2	32 25 12
+25	79	0.0	2	41 29 9
+26	142	0.0	2	89 39 14
+27	174	0.0	2	82 56 35 1
+28	162	0.0	2	84 50 26 2
+29	87	0.0	2	41 30 15 1
+30	221	0.0	3	94 56 55 16
+31	274	0.0	3	150 73 32 19
+32	890	0.0	3	556 195 92 47
+33	1513	0.0	3	971 344 129 69
+34	3170	0.0	3	2247 584 235 104
+
+
+RUN STATISTICS FOR INPUT FILE: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Input/Runx1/SRR332264.fastq
+=============================================
+20285942 sequences processed in total
+Sequences removed because they became shorter than the length cutoff of 20 bp:	4667053 (23.0%)
+
+SRR332263 Preprocessing: Quality Masking
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+Path to Cutadapt set as: 'cutadapt' (default)
+1.9
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Writing report to '/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Input/Tcf1/SRR332263.fastq_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Input/Tcf1/SRR332263.fastq
+Trimming mode: single-end
+Trim Galore version: 0.4.0
+Cutadapt version: 1.9
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'GATCGGAAGAGCTCGTATGCCGTCTTCTGCTTGAAA' ()
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length before a sequence gets removed: 20 bp
+
+Writing final adapter and quality trimmed output to SRR332263_trimmed.fq
+
+
+  >>> Now performing quality (cutoff 20) and adapter trimming in a single pass for the adapter sequence: 'GATCGGAAGAGCTCGTATGCCGTCTTCTGCTTGAAA' from file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Input/Tcf1/SRR332263.fastq <<< 
+10000000 sequences processed
+20000000 sequences processed
+This is cutadapt 1.9 with Python 2.7.6
+Command line parameters: -f fastq -e 0.1 -q 20 -O 1 -a GATCGGAAGAGCTCGTATGCCGTCTTCTGCTTGAAA /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Input/Tcf1/SRR332263.fastq
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 382.04 s (14 us/read; 4.43 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              28,196,187
+Reads with adapters:                 9,594,323 (34.0%)
+Reads written (passing filters):    28,196,187 (100.0%)
+
+Total basepairs processed: 1,015,062,732 bp
+Quality-trimmed:              25,251,995 bp (2.5%)
+Total written (filtered):    940,319,317 bp (92.6%)
+
+=== Adapter 1 ===
+
+Sequence: GATCGGAAGAGCTCGTATGCCGTCTTCTGCTTGAAA; Type: regular 3'; Length: 36; Trimmed: 9594323 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-36 bp: 3
+
+Bases preceding removed adapters:
+  A: 31.0%
+  C: 3.9%
+  G: 23.0%
+  T: 30.0%
+  none/other: 12.1%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	6154842	7049046.8	0	6154842
+2	1826100	1762261.7	0	1826100
+3	382933	440565.4	0	382933
+4	68492	110141.4	0	68492
+5	5687	27535.3	0	5687
+6	2985	6883.8	0	2985
+7	2097	1721.0	0	2097
+8	1795	430.2	0	1795
+9	1957	107.6	0	1616 341
+10	1796	26.9	1	1222 574
+11	1174	6.7	1	912 262
+12	867	1.7	1	794 73
+13	1039	0.4	1	965 74
+14	1732	0.1	1	1562 170
+15	3524	0.0	1	3211 313
+16	579	0.0	1	544 35
+17	2202	0.0	1	2042 160
+18	3153	0.0	1	2920 233
+19	6978	0.0	1	6435 540 3
+20	10891	0.0	2	9439 1310 142
+21	4901	0.0	2	4507 339 55
+22	15813	0.0	2	14886 826 101
+23	9584	0.0	2	9062 485 37
+24	17530	0.0	2	16149 1284 97
+25	43567	0.0	2	39499 3834 234
+26	41963	0.0	2	40174 1608 181
+27	10781	0.0	2	10108 620 39 14
+28	29397	0.0	2	27868 1100 87 342
+29	25624	0.0	2	24448 1117 55 4
+30	27625	0.0	3	25915 1597 96 17
+31	6667	0.0	3	6119 516 29 3
+32	49667	0.0	3	47487 2078 98 4
+33	13498	0.0	3	12797 658 35 8
+34	2987	0.0	3	2585 364 35 3
+35	18623	0.0	3	14790 3550 265 18
+36	795273	0.0	3	766570 26035 2378 290
+
+
+RUN STATISTICS FOR INPUT FILE: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Input/Tcf1/SRR332263.fastq
+=============================================
+28196187 sequences processed in total
+Sequences removed because they became shorter than the length cutoff of 20 bp:	1655626 (5.9%)
+
+SRR332262 Preprocessing: Quality Masking
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+Path to Cutadapt set as: 'cutadapt' (default)
+1.9
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Writing report to '/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/Rep_2/SRR332262.fastq_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/Rep_2/SRR332262.fastq
+Trimming mode: single-end
+Trim Galore version: 0.4.0
+Cutadapt version: 1.9
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'GATCGGAAGAGCTCGTATGCCGTCTTCTGCTTGAAA' ()
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length before a sequence gets removed: 20 bp
+
+Writing final adapter and quality trimmed output to SRR332262_trimmed.fq
+
+
+  >>> Now performing quality (cutoff 20) and adapter trimming in a single pass for the adapter sequence: 'GATCGGAAGAGCTCGTATGCCGTCTTCTGCTTGAAA' from file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/Rep_2/SRR332262.fastq <<< 
+10000000 sequences processed
+20000000 sequences processed
+This is cutadapt 1.9 with Python 2.7.6
+Command line parameters: -f fastq -e 0.1 -q 20 -O 1 -a GATCGGAAGAGCTCGTATGCCGTCTTCTGCTTGAAA /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/Rep_2/SRR332262.fastq
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 250.11 s (12 us/read; 5.04 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              21,027,585
+Reads with adapters:                 7,951,185 (37.8%)
+Reads written (passing filters):    21,027,585 (100.0%)
+
+Total basepairs processed:   714,937,890 bp
+Quality-trimmed:             134,477,365 bp (18.8%)
+Total written (filtered):    510,585,002 bp (71.4%)
+
+=== Adapter 1 ===
+
+Sequence: GATCGGAAGAGCTCGTATGCCGTCTTCTGCTTGAAA; Type: regular 3'; Length: 36; Trimmed: 7951185 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-36 bp: 3
+
+Bases preceding removed adapters:
+  A: 24.1%
+  C: 5.7%
+  G: 18.8%
+  T: 22.2%
+  none/other: 29.1%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	4401833	5256896.2	0	4401833
+2	986067	1314224.1	0	986067
+3	242949	328556.0	0	242949
+4	79535	82139.0	0	79535
+5	48837	20534.8	0	48837
+6	79845	5133.7	0	79845
+7	26970	1283.4	0	26970
+8	24820	320.9	0	24820
+9	36402	80.2	0	36119 283
+10	24506	20.1	1	20495 4011
+11	32486	5.0	1	26807 5679
+12	32623	1.3	1	25565 7058
+13	21524	0.3	1	17486 4038
+14	24348	0.1	1	19020 5328
+15	45536	0.0	1	33499 12037
+16	8294	0.0	1	6218 2076
+17	5866	0.0	1	4518 1348
+18	6842	0.0	1	5382 1449 11
+19	7967	0.0	1	6043 1900 24
+20	7918	0.0	2	4998 1992 928
+21	19055	0.0	2	11935 5085 2035
+22	45552	0.0	2	29649 11684 4219
+23	4799	0.0	2	2736 1526 537
+24	14121	0.0	2	8170 4101 1850
+25	10205	0.0	2	6760 2475 970
+26	32032	0.0	2	25316 5043 1673
+27	27481	0.0	2	18648 6441 2330 62
+28	26233	0.0	2	20462 4179 1369 223
+29	44064	0.0	2	31728 9353 2935 48
+30	67545	0.0	3	47393 14377 4396 1379
+31	54476	0.0	3	43318 8255 2147 756
+32	246969	0.0	3	205723 31114 7387 2745
+33	517083	0.0	3	440869 59371 12598 4245
+34	696402	0.0	3	599390 72014 17910 7088
+
+
+RUN STATISTICS FOR INPUT FILE: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/Rep_2/SRR332262.fastq
+=============================================
+21027585 sequences processed in total
+Sequences removed because they became shorter than the length cutoff of 20 bp:	5918808 (28.1%)
+
+SRR332261 Preprocessing: Quality Masking
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+Path to Cutadapt set as: 'cutadapt' (default)
+1.9
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Writing report to '/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/Rep_1/SRR332261.fastq_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/Rep_1/SRR332261.fastq
+Trimming mode: single-end
+Trim Galore version: 0.4.0
+Cutadapt version: 1.9
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'GATCGGAAGAGCTCGTATGCCGTCTTCTGCTTGAAA' ()
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length before a sequence gets removed: 20 bp
+
+Writing final adapter and quality trimmed output to SRR332261_trimmed.fq
+
+
+  >>> Now performing quality (cutoff 20) and adapter trimming in a single pass for the adapter sequence: 'GATCGGAAGAGCTCGTATGCCGTCTTCTGCTTGAAA' from file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/Rep_1/SRR332261.fastq <<< 
+10000000 sequences processed
+20000000 sequences processed
+This is cutadapt 1.9 with Python 2.7.6
+Command line parameters: -f fastq -e 0.1 -q 20 -O 1 -a GATCGGAAGAGCTCGTATGCCGTCTTCTGCTTGAAA /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/Rep_1/SRR332261.fastq
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 255.75 s (12 us/read; 5.03 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              21,450,390
+Reads with adapters:                 7,763,506 (36.2%)
+Reads written (passing filters):    21,450,390 (100.0%)
+
+Total basepairs processed:   729,313,260 bp
+Quality-trimmed:             181,903,674 bp (24.9%)
+Total written (filtered):    480,853,308 bp (65.9%)
+
+=== Adapter 1 ===
+
+Sequence: GATCGGAAGAGCTCGTATGCCGTCTTCTGCTTGAAA; Type: regular 3'; Length: 36; Trimmed: 7763506 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-36 bp: 3
+
+Bases preceding removed adapters:
+  A: 23.4%
+  C: 5.7%
+  G: 17.1%
+  T: 22.0%
+  none/other: 31.7%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	4108305	5362597.5	0	4108305
+2	1019948	1340649.4	0	1019948
+3	255186	335162.3	0	255186
+4	108420	83790.6	0	108420
+5	63602	20947.6	0	63602
+6	85858	5236.9	0	85858
+7	36485	1309.2	0	36485
+8	37989	327.3	0	37989
+9	43397	81.8	0	43083 314
+10	37812	20.5	1	32932 4880
+11	38501	5.1	1	32833 5668
+12	53774	1.3	1	44596 9178
+13	37740	0.3	1	32427 5313
+14	58197	0.1	1	48826 9371
+15	60578	0.0	1	48770 11808
+16	12013	0.0	1	9756 2257
+17	13603	0.0	1	11486 2117
+18	24851	0.0	1	21848 2981 22
+19	16543	0.0	1	13954 2537 52
+20	16247	0.0	2	12154 2987 1106
+21	34117	0.0	2	25013 6800 2304
+22	39201	0.0	2	28309 7945 2947
+23	5755	0.0	2	3934 1347 474
+24	14865	0.0	2	9539 3591 1735
+25	15146	0.0	2	11121 2902 1123
+26	42806	0.0	2	35494 5696 1616
+27	34885	0.0	2	25030 7099 2630 126
+28	35879	0.0	2	28832 5145 1537 365
+29	26544	0.0	2	18597 5732 2148 67
+30	54691	0.0	3	35792 12277 4693 1929
+31	54746	0.0	3	42282 8792 2602 1070
+32	211308	0.0	3	172218 29008 7323 2759
+33	314281	0.0	3	254534 44644 11009 4094
+34	750233	0.0	3	642196 80320 20314 7403
+
+
+RUN STATISTICS FOR INPUT FILE: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/Rep_1/SRR332261.fastq
+=============================================
+21450390 sequences processed in total
+Sequences removed because they became shorter than the length cutoff of 20 bp:	7513907 (35.0%)
+
+SRR332260 Preprocessing: Quality Masking
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+Path to Cutadapt set as: 'cutadapt' (default)
+1.9
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Writing report to '/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Tcf1/Wu/SRR332260.fastq_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Tcf1/Wu/SRR332260.fastq
+Trimming mode: single-end
+Trim Galore version: 0.4.0
+Cutadapt version: 1.9
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'GATCGGAAGAGCTCGTATGCCGTCTTCTGCTTGAAA' ()
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length before a sequence gets removed: 20 bp
+
+Writing final adapter and quality trimmed output to SRR332260_trimmed.fq
+
+
+  >>> Now performing quality (cutoff 20) and adapter trimming in a single pass for the adapter sequence: 'GATCGGAAGAGCTCGTATGCCGTCTTCTGCTTGAAA' from file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Tcf1/Wu/SRR332260.fastq <<< 
+10000000 sequences processed
+20000000 sequences processed
+This is cutadapt 1.9 with Python 2.7.6
+Command line parameters: -f fastq -e 0.1 -q 20 -O 1 -a GATCGGAAGAGCTCGTATGCCGTCTTCTGCTTGAAA /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Tcf1/Wu/SRR332260.fastq
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 250.02 s (12 us/read; 5.00 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              20,828,473
+Reads with adapters:                 8,259,524 (39.7%)
+Reads written (passing filters):    20,828,473 (100.0%)
+
+Total basepairs processed:   749,825,028 bp
+Quality-trimmed:               3,606,159 bp (0.5%)
+Total written (filtered):    661,444,445 bp (88.2%)
+
+=== Adapter 1 ===
+
+Sequence: GATCGGAAGAGCTCGTATGCCGTCTTCTGCTTGAAA; Type: regular 3'; Length: 36; Trimmed: 8259524 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-36 bp: 3
+
+Bases preceding removed adapters:
+  A: 23.6%
+  C: 6.1%
+  G: 21.0%
+  T: 23.3%
+  none/other: 25.9%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	4627348	5207118.2	0	4627348
+2	1211267	1301779.6	0	1211267
+3	220269	325444.9	0	220269
+4	48745	81361.2	0	48745
+5	5850	20340.3	0	5850
+6	2647	5085.1	0	2647
+7	1597	1271.3	0	1597
+8	1276	317.8	0	1276
+9	1266	79.5	0	1037 229
+10	1222	19.9	1	827 395
+11	877	5.0	1	716 161
+12	583	1.2	1	529 54
+13	472	0.3	1	449 23
+14	356	0.1	1	332 24
+15	408	0.0	1	378 30
+16	196	0.0	1	193 3
+17	225	0.0	1	209 16
+18	151	0.0	1	136 15
+19	207	0.0	1	177 30
+20	289	0.0	2	251 37 1
+21	139	0.0	2	120 17 2
+22	262	0.0	2	226 34 2
+23	171	0.0	2	144 22 5
+24	386	0.0	2	339 40 7
+25	1098	0.0	2	920 151 27
+26	1408	0.0	2	1308 85 15
+27	438	0.0	2	367 53 15 3
+28	763	0.0	2	668 71 14 10
+29	1009	0.0	2	871 118 17 3
+30	1516	0.0	3	1294 180 34 8
+31	931	0.0	3	817 102 9 3
+32	3161	0.0	3	2850 266 32 13
+33	3910	0.0	3	3453 377 61 19
+34	1786	0.0	3	1507 200 71 8
+35	10909	0.0	3	8017 2683 178 31
+36	2106386	0.0	3	2045489 57938 2359 600
+
+
+RUN STATISTICS FOR INPUT FILE: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Tcf1/Wu/SRR332260.fastq
+=============================================
+20828473 sequences processed in total
+Sequences removed because they became shorter than the length cutoff of 20 bp:	2204627 (10.6%)
+
+Once files are downloaded and preprocessed, set align = TRUE to align SRR files
+-----------PREPROCESSING COMPLETED-------------
+
+--------------------ALIGNMENT--------------------
+SRR332264 Align with STAR
+Jan 09 22:11:18 ..... Started STAR run
+Jan 09 22:11:18 ..... Loading genome
+Jan 09 22:11:18 ..... Started mapping
+Jan 09 22:11:57 ..... Started sorting BAM
+Jan 09 22:12:15 ..... Finished successfully
+SRR332263 Align with STAR
+Jan 09 22:12:16 ..... Started STAR run
+Jan 09 22:12:16 ..... Loading genome
+Jan 09 22:12:16 ..... Started mapping
+Jan 09 22:13:08 ..... Started sorting BAM
+Jan 09 22:14:04 ..... Finished successfully
+SRR332262 Align with STAR
+Jan 09 22:14:06 ..... Started STAR run
+Jan 09 22:14:06 ..... Loading genome
+Jan 09 22:14:06 ..... Started mapping
+Jan 09 22:14:46 ..... Started sorting BAM
+Jan 09 22:14:59 ..... Finished successfully
+SRR332261 Align with STAR
+Jan 09 22:15:00 ..... Started STAR run
+Jan 09 22:15:00 ..... Loading genome
+Jan 09 22:15:01 ..... Started mapping
+Jan 09 22:15:39 ..... Started sorting BAM
+Jan 09 22:15:51 ..... Finished successfully
+SRR332260 Align with STAR
+Jan 09 22:15:52 ..... Started STAR run
+Jan 09 22:15:52 ..... Loading genome
+Jan 09 22:15:52 ..... Started mapping
+Jan 09 22:16:33 ..... Started sorting BAM
+Jan 09 22:16:49 ..... Finished successfully
+#--------------------------------------------------------
+
+
+Once files have been aligned, set duplicate = TRUE to mark and remove duplicates
+
+---------------REMOVE DUPLICATES--------------------
+SRR332264 duplicate removal
+1.140(09a586ed051c2b7f0b576ceea812c3ab0e15051a_1446674999)
+SRR332263 duplicate removal
+1.140(09a586ed051c2b7f0b576ceea812c3ab0e15051a_1446674999)
+SRR332262 duplicate removal
+1.140(09a586ed051c2b7f0b576ceea812c3ab0e15051a_1446674999)
+SRR332261 duplicate removal
+1.140(09a586ed051c2b7f0b576ceea812c3ab0e15051a_1446674999)
+SRR332260 duplicate removal
+1.140(09a586ed051c2b7f0b576ceea812c3ab0e15051a_1446674999)
+-------REMOVING DUPLICATES------------
+java -Xmx2g -jar /mnt/data1/bin/picard/dist/picard.jar MarkDuplicates INPUT=/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Input/Runx1/SRR332264.bam OUTPUT=/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Input/Runx1/SRR332264_removed.bam REMOVE_DUPLICATES=true METRICS_FILE=/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Input/Runx1/SRR332264_metrics.txt
+java -Xmx2g -jar /mnt/data1/bin/picard/dist/picard.jar MarkDuplicates INPUT=/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Input/Tcf1/SRR332263.bam OUTPUT=/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Input/Tcf1/SRR332263_removed.bam REMOVE_DUPLICATES=true METRICS_FILE=/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Input/Tcf1/SRR332263_metrics.txt
+java -Xmx2g -jar /mnt/data1/bin/picard/dist/picard.jar MarkDuplicates INPUT=/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/Rep_2/SRR332262.bam OUTPUT=/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/Rep_2/SRR332262_removed.bam REMOVE_DUPLICATES=true METRICS_FILE=/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/Rep_2/SRR332262_metrics.txt
+java -Xmx2g -jar /mnt/data1/bin/picard/dist/picard.jar MarkDuplicates INPUT=/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/Rep_1/SRR332261.bam OUTPUT=/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/Rep_1/SRR332261_removed.bam REMOVE_DUPLICATES=true METRICS_FILE=/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/Rep_1/SRR332261_metrics.txt
+java -Xmx2g -jar /mnt/data1/bin/picard/dist/picard.jar MarkDuplicates INPUT=/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Tcf1/Wu/SRR332260.bam OUTPUT=/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Tcf1/Wu/SRR332260_removed.bam REMOVE_DUPLICATES=true METRICS_FILE=/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Tcf1/Wu/SRR332260_metrics.txt
+[Sat Jan 09 22:16:52 EST 2016] picard.sam.markduplicates.MarkDuplicates INPUT=[/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/Rep_1/SRR332261.bam] OUTPUT=/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/Rep_1/SRR332261_removed.bam METRICS_FILE=/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/Rep_1/SRR332261_metrics.txt REMOVE_DUPLICATES=true    MAX_SEQUENCES_FOR_DISK_READ_ENDS_MAP=50000 MAX_FILE_HANDLES_FOR_READ_ENDS_MAP=8000 SORTING_COLLECTION_SIZE_RATIO=0.25 PROGRAM_RECORD_ID=MarkDuplicates PROGRAM_GROUP_NAME=MarkDuplicates ASSUME_SORTED=false DUPLICATE_SCORING_STRATEGY=SUM_OF_BASE_QUALITIES READ_NAME_REGEX=[a-zA-Z0-9]+:[0-9]:([0-9]+):([0-9]+):([0-9]+).* OPTICAL_DUPLICATE_PIXEL_DISTANCE=100 VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Sat Jan 09 22:16:52 EST 2016] Executing as johnj@athena on Linux 3.16.0-45-generic amd64; OpenJDK 64-Bit Server VM 1.6.0_37-b37; Picard version: 1.140(09a586ed051c2b7f0b576ceea812c3ab0e15051a_1446674999) JdkDeflater
+INFO	2016-01-09 22:16:52	MarkDuplicates	Start of doWork freeMemory: 2046482568; totalMemory: 2058027008; maxMemory: 2058027008
+INFO	2016-01-09 22:16:52	MarkDuplicates	Reading input file and constructing read end information.
+INFO	2016-01-09 22:16:52	MarkDuplicates	Will retain up to 7915488 data points before spilling to disk.
+INFO	2016-01-09 22:16:56	MarkDuplicates	Read     1,000,000 records.  Elapsed time: 00:00:03s.  Time for last 1,000,000:    3s.  Last read position: chr11:103,799,470
+INFO	2016-01-09 22:16:56	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:16:59	MarkDuplicates	Read     2,000,000 records.  Elapsed time: 00:00:06s.  Time for last 1,000,000:    2s.  Last read position: chr13:111,319,901
+INFO	2016-01-09 22:16:59	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:02	MarkDuplicates	Read     3,000,000 records.  Elapsed time: 00:00:09s.  Time for last 1,000,000:    3s.  Last read position: chr16:24,608,735
+INFO	2016-01-09 22:17:02	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:07	MarkDuplicates	Read     4,000,000 records.  Elapsed time: 00:00:14s.  Time for last 1,000,000:    5s.  Last read position: chr18:84,851,150
+INFO	2016-01-09 22:17:07	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:11	MarkDuplicates	Read     5,000,000 records.  Elapsed time: 00:00:18s.  Time for last 1,000,000:    3s.  Last read position: chr1:178,947,947
+INFO	2016-01-09 22:17:11	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:14	MarkDuplicates	Read     6,000,000 records.  Elapsed time: 00:00:22s.  Time for last 1,000,000:    3s.  Last read position: chr2:165,076,382
+INFO	2016-01-09 22:17:14	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:18	MarkDuplicates	Read     7,000,000 records.  Elapsed time: 00:00:25s.  Time for last 1,000,000:    3s.  Last read position: chr4:112,704,834
+INFO	2016-01-09 22:17:18	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:22	MarkDuplicates	Read     8,000,000 records.  Elapsed time: 00:00:29s.  Time for last 1,000,000:    3s.  Last read position: chr6:59,681,517
+INFO	2016-01-09 22:17:22	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:31	MarkDuplicates	Read     9,000,000 records.  Elapsed time: 00:00:38s.  Time for last 1,000,000:    8s.  Last read position: chr8:26,295,380
+INFO	2016-01-09 22:17:31	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:34	MarkDuplicates	Read    10,000,000 records.  Elapsed time: 00:00:41s.  Time for last 1,000,000:    3s.  Last read position: chrM:2,442
+INFO	2016-01-09 22:17:34	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:36	MarkDuplicates	Read 10516580 records. 0 pairs never matched.
+INFO	2016-01-09 22:17:37	MarkDuplicates	After buildSortedReadEndLists freeMemory: 2021211320; totalMemory: 2065301504; maxMemory: 2065301504
+INFO	2016-01-09 22:17:37	MarkDuplicates	Will retain up to 64540672 duplicate indices before spilling to disk.
+INFO	2016-01-09 22:17:37	MarkDuplicates	Traversing read pair information and detecting duplicates.
+INFO	2016-01-09 22:17:37	MarkDuplicates	Traversing fragment information and detecting duplicates.
+INFO	2016-01-09 22:17:41	MarkDuplicates	Sorting list of duplicate records.
+INFO	2016-01-09 22:17:42	MarkDuplicates	After generateDuplicateIndexes freeMemory: 1465432448; totalMemory: 1992556544; maxMemory: 1992556544
+INFO	2016-01-09 22:17:42	MarkDuplicates	Marking 2816494 records as duplicates.
+INFO	2016-01-09 22:17:42	MarkDuplicates	Found 0 optical duplicate clusters.
+INFO	2016-01-09 22:19:02	MarkDuplicates	Before output close freeMemory: 1912646208; totalMemory: 1923940352; maxMemory: 1923940352
+INFO	2016-01-09 22:19:02	MarkDuplicates	After output close freeMemory: 1930602536; totalMemory: 1941897216; maxMemory: 1941897216
+[Sat Jan 09 22:19:02 EST 2016] picard.sam.markduplicates.MarkDuplicates done. Elapsed time: 2.16 minutes.
+Runtime.totalMemory()=1941897216
+[Sat Jan 09 22:16:52 EST 2016] picard.sam.markduplicates.MarkDuplicates INPUT=[/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/Rep_2/SRR332262.bam] OUTPUT=/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/Rep_2/SRR332262_removed.bam METRICS_FILE=/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/Rep_2/SRR332262_metrics.txt REMOVE_DUPLICATES=true    MAX_SEQUENCES_FOR_DISK_READ_ENDS_MAP=50000 MAX_FILE_HANDLES_FOR_READ_ENDS_MAP=8000 SORTING_COLLECTION_SIZE_RATIO=0.25 PROGRAM_RECORD_ID=MarkDuplicates PROGRAM_GROUP_NAME=MarkDuplicates ASSUME_SORTED=false DUPLICATE_SCORING_STRATEGY=SUM_OF_BASE_QUALITIES READ_NAME_REGEX=[a-zA-Z0-9]+:[0-9]:([0-9]+):([0-9]+):([0-9]+).* OPTICAL_DUPLICATE_PIXEL_DISTANCE=100 VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Sat Jan 09 22:16:52 EST 2016] Executing as johnj@athena on Linux 3.16.0-45-generic amd64; OpenJDK 64-Bit Server VM 1.6.0_37-b37; Picard version: 1.140(09a586ed051c2b7f0b576ceea812c3ab0e15051a_1446674999) JdkDeflater
+INFO	2016-01-09 22:16:52	MarkDuplicates	Start of doWork freeMemory: 2046482568; totalMemory: 2058027008; maxMemory: 2058027008
+INFO	2016-01-09 22:16:52	MarkDuplicates	Reading input file and constructing read end information.
+INFO	2016-01-09 22:16:52	MarkDuplicates	Will retain up to 7915488 data points before spilling to disk.
+INFO	2016-01-09 22:16:56	MarkDuplicates	Read     1,000,000 records.  Elapsed time: 00:00:03s.  Time for last 1,000,000:    3s.  Last read position: chr11:89,627,574
+INFO	2016-01-09 22:16:56	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:16:58	MarkDuplicates	Read     2,000,000 records.  Elapsed time: 00:00:06s.  Time for last 1,000,000:    2s.  Last read position: chr13:75,009,052
+INFO	2016-01-09 22:16:58	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:02	MarkDuplicates	Read     3,000,000 records.  Elapsed time: 00:00:09s.  Time for last 1,000,000:    3s.  Last read position: chr15:79,080,899
+INFO	2016-01-09 22:17:02	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:07	MarkDuplicates	Read     4,000,000 records.  Elapsed time: 00:00:14s.  Time for last 1,000,000:    4s.  Last read position: chr18:6,188,675
+INFO	2016-01-09 22:17:07	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:11	MarkDuplicates	Read     5,000,000 records.  Elapsed time: 00:00:18s.  Time for last 1,000,000:    3s.  Last read position: chr1:82,276,239
+INFO	2016-01-09 22:17:11	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:14	MarkDuplicates	Read     6,000,000 records.  Elapsed time: 00:00:22s.  Time for last 1,000,000:    3s.  Last read position: chr2:98,662,828
+INFO	2016-01-09 22:17:14	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:18	MarkDuplicates	Read     7,000,000 records.  Elapsed time: 00:00:25s.  Time for last 1,000,000:    3s.  Last read position: chr3:115,285,794
+INFO	2016-01-09 22:17:18	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:22	MarkDuplicates	Read     8,000,000 records.  Elapsed time: 00:00:29s.  Time for last 1,000,000:    3s.  Last read position: chr5:54,412,084
+INFO	2016-01-09 22:17:22	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:31	MarkDuplicates	Read     9,000,000 records.  Elapsed time: 00:00:38s.  Time for last 1,000,000:    9s.  Last read position: chr6:136,551,206
+INFO	2016-01-09 22:17:31	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:34	MarkDuplicates	Read    10,000,000 records.  Elapsed time: 00:00:41s.  Time for last 1,000,000:    3s.  Last read position: chr8:92,806,545
+INFO	2016-01-09 22:17:34	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:38	MarkDuplicates	Read    11,000,000 records.  Elapsed time: 00:00:45s.  Time for last 1,000,000:    3s.  Last read position: chrM:12,242
+INFO	2016-01-09 22:17:38	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:39	MarkDuplicates	Read 11383396 records. 0 pairs never matched.
+INFO	2016-01-09 22:17:41	MarkDuplicates	After buildSortedReadEndLists freeMemory: 2028713576; totalMemory: 2073100288; maxMemory: 2073100288
+INFO	2016-01-09 22:17:41	MarkDuplicates	Will retain up to 64784384 duplicate indices before spilling to disk.
+INFO	2016-01-09 22:17:41	MarkDuplicates	Traversing read pair information and detecting duplicates.
+INFO	2016-01-09 22:17:41	MarkDuplicates	Traversing fragment information and detecting duplicates.
+INFO	2016-01-09 22:17:45	MarkDuplicates	Sorting list of duplicate records.
+INFO	2016-01-09 22:17:45	MarkDuplicates	After generateDuplicateIndexes freeMemory: 1478346504; totalMemory: 2007695360; maxMemory: 2007695360
+INFO	2016-01-09 22:17:45	MarkDuplicates	Marking 3344765 records as duplicates.
+INFO	2016-01-09 22:17:45	MarkDuplicates	Found 0 optical duplicate clusters.
+INFO	2016-01-09 22:19:10	MarkDuplicates	Before output close freeMemory: 1905675424; totalMemory: 1916534784; maxMemory: 1916534784
+INFO	2016-01-09 22:19:10	MarkDuplicates	After output close freeMemory: 1952815056; totalMemory: 1964703744; maxMemory: 1964703744
+[Sat Jan 09 22:19:10 EST 2016] picard.sam.markduplicates.MarkDuplicates done. Elapsed time: 2.30 minutes.
+Runtime.totalMemory()=1964703744
+[Sat Jan 09 22:16:52 EST 2016] picard.sam.markduplicates.MarkDuplicates INPUT=[/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Tcf1/Wu/SRR332260.bam] OUTPUT=/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Tcf1/Wu/SRR332260_removed.bam METRICS_FILE=/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Tcf1/Wu/SRR332260_metrics.txt REMOVE_DUPLICATES=true    MAX_SEQUENCES_FOR_DISK_READ_ENDS_MAP=50000 MAX_FILE_HANDLES_FOR_READ_ENDS_MAP=8000 SORTING_COLLECTION_SIZE_RATIO=0.25 PROGRAM_RECORD_ID=MarkDuplicates PROGRAM_GROUP_NAME=MarkDuplicates ASSUME_SORTED=false DUPLICATE_SCORING_STRATEGY=SUM_OF_BASE_QUALITIES READ_NAME_REGEX=[a-zA-Z0-9]+:[0-9]:([0-9]+):([0-9]+):([0-9]+).* OPTICAL_DUPLICATE_PIXEL_DISTANCE=100 VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Sat Jan 09 22:16:52 EST 2016] Executing as johnj@athena on Linux 3.16.0-45-generic amd64; OpenJDK 64-Bit Server VM 1.6.0_37-b37; Picard version: 1.140(09a586ed051c2b7f0b576ceea812c3ab0e15051a_1446674999) JdkDeflater
+INFO	2016-01-09 22:16:52	MarkDuplicates	Start of doWork freeMemory: 2046482704; totalMemory: 2058027008; maxMemory: 2058027008
+INFO	2016-01-09 22:16:52	MarkDuplicates	Reading input file and constructing read end information.
+INFO	2016-01-09 22:16:52	MarkDuplicates	Will retain up to 7915488 data points before spilling to disk.
+INFO	2016-01-09 22:16:56	MarkDuplicates	Read     1,000,000 records.  Elapsed time: 00:00:03s.  Time for last 1,000,000:    3s.  Last read position: chr11:50,512,726
+INFO	2016-01-09 22:16:56	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:16:59	MarkDuplicates	Read     2,000,000 records.  Elapsed time: 00:00:06s.  Time for last 1,000,000:    2s.  Last read position: chr12:73,650,623
+INFO	2016-01-09 22:16:59	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:02	MarkDuplicates	Read     3,000,000 records.  Elapsed time: 00:00:09s.  Time for last 1,000,000:    3s.  Last read position: chr14:14,786,603
+INFO	2016-01-09 22:17:02	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:08	MarkDuplicates	Read     4,000,000 records.  Elapsed time: 00:00:15s.  Time for last 1,000,000:    5s.  Last read position: chr15:65,938,743
+INFO	2016-01-09 22:17:08	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:11	MarkDuplicates	Read     5,000,000 records.  Elapsed time: 00:00:18s.  Time for last 1,000,000:    3s.  Last read position: chr17:3,115,472
+INFO	2016-01-09 22:17:11	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:15	MarkDuplicates	Read     6,000,000 records.  Elapsed time: 00:00:22s.  Time for last 1,000,000:    3s.  Last read position: chr18:61,131,134
+INFO	2016-01-09 22:17:15	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:18	MarkDuplicates	Read     7,000,000 records.  Elapsed time: 00:00:25s.  Time for last 1,000,000:    3s.  Last read position: chr1:87,371,278
+INFO	2016-01-09 22:17:18	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:22	MarkDuplicates	Read     8,000,000 records.  Elapsed time: 00:00:29s.  Time for last 1,000,000:    3s.  Last read position: chr2:80,081,375
+INFO	2016-01-09 22:17:22	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:30	MarkDuplicates	Read     9,000,000 records.  Elapsed time: 00:00:37s.  Time for last 1,000,000:    7s.  Last read position: chr2:180,404,883
+INFO	2016-01-09 22:17:30	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:33	MarkDuplicates	Read    10,000,000 records.  Elapsed time: 00:00:40s.  Time for last 1,000,000:    3s.  Last read position: chr4:56,743,658
+INFO	2016-01-09 22:17:33	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:37	MarkDuplicates	Read    11,000,000 records.  Elapsed time: 00:00:44s.  Time for last 1,000,000:    3s.  Last read position: chr5:76,816,385
+INFO	2016-01-09 22:17:37	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:40	MarkDuplicates	Read    12,000,000 records.  Elapsed time: 00:00:47s.  Time for last 1,000,000:    3s.  Last read position: chr6:83,326,043
+INFO	2016-01-09 22:17:40	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:43	MarkDuplicates	Read    13,000,000 records.  Elapsed time: 00:00:50s.  Time for last 1,000,000:    3s.  Last read position: chr7:107,309,067
+INFO	2016-01-09 22:17:43	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:46	MarkDuplicates	Read    14,000,000 records.  Elapsed time: 00:00:53s.  Time for last 1,000,000:    3s.  Last read position: chr8:122,980,392
+INFO	2016-01-09 22:17:46	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:50	MarkDuplicates	Read    15,000,000 records.  Elapsed time: 00:00:57s.  Time for last 1,000,000:    3s.  Last read position: chrX:50,605,480
+INFO	2016-01-09 22:17:50	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:51	MarkDuplicates	Read 15227422 records. 0 pairs never matched.
+INFO	2016-01-09 22:17:54	MarkDuplicates	After buildSortedReadEndLists freeMemory: 2051842712; totalMemory: 2096955392; maxMemory: 2096955392
+INFO	2016-01-09 22:17:54	MarkDuplicates	Will retain up to 65529856 duplicate indices before spilling to disk.
+INFO	2016-01-09 22:17:54	MarkDuplicates	Traversing read pair information and detecting duplicates.
+INFO	2016-01-09 22:17:54	MarkDuplicates	Traversing fragment information and detecting duplicates.
+INFO	2016-01-09 22:17:58	MarkDuplicates	Sorting list of duplicate records.
+INFO	2016-01-09 22:17:59	MarkDuplicates	After generateDuplicateIndexes freeMemory: 1558997648; totalMemory: 2094989312; maxMemory: 2094989312
+INFO	2016-01-09 22:17:59	MarkDuplicates	Marking 2508435 records as duplicates.
+INFO	2016-01-09 22:17:59	MarkDuplicates	Found 0 optical duplicate clusters.
+INFO	2016-01-09 22:19:28	MarkDuplicates	Written    10,000,000 records.  Elapsed time: 00:01:29s.  Time for last 10,000,000:   89s.  Last read position: chr6:82,760,335
+INFO	2016-01-09 22:19:52	MarkDuplicates	Before output close freeMemory: 1884244160; totalMemory: 1894973440; maxMemory: 1908932608
+INFO	2016-01-09 22:19:52	MarkDuplicates	After output close freeMemory: 1891124904; totalMemory: 1901854720; maxMemory: 1908932608
+[Sat Jan 09 22:19:52 EST 2016] picard.sam.markduplicates.MarkDuplicates done. Elapsed time: 2.99 minutes.
+Runtime.totalMemory()=1901854720
+[Sat Jan 09 22:16:52 EST 2016] picard.sam.markduplicates.MarkDuplicates INPUT=[/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Input/Runx1/SRR332264.bam] OUTPUT=/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Input/Runx1/SRR332264_removed.bam METRICS_FILE=/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Input/Runx1/SRR332264_metrics.txt REMOVE_DUPLICATES=true    MAX_SEQUENCES_FOR_DISK_READ_ENDS_MAP=50000 MAX_FILE_HANDLES_FOR_READ_ENDS_MAP=8000 SORTING_COLLECTION_SIZE_RATIO=0.25 PROGRAM_RECORD_ID=MarkDuplicates PROGRAM_GROUP_NAME=MarkDuplicates ASSUME_SORTED=false DUPLICATE_SCORING_STRATEGY=SUM_OF_BASE_QUALITIES READ_NAME_REGEX=[a-zA-Z0-9]+:[0-9]:([0-9]+):([0-9]+):([0-9]+).* OPTICAL_DUPLICATE_PIXEL_DISTANCE=100 VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Sat Jan 09 22:16:52 EST 2016] Executing as johnj@athena on Linux 3.16.0-45-generic amd64; OpenJDK 64-Bit Server VM 1.6.0_37-b37; Picard version: 1.140(09a586ed051c2b7f0b576ceea812c3ab0e15051a_1446674999) JdkDeflater
+INFO	2016-01-09 22:16:52	MarkDuplicates	Start of doWork freeMemory: 2046482624; totalMemory: 2058027008; maxMemory: 2058027008
+INFO	2016-01-09 22:16:52	MarkDuplicates	Reading input file and constructing read end information.
+INFO	2016-01-09 22:16:52	MarkDuplicates	Will retain up to 7915488 data points before spilling to disk.
+INFO	2016-01-09 22:16:56	MarkDuplicates	Read     1,000,000 records.  Elapsed time: 00:00:03s.  Time for last 1,000,000:    3s.  Last read position: chr11:67,815,691
+INFO	2016-01-09 22:16:56	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:16:59	MarkDuplicates	Read     2,000,000 records.  Elapsed time: 00:00:06s.  Time for last 1,000,000:    2s.  Last read position: chr13:21,414,519
+INFO	2016-01-09 22:16:59	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:02	MarkDuplicates	Read     3,000,000 records.  Elapsed time: 00:00:09s.  Time for last 1,000,000:    3s.  Last read position: chr14:100,232,700
+INFO	2016-01-09 22:17:02	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:07	MarkDuplicates	Read     4,000,000 records.  Elapsed time: 00:00:14s.  Time for last 1,000,000:    4s.  Last read position: chr16:86,147,565
+INFO	2016-01-09 22:17:07	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:11	MarkDuplicates	Read     5,000,000 records.  Elapsed time: 00:00:18s.  Time for last 1,000,000:    3s.  Last read position: chr19:5,111,922
+INFO	2016-01-09 22:17:11	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:14	MarkDuplicates	Read     6,000,000 records.  Elapsed time: 00:00:21s.  Time for last 1,000,000:    3s.  Last read position: chr1:148,952,934
+INFO	2016-01-09 22:17:14	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:18	MarkDuplicates	Read     7,000,000 records.  Elapsed time: 00:00:25s.  Time for last 1,000,000:    3s.  Last read position: chr2:98,667,130
+INFO	2016-01-09 22:17:18	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:22	MarkDuplicates	Read     8,000,000 records.  Elapsed time: 00:00:29s.  Time for last 1,000,000:    3s.  Last read position: chr3:122,778,910
+INFO	2016-01-09 22:17:22	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:31	MarkDuplicates	Read     9,000,000 records.  Elapsed time: 00:00:38s.  Time for last 1,000,000:    9s.  Last read position: chr5:28,806,017
+INFO	2016-01-09 22:17:31	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:34	MarkDuplicates	Read    10,000,000 records.  Elapsed time: 00:00:41s.  Time for last 1,000,000:    3s.  Last read position: chr6:85,361,182
+INFO	2016-01-09 22:17:34	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:38	MarkDuplicates	Read    11,000,000 records.  Elapsed time: 00:00:45s.  Time for last 1,000,000:    3s.  Last read position: chr7:140,321,212
+INFO	2016-01-09 22:17:38	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:41	MarkDuplicates	Read    12,000,000 records.  Elapsed time: 00:00:48s.  Time for last 1,000,000:    3s.  Last read position: chr9:62,946,750
+INFO	2016-01-09 22:17:41	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:43	MarkDuplicates	Read 12766480 records. 0 pairs never matched.
+INFO	2016-01-09 22:17:46	MarkDuplicates	After buildSortedReadEndLists freeMemory: 2042142696; totalMemory: 2087190528; maxMemory: 2087190528
+INFO	2016-01-09 22:17:46	MarkDuplicates	Will retain up to 65224704 duplicate indices before spilling to disk.
+INFO	2016-01-09 22:17:46	MarkDuplicates	Traversing read pair information and detecting duplicates.
+INFO	2016-01-09 22:17:46	MarkDuplicates	Traversing fragment information and detecting duplicates.
+INFO	2016-01-09 22:17:50	MarkDuplicates	Sorting list of duplicate records.
+INFO	2016-01-09 22:17:50	MarkDuplicates	After generateDuplicateIndexes freeMemory: 1554871256; totalMemory: 2088239104; maxMemory: 2088239104
+INFO	2016-01-09 22:17:50	MarkDuplicates	Marking 395411 records as duplicates.
+INFO	2016-01-09 22:17:50	MarkDuplicates	Found 0 optical duplicate clusters.
+INFO	2016-01-09 22:19:29	MarkDuplicates	Written    10,000,000 records.  Elapsed time: 00:01:38s.  Time for last 10,000,000:   98s.  Last read position: chr6:139,372,559
+INFO	2016-01-09 22:19:51	MarkDuplicates	Before output close freeMemory: 1839702656; totalMemory: 1849294848; maxMemory: 1908932608
+INFO	2016-01-09 22:19:52	MarkDuplicates	After output close freeMemory: 1829216360; totalMemory: 1838809088; maxMemory: 1908932608
+[Sat Jan 09 22:19:52 EST 2016] picard.sam.markduplicates.MarkDuplicates done. Elapsed time: 2.99 minutes.
+Runtime.totalMemory()=1838809088
+[Sat Jan 09 22:16:52 EST 2016] picard.sam.markduplicates.MarkDuplicates INPUT=[/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Input/Tcf1/SRR332263.bam] OUTPUT=/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Input/Tcf1/SRR332263_removed.bam METRICS_FILE=/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Input/Tcf1/SRR332263_metrics.txt REMOVE_DUPLICATES=true    MAX_SEQUENCES_FOR_DISK_READ_ENDS_MAP=50000 MAX_FILE_HANDLES_FOR_READ_ENDS_MAP=8000 SORTING_COLLECTION_SIZE_RATIO=0.25 PROGRAM_RECORD_ID=MarkDuplicates PROGRAM_GROUP_NAME=MarkDuplicates ASSUME_SORTED=false DUPLICATE_SCORING_STRATEGY=SUM_OF_BASE_QUALITIES READ_NAME_REGEX=[a-zA-Z0-9]+:[0-9]:([0-9]+):([0-9]+):([0-9]+).* OPTICAL_DUPLICATE_PIXEL_DISTANCE=100 VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Sat Jan 09 22:16:52 EST 2016] Executing as johnj@athena on Linux 3.16.0-45-generic amd64; OpenJDK 64-Bit Server VM 1.6.0_37-b37; Picard version: 1.140(09a586ed051c2b7f0b576ceea812c3ab0e15051a_1446674999) JdkDeflater
+INFO	2016-01-09 22:16:52	MarkDuplicates	Start of doWork freeMemory: 2046482648; totalMemory: 2058027008; maxMemory: 2058027008
+INFO	2016-01-09 22:16:52	MarkDuplicates	Reading input file and constructing read end information.
+INFO	2016-01-09 22:16:52	MarkDuplicates	Will retain up to 7915488 data points before spilling to disk.
+INFO	2016-01-09 22:16:56	MarkDuplicates	Read     1,000,000 records.  Elapsed time: 00:00:03s.  Time for last 1,000,000:    3s.  Last read position: chr10:113,213,828
+INFO	2016-01-09 22:16:56	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:16:59	MarkDuplicates	Read     2,000,000 records.  Elapsed time: 00:00:06s.  Time for last 1,000,000:    2s.  Last read position: chr11:84,074,102
+INFO	2016-01-09 22:16:59	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:02	MarkDuplicates	Read     3,000,000 records.  Elapsed time: 00:00:09s.  Time for last 1,000,000:    3s.  Last read position: chr12:74,817,054
+INFO	2016-01-09 22:17:02	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:07	MarkDuplicates	Read     4,000,000 records.  Elapsed time: 00:00:14s.  Time for last 1,000,000:    4s.  Last read position: chr13:64,145,468
+INFO	2016-01-09 22:17:07	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:11	MarkDuplicates	Read     5,000,000 records.  Elapsed time: 00:00:18s.  Time for last 1,000,000:    4s.  Last read position: chr14:47,343,478
+INFO	2016-01-09 22:17:11	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:15	MarkDuplicates	Read     6,000,000 records.  Elapsed time: 00:00:22s.  Time for last 1,000,000:    3s.  Last read position: chr15:39,905,850
+INFO	2016-01-09 22:17:15	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:18	MarkDuplicates	Read     7,000,000 records.  Elapsed time: 00:00:25s.  Time for last 1,000,000:    3s.  Last read position: chr16:34,388,204
+INFO	2016-01-09 22:17:18	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:22	MarkDuplicates	Read     8,000,000 records.  Elapsed time: 00:00:29s.  Time for last 1,000,000:    3s.  Last read position: chr17:45,433,636
+INFO	2016-01-09 22:17:22	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:31	MarkDuplicates	Read     9,000,000 records.  Elapsed time: 00:00:38s.  Time for last 1,000,000:    8s.  Last read position: chr18:66,447,436
+INFO	2016-01-09 22:17:31	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:34	MarkDuplicates	Read    10,000,000 records.  Elapsed time: 00:00:41s.  Time for last 1,000,000:    3s.  Last read position: chr1:24,615,957
+INFO	2016-01-09 22:17:34	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:38	MarkDuplicates	Read    11,000,000 records.  Elapsed time: 00:00:45s.  Time for last 1,000,000:    3s.  Last read position: chr1:137,866,890
+INFO	2016-01-09 22:17:38	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:41	MarkDuplicates	Read    12,000,000 records.  Elapsed time: 00:00:49s.  Time for last 1,000,000:    3s.  Last read position: chr2:45,076,252
+INFO	2016-01-09 22:17:41	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:45	MarkDuplicates	Read    13,000,000 records.  Elapsed time: 00:00:52s.  Time for last 1,000,000:    3s.  Last read position: chr2:103,058,370
+INFO	2016-01-09 22:17:45	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:48	MarkDuplicates	Read    14,000,000 records.  Elapsed time: 00:00:55s.  Time for last 1,000,000:    3s.  Last read position: chr3:35,825,824
+INFO	2016-01-09 22:17:48	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:51	MarkDuplicates	Read    15,000,000 records.  Elapsed time: 00:00:58s.  Time for last 1,000,000:    3s.  Last read position: chr3:145,675,044
+INFO	2016-01-09 22:17:51	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:17:55	MarkDuplicates	Read    16,000,000 records.  Elapsed time: 00:01:02s.  Time for last 1,000,000:    3s.  Last read position: chr4:110,334,522
+INFO	2016-01-09 22:17:55	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:18:01	MarkDuplicates	Read    17,000,000 records.  Elapsed time: 00:01:08s.  Time for last 1,000,000:    6s.  Last read position: chr5:69,378,048
+INFO	2016-01-09 22:18:01	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:18:05	MarkDuplicates	Read    18,000,000 records.  Elapsed time: 00:01:12s.  Time for last 1,000,000:    3s.  Last read position: chr6:30,221,805
+INFO	2016-01-09 22:18:05	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:18:08	MarkDuplicates	Read    19,000,000 records.  Elapsed time: 00:01:15s.  Time for last 1,000,000:    3s.  Last read position: chr6:137,345,589
+INFO	2016-01-09 22:18:08	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:18:12	MarkDuplicates	Read    20,000,000 records.  Elapsed time: 00:01:19s.  Time for last 1,000,000:    3s.  Last read position: chr7:111,748,561
+INFO	2016-01-09 22:18:12	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:18:15	MarkDuplicates	Read    21,000,000 records.  Elapsed time: 00:01:22s.  Time for last 1,000,000:    3s.  Last read position: chr8:84,379,405
+INFO	2016-01-09 22:18:15	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:18:18	MarkDuplicates	Read    22,000,000 records.  Elapsed time: 00:01:25s.  Time for last 1,000,000:    3s.  Last read position: chr9:57,948,899
+INFO	2016-01-09 22:18:18	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:18:22	MarkDuplicates	Read    23,000,000 records.  Elapsed time: 00:01:29s.  Time for last 1,000,000:    3s.  Last read position: chrX:51,046,925
+INFO	2016-01-09 22:18:22	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-01-09 22:18:25	MarkDuplicates	Read 23525950 records. 0 pairs never matched.
+INFO	2016-01-09 22:18:29	MarkDuplicates	After buildSortedReadEndLists freeMemory: 1713994720; totalMemory: 1759379456; maxMemory: 1908932608
+INFO	2016-01-09 22:18:29	MarkDuplicates	Will retain up to 59654144 duplicate indices before spilling to disk.
+INFO	2016-01-09 22:18:29	MarkDuplicates	Traversing read pair information and detecting duplicates.
+INFO	2016-01-09 22:18:29	MarkDuplicates	Traversing fragment information and detecting duplicates.
+INFO	2016-01-09 22:18:35	MarkDuplicates	Sorting list of duplicate records.
+INFO	2016-01-09 22:18:35	MarkDuplicates	After generateDuplicateIndexes freeMemory: 1267028008; totalMemory: 1757151232; maxMemory: 1908932608
+INFO	2016-01-09 22:18:35	MarkDuplicates	Marking 974083 records as duplicates.
+INFO	2016-01-09 22:18:35	MarkDuplicates	Found 0 optical duplicate clusters.
+INFO	2016-01-09 22:20:08	MarkDuplicates	Written    10,000,000 records.  Elapsed time: 00:01:32s.  Time for last 10,000,000:   92s.  Last read position: chr1:53,930,502
+INFO	2016-01-09 22:21:40	MarkDuplicates	Written    20,000,000 records.  Elapsed time: 00:03:04s.  Time for last 10,000,000:   92s.  Last read position: chr8:53,578,168
+INFO	2016-01-09 22:22:04	MarkDuplicates	Before output close freeMemory: 1787220696; totalMemory: 1802895360; maxMemory: 1908932608
+INFO	2016-01-09 22:22:04	MarkDuplicates	After output close freeMemory: 1784729792; totalMemory: 1800404992; maxMemory: 1908932608
+[Sat Jan 09 22:22:04 EST 2016] picard.sam.markduplicates.MarkDuplicates done. Elapsed time: 5.19 minutes.
+Runtime.totalMemory()=1800404992
+
+---------------COPY DEDUPLICATED FILES--------------------
+SRR332264 Removing Duplicated Sequences
+SRR332263 Removing Duplicated Sequences
+SRR332262 Removing Duplicated Sequences
+SRR332261 Removing Duplicated Sequences
+SRR332260 Removing Duplicated Sequences
+Now that duplicated sequences have been dealt with, set test4=true
+
+COMBINING BAM FILES FOR TECHNICAL REPLICATES
+
+---------------COMBINING BAM FILES--------------------
+Combining Bam files for EML_ChIP_seq_Input_Runx1_mm10_GSM773998
+1.140(09a586ed051c2b7f0b576ceea812c3ab0e15051a_1446674999)
+Combining Bam files for EML_ChIP_seq_Input_Tcf1_mm10_GSM773997
+1.140(09a586ed051c2b7f0b576ceea812c3ab0e15051a_1446674999)
+Combining Bam files for EML_ChIP_seq_Runx1_Wu_mm10_GSM773996
+1.140(09a586ed051c2b7f0b576ceea812c3ab0e15051a_1446674999)
+Combining Bam files for EML_ChIP_seq_Runx1_Wu_mm10_GSM773995
+1.140(09a586ed051c2b7f0b576ceea812c3ab0e15051a_1446674999)
+Combining Bam files for EML_ChIP_seq_Tcf1_Wu_mm10_GSM773994
+1.140(09a586ed051c2b7f0b576ceea812c3ab0e15051a_1446674999)
+#--------------------------------------------------------
+
+To Combine Bam Files, set combine_bam=true and combine_fastq=true
+
+--------COMBINING BAM FILES--------
+
+java -Xmx2g -Djava.io.tmpdir=/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Input/Runx1/tmp -jar /mnt/data1/bin/picard/dist/picard.jar MergeSamFiles  INPUT=/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Input/Runx1/SRR332264.bam OUTPUT=/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Input/Runx1/EML_ChIP_seq_Input_Runx1_mm10_GSM773998.bam
+java -Xmx2g -Djava.io.tmpdir=/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Input/Tcf1/tmp -jar /mnt/data1/bin/picard/dist/picard.jar MergeSamFiles  INPUT=/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Input/Tcf1/SRR332263.bam OUTPUT=/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Input/Tcf1/EML_ChIP_seq_Input_Tcf1_mm10_GSM773997.bam
+java -Xmx2g -Djava.io.tmpdir=/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/Rep_2/tmp -jar /mnt/data1/bin/picard/dist/picard.jar MergeSamFiles  INPUT=/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/Rep_2/SRR332262.bam OUTPUT=/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/Rep_2/EML_ChIP_seq_Runx1_Wu_mm10_GSM773996.bam
+java -Xmx2g -Djava.io.tmpdir=/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/Rep_1/tmp -jar /mnt/data1/bin/picard/dist/picard.jar MergeSamFiles  INPUT=/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/Rep_1/SRR332261.bam OUTPUT=/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/Rep_1/EML_ChIP_seq_Runx1_Wu_mm10_GSM773995.bam
+java -Xmx2g -Djava.io.tmpdir=/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Tcf1/Wu/tmp -jar /mnt/data1/bin/picard/dist/picard.jar MergeSamFiles  INPUT=/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Tcf1/Wu/SRR332260.bam OUTPUT=/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Tcf1/Wu/EML_ChIP_seq_Tcf1_Wu_mm10_GSM773994.bam
+[Sat Jan 09 22:22:22 EST 2016] picard.sam.MergeSamFiles INPUT=[/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/Rep_1/SRR332261.bam] OUTPUT=/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/Rep_1/EML_ChIP_seq_Runx1_Wu_mm10_GSM773995.bam    SORT_ORDER=coordinate ASSUME_SORTED=false MERGE_SEQUENCE_DICTIONARIES=false USE_THREADING=false VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Sat Jan 09 22:22:22 EST 2016] Executing as johnj@athena on Linux 3.16.0-45-generic amd64; OpenJDK 64-Bit Server VM 1.6.0_37-b37; Picard version: 1.140(09a586ed051c2b7f0b576ceea812c3ab0e15051a_1446674999) JdkDeflater
+INFO	2016-01-09 22:22:22	MergeSamFiles	Input files are in same order as output so sorting to temp directory is not needed.
+INFO	2016-01-09 22:22:30	MergeSamFiles	Processed     1,000,000 records.  Elapsed time: 00:00:08s.  Time for last 1,000,000:    8s.  Last read position: chr12:69,746,037
+INFO	2016-01-09 22:22:38	MergeSamFiles	Processed     2,000,000 records.  Elapsed time: 00:00:16s.  Time for last 1,000,000:    7s.  Last read position: chr15:53,126,118
+INFO	2016-01-09 22:22:46	MergeSamFiles	Processed     3,000,000 records.  Elapsed time: 00:00:24s.  Time for last 1,000,000:    7s.  Last read position: chr18:81,572,156
+INFO	2016-01-09 22:22:54	MergeSamFiles	Processed     4,000,000 records.  Elapsed time: 00:00:32s.  Time for last 1,000,000:    7s.  Last read position: chr2:60,402,471
+INFO	2016-01-09 22:23:02	MergeSamFiles	Processed     5,000,000 records.  Elapsed time: 00:00:39s.  Time for last 1,000,000:    7s.  Last read position: chr4:46,426,829
+INFO	2016-01-09 22:23:10	MergeSamFiles	Processed     6,000,000 records.  Elapsed time: 00:00:47s.  Time for last 1,000,000:    7s.  Last read position: chr6:86,364,600
+INFO	2016-01-09 22:23:19	MergeSamFiles	Processed     7,000,000 records.  Elapsed time: 00:00:56s.  Time for last 1,000,000:    9s.  Last read position: chr9:3,025,141
+INFO	2016-01-09 22:23:24	MergeSamFiles	Finished reading inputs.
+[Sat Jan 09 22:23:24 EST 2016] picard.sam.MergeSamFiles done. Elapsed time: 1.04 minutes.
+Runtime.totalMemory()=1830223872
+[Sat Jan 09 22:22:22 EST 2016] picard.sam.MergeSamFiles INPUT=[/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/Rep_2/SRR332262.bam] OUTPUT=/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/Rep_2/EML_ChIP_seq_Runx1_Wu_mm10_GSM773996.bam    SORT_ORDER=coordinate ASSUME_SORTED=false MERGE_SEQUENCE_DICTIONARIES=false USE_THREADING=false VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Sat Jan 09 22:22:22 EST 2016] Executing as johnj@athena on Linux 3.16.0-45-generic amd64; OpenJDK 64-Bit Server VM 1.6.0_37-b37; Picard version: 1.140(09a586ed051c2b7f0b576ceea812c3ab0e15051a_1446674999) JdkDeflater
+INFO	2016-01-09 22:22:22	MergeSamFiles	Input files are in same order as output so sorting to temp directory is not needed.
+INFO	2016-01-09 22:22:30	MergeSamFiles	Processed     1,000,000 records.  Elapsed time: 00:00:08s.  Time for last 1,000,000:    8s.  Last read position: chr12:53,149,589
+INFO	2016-01-09 22:22:38	MergeSamFiles	Processed     2,000,000 records.  Elapsed time: 00:00:16s.  Time for last 1,000,000:    7s.  Last read position: chr15:20,244,191
+INFO	2016-01-09 22:22:46	MergeSamFiles	Processed     3,000,000 records.  Elapsed time: 00:00:24s.  Time for last 1,000,000:    7s.  Last read position: chr18:39,566,772
+INFO	2016-01-09 22:22:54	MergeSamFiles	Processed     4,000,000 records.  Elapsed time: 00:00:32s.  Time for last 1,000,000:    7s.  Last read position: chr2:12,709,442
+INFO	2016-01-09 22:23:02	MergeSamFiles	Processed     5,000,000 records.  Elapsed time: 00:00:39s.  Time for last 1,000,000:    7s.  Last read position: chr3:126,000,434
+INFO	2016-01-09 22:23:10	MergeSamFiles	Processed     6,000,000 records.  Elapsed time: 00:00:47s.  Time for last 1,000,000:    7s.  Last read position: chr5:145,204,283
+INFO	2016-01-09 22:23:17	MergeSamFiles	Processed     7,000,000 records.  Elapsed time: 00:00:55s.  Time for last 1,000,000:    7s.  Last read position: chr8:34,385,037
+INFO	2016-01-09 22:23:25	MergeSamFiles	Processed     8,000,000 records.  Elapsed time: 00:01:03s.  Time for last 1,000,000:    7s.  Last read position: chrX:156,294,000
+INFO	2016-01-09 22:23:25	MergeSamFiles	Finished reading inputs.
+[Sat Jan 09 22:23:25 EST 2016] picard.sam.MergeSamFiles done. Elapsed time: 1.06 minutes.
+Runtime.totalMemory()=1830354944
+[Sat Jan 09 22:22:22 EST 2016] picard.sam.MergeSamFiles INPUT=[/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Tcf1/Wu/SRR332260.bam] OUTPUT=/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Tcf1/Wu/EML_ChIP_seq_Tcf1_Wu_mm10_GSM773994.bam    SORT_ORDER=coordinate ASSUME_SORTED=false MERGE_SEQUENCE_DICTIONARIES=false USE_THREADING=false VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Sat Jan 09 22:22:22 EST 2016] Executing as johnj@athena on Linux 3.16.0-45-generic amd64; OpenJDK 64-Bit Server VM 1.6.0_37-b37; Picard version: 1.140(09a586ed051c2b7f0b576ceea812c3ab0e15051a_1446674999) JdkDeflater
+INFO	2016-01-09 22:22:22	MergeSamFiles	Input files are in same order as output so sorting to temp directory is not needed.
+INFO	2016-01-09 22:22:29	MergeSamFiles	Processed     1,000,000 records.  Elapsed time: 00:00:07s.  Time for last 1,000,000:    7s.  Last read position: chr11:69,863,167
+INFO	2016-01-09 22:22:37	MergeSamFiles	Processed     2,000,000 records.  Elapsed time: 00:00:14s.  Time for last 1,000,000:    7s.  Last read position: chr13:9,223,713
+INFO	2016-01-09 22:22:44	MergeSamFiles	Processed     3,000,000 records.  Elapsed time: 00:00:21s.  Time for last 1,000,000:    7s.  Last read position: chr14:114,075,844
+INFO	2016-01-09 22:22:51	MergeSamFiles	Processed     4,000,000 records.  Elapsed time: 00:00:28s.  Time for last 1,000,000:    7s.  Last read position: chr16:34,085,408
+INFO	2016-01-09 22:22:58	MergeSamFiles	Processed     5,000,000 records.  Elapsed time: 00:00:35s.  Time for last 1,000,000:    7s.  Last read position: chr18:43,463,231
+INFO	2016-01-09 22:23:05	MergeSamFiles	Processed     6,000,000 records.  Elapsed time: 00:00:43s.  Time for last 1,000,000:    7s.  Last read position: chr1:96,560,386
+INFO	2016-01-09 22:23:12	MergeSamFiles	Processed     7,000,000 records.  Elapsed time: 00:00:49s.  Time for last 1,000,000:    6s.  Last read position: chr2:98,667,117
+INFO	2016-01-09 22:23:19	MergeSamFiles	Processed     8,000,000 records.  Elapsed time: 00:00:56s.  Time for last 1,000,000:    7s.  Last read position: chr3:139,874,886
+INFO	2016-01-09 22:23:26	MergeSamFiles	Processed     9,000,000 records.  Elapsed time: 00:01:04s.  Time for last 1,000,000:    7s.  Last read position: chr5:37,203,914
+INFO	2016-01-09 22:23:33	MergeSamFiles	Processed    10,000,000 records.  Elapsed time: 00:01:11s.  Time for last 1,000,000:    7s.  Last read position: chr6:82,760,335
+INFO	2016-01-09 22:23:40	MergeSamFiles	Processed    11,000,000 records.  Elapsed time: 00:01:18s.  Time for last 1,000,000:    7s.  Last read position: chr7:129,100,042
+INFO	2016-01-09 22:23:47	MergeSamFiles	Processed    12,000,000 records.  Elapsed time: 00:01:25s.  Time for last 1,000,000:    7s.  Last read position: chr9:46,556,839
+INFO	2016-01-09 22:23:52	MergeSamFiles	Finished reading inputs.
+[Sat Jan 09 22:23:52 EST 2016] picard.sam.MergeSamFiles done. Elapsed time: 1.51 minutes.
+Runtime.totalMemory()=1870397440
+[Sat Jan 09 22:22:22 EST 2016] picard.sam.MergeSamFiles INPUT=[/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Input/Runx1/SRR332264.bam] OUTPUT=/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Input/Runx1/EML_ChIP_seq_Input_Runx1_mm10_GSM773998.bam    SORT_ORDER=coordinate ASSUME_SORTED=false MERGE_SEQUENCE_DICTIONARIES=false USE_THREADING=false VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Sat Jan 09 22:22:22 EST 2016] Executing as johnj@athena on Linux 3.16.0-45-generic amd64; OpenJDK 64-Bit Server VM 1.6.0_37-b37; Picard version: 1.140(09a586ed051c2b7f0b576ceea812c3ab0e15051a_1446674999) JdkDeflater
+INFO	2016-01-09 22:22:22	MergeSamFiles	Input files are in same order as output so sorting to temp directory is not needed.
+INFO	2016-01-09 22:22:30	MergeSamFiles	Processed     1,000,000 records.  Elapsed time: 00:00:08s.  Time for last 1,000,000:    8s.  Last read position: chr11:69,470,513
+INFO	2016-01-09 22:22:38	MergeSamFiles	Processed     2,000,000 records.  Elapsed time: 00:00:16s.  Time for last 1,000,000:    7s.  Last read position: chr13:24,759,765
+INFO	2016-01-09 22:22:46	MergeSamFiles	Processed     3,000,000 records.  Elapsed time: 00:00:24s.  Time for last 1,000,000:    7s.  Last read position: chr14:115,395,454
+INFO	2016-01-09 22:22:54	MergeSamFiles	Processed     4,000,000 records.  Elapsed time: 00:00:32s.  Time for last 1,000,000:    7s.  Last read position: chr16:96,125,264
+INFO	2016-01-09 22:23:02	MergeSamFiles	Processed     5,000,000 records.  Elapsed time: 00:00:39s.  Time for last 1,000,000:    7s.  Last read position: chr19:16,355,823
+INFO	2016-01-09 22:23:10	MergeSamFiles	Processed     6,000,000 records.  Elapsed time: 00:00:47s.  Time for last 1,000,000:    7s.  Last read position: chr1:163,700,733
+INFO	2016-01-09 22:23:19	MergeSamFiles	Processed     7,000,000 records.  Elapsed time: 00:00:56s.  Time for last 1,000,000:    8s.  Last read position: chr2:147,561,048
+INFO	2016-01-09 22:23:26	MergeSamFiles	Processed     8,000,000 records.  Elapsed time: 00:01:04s.  Time for last 1,000,000:    7s.  Last read position: chr4:24,143,299
+INFO	2016-01-09 22:23:34	MergeSamFiles	Processed     9,000,000 records.  Elapsed time: 00:01:12s.  Time for last 1,000,000:    7s.  Last read position: chr5:90,761,081
+INFO	2016-01-09 22:23:42	MergeSamFiles	Processed    10,000,000 records.  Elapsed time: 00:01:20s.  Time for last 1,000,000:    7s.  Last read position: chr6:139,372,559
+INFO	2016-01-09 22:23:50	MergeSamFiles	Processed    11,000,000 records.  Elapsed time: 00:01:27s.  Time for last 1,000,000:    7s.  Last read position: chr8:67,275,478
+INFO	2016-01-09 22:23:58	MergeSamFiles	Processed    12,000,000 records.  Elapsed time: 00:01:35s.  Time for last 1,000,000:    7s.  Last read position: chrM:6,484
+INFO	2016-01-09 22:24:00	MergeSamFiles	Finished reading inputs.
+[Sat Jan 09 22:24:01 EST 2016] picard.sam.MergeSamFiles done. Elapsed time: 1.65 minutes.
+Runtime.totalMemory()=1733492736
+[Sat Jan 09 22:22:22 EST 2016] picard.sam.MergeSamFiles INPUT=[/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Input/Tcf1/SRR332263.bam] OUTPUT=/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Input/Tcf1/EML_ChIP_seq_Input_Tcf1_mm10_GSM773997.bam    SORT_ORDER=coordinate ASSUME_SORTED=false MERGE_SEQUENCE_DICTIONARIES=false USE_THREADING=false VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Sat Jan 09 22:22:22 EST 2016] Executing as johnj@athena on Linux 3.16.0-45-generic amd64; OpenJDK 64-Bit Server VM 1.6.0_37-b37; Picard version: 1.140(09a586ed051c2b7f0b576ceea812c3ab0e15051a_1446674999) JdkDeflater
+INFO	2016-01-09 22:22:22	MergeSamFiles	Input files are in same order as output so sorting to temp directory is not needed.
+INFO	2016-01-09 22:22:31	MergeSamFiles	Processed     1,000,000 records.  Elapsed time: 00:00:08s.  Time for last 1,000,000:    8s.  Last read position: chr10:114,777,909
+INFO	2016-01-09 22:22:39	MergeSamFiles	Processed     2,000,000 records.  Elapsed time: 00:00:16s.  Time for last 1,000,000:    8s.  Last read position: chr11:87,080,681
+INFO	2016-01-09 22:22:47	MergeSamFiles	Processed     3,000,000 records.  Elapsed time: 00:00:24s.  Time for last 1,000,000:    7s.  Last read position: chr12:80,610,708
+INFO	2016-01-09 22:22:54	MergeSamFiles	Processed     4,000,000 records.  Elapsed time: 00:00:32s.  Time for last 1,000,000:    7s.  Last read position: chr13:73,367,797
+INFO	2016-01-09 22:23:02	MergeSamFiles	Processed     5,000,000 records.  Elapsed time: 00:00:40s.  Time for last 1,000,000:    7s.  Last read position: chr14:60,699,296
+INFO	2016-01-09 22:23:10	MergeSamFiles	Processed     6,000,000 records.  Elapsed time: 00:00:47s.  Time for last 1,000,000:    7s.  Last read position: chr15:55,202,686
+INFO	2016-01-09 22:23:17	MergeSamFiles	Processed     7,000,000 records.  Elapsed time: 00:00:55s.  Time for last 1,000,000:    7s.  Last read position: chr16:51,966,202
+INFO	2016-01-09 22:23:25	MergeSamFiles	Processed     8,000,000 records.  Elapsed time: 00:01:03s.  Time for last 1,000,000:    7s.  Last read position: chr17:64,816,450
+INFO	2016-01-09 22:23:33	MergeSamFiles	Processed     9,000,000 records.  Elapsed time: 00:01:10s.  Time for last 1,000,000:    7s.  Last read position: chr18:87,990,835
+INFO	2016-01-09 22:23:41	MergeSamFiles	Processed    10,000,000 records.  Elapsed time: 00:01:18s.  Time for last 1,000,000:    7s.  Last read position: chr1:53,930,502
+INFO	2016-01-09 22:23:48	MergeSamFiles	Processed    11,000,000 records.  Elapsed time: 00:01:26s.  Time for last 1,000,000:    7s.  Last read position: chr1:163,745,596
+INFO	2016-01-09 22:23:56	MergeSamFiles	Processed    12,000,000 records.  Elapsed time: 00:01:33s.  Time for last 1,000,000:    7s.  Last read position: chr2:74,295,426
+INFO	2016-01-09 22:24:03	MergeSamFiles	Processed    13,000,000 records.  Elapsed time: 00:01:41s.  Time for last 1,000,000:    7s.  Last read position: chr2:165,415,356
+INFO	2016-01-09 22:24:11	MergeSamFiles	Processed    14,000,000 records.  Elapsed time: 00:01:49s.  Time for last 1,000,000:    7s.  Last read position: chr3:106,109,248
+INFO	2016-01-09 22:24:19	MergeSamFiles	Processed    15,000,000 records.  Elapsed time: 00:01:56s.  Time for last 1,000,000:    7s.  Last read position: chr4:66,940,611
+INFO	2016-01-09 22:24:26	MergeSamFiles	Processed    16,000,000 records.  Elapsed time: 00:02:04s.  Time for last 1,000,000:    7s.  Last read position: chr5:30,846,987
+INFO	2016-01-09 22:24:34	MergeSamFiles	Processed    17,000,000 records.  Elapsed time: 00:02:12s.  Time for last 1,000,000:    7s.  Last read position: chr5:142,028,160
+INFO	2016-01-09 22:24:42	MergeSamFiles	Processed    18,000,000 records.  Elapsed time: 00:02:19s.  Time for last 1,000,000:    7s.  Last read position: chr6:105,838,346
+INFO	2016-01-09 22:24:50	MergeSamFiles	Processed    19,000,000 records.  Elapsed time: 00:02:27s.  Time for last 1,000,000:    7s.  Last read position: chr7:81,067,267
+INFO	2016-01-09 22:24:57	MergeSamFiles	Processed    20,000,000 records.  Elapsed time: 00:02:35s.  Time for last 1,000,000:    7s.  Last read position: chr8:53,578,168
+INFO	2016-01-09 22:25:05	MergeSamFiles	Processed    21,000,000 records.  Elapsed time: 00:02:43s.  Time for last 1,000,000:    7s.  Last read position: chr9:39,025,973
+INFO	2016-01-09 22:25:13	MergeSamFiles	Processed    22,000,000 records.  Elapsed time: 00:02:50s.  Time for last 1,000,000:    7s.  Last read position: chrX:41,464,516
+INFO	2016-01-09 22:25:17	MergeSamFiles	Finished reading inputs.
+[Sat Jan 09 22:25:17 EST 2016] picard.sam.MergeSamFiles done. Elapsed time: 2.92 minutes.
+Runtime.totalMemory()=1835663360
+
+MOVING ONTO COMBINING FASTQ FILES
+
+---------------COMBINING FASTQ FILES--------------------
+#--------------------------------------------------------
+Combining Biological Replicates
+
+#--------------------Combining Biological Replicates---------------------------
+#Part 1 Copying Files
+Copying EML Runx1 Rep 2 fastq to upper directory
+Copying EML Runx1 Rep 1 fastq to upper directory
+#----------Making New Sample File and Generating Homer Key File---------------------------
+Input found, not making Homer Tag Directory: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Input/Runx1/EML_ChIP_seq_Input_Runx1_mm10_GSM773998.bam
+Input found, not making Homer Tag Directory: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Input/Tcf1/EML_ChIP_seq_Input_Tcf1_mm10_GSM773997.bam
+GSM773998,EML,Mus musculus,ChIP_seq,Input,Runx1,Illumina,Single,Rep_0
+GSM773997,EML,Mus musculus,ChIP_seq,Input,Tcf1,Illumina,Single,Rep_0
+GSM773995,EML,Mus musculus,ChIP_seq,Runx1,Wu,Illumina,Single,Rep_1
+GSM773994,EML,Mus musculus,ChIP_seq,Tcf1,Wu,Illumina,Single,Rep_0
+#------------------------------------------------------------------
+To combine biological replicates, set replicate_combine=true
+
+#-------------COMBINING BIOLOGICAL REPLICATES---------------------------
+1.140(09a586ed051c2b7f0b576ceea812c3ab0e15051a_1446674999)
+#--------------------------------------------------------
+
+GSM773998,EML,Mus musculus,ChIP_seq,Input,Runx1,Illumina,Single,Rep_0
+GSM773997,EML,Mus musculus,ChIP_seq,Input,Tcf1,Illumina,Single,Rep_0
+GSM773995,EML,Mus musculus,ChIP_seq,Runx1,Wu,Illumina,Single,Rep_1
+GSM773994,EML,Mus musculus,ChIP_seq,Tcf1,Wu,Illumina,Single,Rep_0
+COMBINING BAM FILES
+
+java -Xmx2g -Djava.io.tmpdir=/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/tmp -jar /mnt/data1/bin/picard/dist/picard.jar MergeSamFiles INPUT=/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/EML_ChIP_seq_Runx1_Wu_mm10_GSM773995.bam INPUT=/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/EML_ChIP_seq_Runx1_Wu_mm10_GSM773996.bam OUTPUT=/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/EML_ChIP_seq_Runx1_Wu_mm10_GSM773995_combine.bam
+[Sat Jan 09 22:26:19 EST 2016] picard.sam.MergeSamFiles INPUT=[/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/EML_ChIP_seq_Runx1_Wu_mm10_GSM773995.bam, /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/EML_ChIP_seq_Runx1_Wu_mm10_GSM773996.bam] OUTPUT=/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/EML_ChIP_seq_Runx1_Wu_mm10_GSM773995_combine.bam    SORT_ORDER=coordinate ASSUME_SORTED=false MERGE_SEQUENCE_DICTIONARIES=false USE_THREADING=false VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Sat Jan 09 22:26:19 EST 2016] Executing as johnj@athena on Linux 3.16.0-45-generic amd64; OpenJDK 64-Bit Server VM 1.6.0_37-b37; Picard version: 1.140(09a586ed051c2b7f0b576ceea812c3ab0e15051a_1446674999) JdkDeflater
+INFO	2016-01-09 22:26:19	MergeSamFiles	Input files are in same order as output so sorting to temp directory is not needed.
+INFO	2016-01-09 22:26:30	MergeSamFiles	Processed     1,000,000 records.  Elapsed time: 00:00:10s.  Time for last 1,000,000:   10s.  Last read position: chr11:33,570,050
+INFO	2016-01-09 22:26:39	MergeSamFiles	Processed     2,000,000 records.  Elapsed time: 00:00:19s.  Time for last 1,000,000:    9s.  Last read position: chr12:60,422,372
+INFO	2016-01-09 22:26:48	MergeSamFiles	Processed     3,000,000 records.  Elapsed time: 00:00:29s.  Time for last 1,000,000:    9s.  Last read position: chr13:98,908,948
+INFO	2016-01-09 22:26:58	MergeSamFiles	Processed     4,000,000 records.  Elapsed time: 00:00:38s.  Time for last 1,000,000:    9s.  Last read position: chr15:36,271,054
+INFO	2016-01-09 22:27:07	MergeSamFiles	Processed     5,000,000 records.  Elapsed time: 00:00:47s.  Time for last 1,000,000:    9s.  Last read position: chr16:93,985,987
+INFO	2016-01-09 22:27:16	MergeSamFiles	Processed     6,000,000 records.  Elapsed time: 00:00:57s.  Time for last 1,000,000:    9s.  Last read position: chr18:61,736,509
+INFO	2016-01-09 22:27:26	MergeSamFiles	Processed     7,000,000 records.  Elapsed time: 00:01:06s.  Time for last 1,000,000:    9s.  Last read position: chr1:70,777,151
+INFO	2016-01-09 22:27:35	MergeSamFiles	Processed     8,000,000 records.  Elapsed time: 00:01:15s.  Time for last 1,000,000:    9s.  Last read position: chr2:31,844,378
+INFO	2016-01-09 22:27:44	MergeSamFiles	Processed     9,000,000 records.  Elapsed time: 00:01:24s.  Time for last 1,000,000:    9s.  Last read position: chr2:164,745,623
+INFO	2016-01-09 22:27:53	MergeSamFiles	Processed    10,000,000 records.  Elapsed time: 00:01:33s.  Time for last 1,000,000:    9s.  Last read position: chr4:3,820,591
+INFO	2016-01-09 22:28:02	MergeSamFiles	Processed    11,000,000 records.  Elapsed time: 00:01:43s.  Time for last 1,000,000:    9s.  Last read position: chr5:27,348,345
+INFO	2016-01-09 22:28:12	MergeSamFiles	Processed    12,000,000 records.  Elapsed time: 00:01:52s.  Time for last 1,000,000:    9s.  Last read position: chr6:40,511,624
+INFO	2016-01-09 22:28:21	MergeSamFiles	Processed    13,000,000 records.  Elapsed time: 00:02:01s.  Time for last 1,000,000:    9s.  Last read position: chr7:64,379,015
+INFO	2016-01-09 22:28:30	MergeSamFiles	Processed    14,000,000 records.  Elapsed time: 00:02:11s.  Time for last 1,000,000:    9s.  Last read position: chr8:86,708,013
+INFO	2016-01-09 22:28:40	MergeSamFiles	Processed    15,000,000 records.  Elapsed time: 00:02:20s.  Time for last 1,000,000:    9s.  Last read position: chr9:110,121,223
+INFO	2016-01-09 22:28:47	MergeSamFiles	Finished reading inputs.
+[Sat Jan 09 22:28:47 EST 2016] picard.sam.MergeSamFiles done. Elapsed time: 2.46 minutes.
+Runtime.totalMemory()=1668022272
+#-------------Clean Up Directories---------------------------
+MAKING HOMER TAG DIRECTORIES
+
+EML_ChIP_seq_Runx1_Wu_mm10_GSM773995	/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/EML_ChIP_seq_Runx1_Wu_mm10_GSM773995.bam
+EML_ChIP_seq_Tcf1_Wu_mm10_GSM773994	/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Tcf1/Wu/EML_ChIP_seq_Tcf1_Wu_mm10_GSM773994.bam
+`makeTagDirectory EML_ChIP_seq_Tcf1_Wu_mm10_GSM773994  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Tcf1/Wu/EML_ChIP_seq_Tcf1_Wu_mm10_GSM773994.bam"`
+`makeTagDirectory EML_ChIP_seq_Runx1_Wu_mm10_GSM773995  -genome mm10 -format sam  "/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/EML_ChIP_seq_Runx1_Wu_mm10_GSM773995.bam"`
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/EML_ChIP_seq_Runx1_Wu_mm10_GSM773995.bam
+
+	Will parse file: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Tcf1/Wu/EML_ChIP_seq_Tcf1_Wu_mm10_GSM773994.bam
+
+	Creating directory: EML_ChIP_seq_Runx1_Wu_mm10_GSM773995 and removing existing *.tags.tsv
+	Creating directory: EML_ChIP_seq_Tcf1_Wu_mm10_GSM773994 and removing existing *.tags.tsv
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/EML_ChIP_seq_Runx1_Wu_mm10_GSM773995.bam as a bam file
+
+	Treating /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Tcf1/Wu/EML_ChIP_seq_Tcf1_Wu_mm10_GSM773994.bam as a bam file
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Tcf1/Wu/EML_ChIP_seq_Tcf1_Wu_mm10_GSM773994.bam
+	Reading alignment file /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/EML_ChIP_seq_Runx1_Wu_mm10_GSM773995.bam
+
+	Optimizing tag files...
+
+	Optimizing tag files...
+	Estimated genome size = 2722466907
+	Estimated average read density = 0.004333 per bp
+	Total Tags = 11797753.0
+	Total Positions = 11797164
+	Average tag length = 35.4
+	Estimated genome size = 2722468041
+	Estimated average read density = 0.005077 per bp
+	Total Tags = 13821865.0
+	Total Positions = 11421120
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.000
+	Average tag length = 32.8
+	Fragment Length Estimate: 98
+	Peak Width Estimate: 119
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 1.7
+		Diff strand fold enrichment: 1.8
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+	Median tags per position = 1 (ideal: 1)
+	Average tags per position = 1.210
+	Fragment Length Estimate: 118
+	Peak Width Estimate: 168
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 2.6
+		Diff strand fold enrichment: 2.6
+		Same / Diff fold enrichment: 1.0
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+Input found: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Input/Runx1/EML_ChIP_seq_Input_Runx1_mm10_GSM773998.bam
+Input found: /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Input/Tcf1/EML_ChIP_seq_Input_Tcf1_mm10_GSM773997.bam
+
+#------------------CHECK MACS14 PARALLEL COMMANDSf------------------------
+/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/EML_ChIP_seq_Runx1_Wu_mm10_GSM773995.bam /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/macs/EML_ChIP_seq_Runx1_Wu_mm10_GSM773995 118
+/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Tcf1/Wu/EML_ChIP_seq_Tcf1_Wu_mm10_GSM773994.bam /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Tcf1/Wu/macs/EML_ChIP_seq_Tcf1_Wu_mm10_GSM773994 98
+#--------------------------------------------------------
+
+#--------------------------------------------------------
+
+-----------------CHECK MACS14 ATAC Seq PARALLEL COMMANDS-----------------
+sed: can't read /mnt/data1/John/Pioneer-Factors/parallel_commands/macs_parallel_atac_GSE31221.txt: No such file or directory
+#--------------------------------------------------------
+-----------------CHECK MACS14 ChIP Seq PARALLEL COMMANDS-----------------
+/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/EML_ChIP_seq_Runx1_Wu_mm10_GSM773995.bam /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/macs/EML_ChIP_seq_Runx1_Wu_mm10_GSM773995 118 /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Input/Runx1/EML_ChIP_seq_Input_Runx1_mm10_GSM773998.bam
+/mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Tcf1/Wu/EML_ChIP_seq_Tcf1_Wu_mm10_GSM773994.bam /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Tcf1/Wu/macs/EML_ChIP_seq_Tcf1_Wu_mm10_GSM773994 98 /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Input/Tcf1/EML_ChIP_seq_Input_Tcf1_mm10_GSM773997.bam
+#--------------------------------------------------------
+
+Check to make sure MACS14 commands are correct before setting the next option
+Format should be PATH_TO_BAM OUTPUT_NAME fragLength Input
+Transcription factor ChIP-seq should have the full path to the Input file added to the end of each line (separated with a space)
+Set macs_14_chip = true if sample files are transcription factor ChIP-seq with an Input file
+Set macs_14_atac = true if sample files do not have an Input file
+
+--------------MACS Peak Calling ChIP seq---------------
+macs14 -t /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/EML_ChIP_seq_Runx1_Wu_mm10_GSM773995.bam -n /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/macs/EML_ChIP_seq_Runx1_Wu_mm10_GSM773995 -c /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Input/Runx1/EML_ChIP_seq_Input_Runx1_mm10_GSM773998.bam --bw 118 -f BAM -g mm -p 1e-7 -w --single-profile >> /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Runx1/Wu/macs/EML_ChIP_seq_Runx1_Wu_mm10_GSM773995.log 2>&1
+macs14 -t /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Tcf1/Wu/EML_ChIP_seq_Tcf1_Wu_mm10_GSM773994.bam -n /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Tcf1/Wu/macs/EML_ChIP_seq_Tcf1_Wu_mm10_GSM773994 -c /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Input/Tcf1/EML_ChIP_seq_Input_Tcf1_mm10_GSM773997.bam --bw 98 -f BAM -g mm -p 1e-7 -w --single-profile >> /mnt/data1/John/Pioneer_Factors/Data/ChIP_seq/EML/Tcf1/Wu/macs/EML_ChIP_seq_Tcf1_Wu_mm10_GSM773994.log 2>&1
+Skipping Input
+Skipping Input
+Generating MACS model figure PDF for EML_ChIP_seq_Runx1_Wu_mm10_GSM773995
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=EML_ChIP_seq_Runx1_Wu_mm10_GSM773995_model.r'
+
+null device 
+          1 
+Generating MACS model figure PDF for EML_ChIP_seq_Tcf1_Wu_mm10_GSM773994
+running
+  '/usr/lib/R/bin/R --slave --no-restore --file=EML_ChIP_seq_Tcf1_Wu_mm10_GSM773994_model.r'
+
+null device 
+          1 
+
+-------------Normalize WIG FILE---------------
+Skipping Input
+Skipping Input
+line 79550920 of EML_ChIP_seq_Runx1_Wu_mm10_GSM773995_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16300
+line 79550921 of EML_ChIP_seq_Runx1_Wu_mm10_GSM773995_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16310
+line 79550922 of EML_ChIP_seq_Runx1_Wu_mm10_GSM773995_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16320
+line 79550923 of EML_ChIP_seq_Runx1_Wu_mm10_GSM773995_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16330
+line 79550924 of EML_ChIP_seq_Runx1_Wu_mm10_GSM773995_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16340
+line 79550925 of EML_ChIP_seq_Runx1_Wu_mm10_GSM773995_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16350
+line 79550926 of EML_ChIP_seq_Runx1_Wu_mm10_GSM773995_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16360
+line 79550927 of EML_ChIP_seq_Runx1_Wu_mm10_GSM773995_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16370
+line 79550928 of EML_ChIP_seq_Runx1_Wu_mm10_GSM773995_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16380
+line 69674688 of EML_ChIP_seq_Tcf1_Wu_mm10_GSM773994_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16300
+line 69674689 of EML_ChIP_seq_Tcf1_Wu_mm10_GSM773994_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16310
+line 69674690 of EML_ChIP_seq_Tcf1_Wu_mm10_GSM773994_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16320
+line 69674691 of EML_ChIP_seq_Tcf1_Wu_mm10_GSM773994_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16330
+line 69674692 of EML_ChIP_seq_Tcf1_Wu_mm10_GSM773994_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16340
+line 69674693 of EML_ChIP_seq_Tcf1_Wu_mm10_GSM773994_normalized.wig: chromosome chrM has 16299 bases, but item ends at 16350
+
+-------------------Make Bedgraph from Bedtools Coverage----------------------
+Skipping Input
+Skipping Input
+Generating bedgraph for EML_ChIP_seq_Runx1_Wu_mm10_GSM773995
+Generating bedgraph for EML_ChIP_seq_Tcf1_Wu_mm10_GSM773994
+COPYING BAM FILES TO DATA DIR
+
+#--------------------Copy Bam File to Data Dir---------------------------
+Skipping Input
+Skipping Input
+#--------------------------------------------------------
+
+Finished copying
+
